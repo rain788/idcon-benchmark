@@ -1,0 +1,8 @@
+{
+ "amendment": 4,
+ "time": "2026-11-26T18:02:05.782226+00:00",
+ "study": "idcon_hard, idcon_hprd (applies to the paper and the release)",
+ "reason": "IdCon-Core, LAD-SV and EG-ICAF come from an earlier method draft of the authors that was abandoned and never submitted. They are removed from the benchmark, the paper and the main branch. EG-ICAF is also removed as a reference engine (v1 Amendment 2): the 3 IdCon-Hard tasks whose references rested on its consensus are re-settled without it or become UNASSESSED.",
+ "unchanged": "all v1 predictions and references (frozen; tag v1.0); records of the removed methods are kept in the prediction files but excluded from every R1 analysis",
+ "registered_before": "any R1 run, re-check or scoring (see results/revision_r1/design.json)"
+}

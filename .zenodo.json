@@ -1,0 +1,31 @@
+{
+  "title": "IdCon: A Benchmark for Identity-Consensus Diagnosis over Ambiguous Graph Embeddings",
+  "upload_type": "software",
+  "description": "IdCon measures whether a system returns the consensus diagnosis of a requirement pattern over all admissible embeddings in an observed graph (Satisfies, Violates, Unknown, Empty), and at what cost. Suites: IdCon-Hard and IdCon-Hard-X (synthetic), IdCon-HPRD and IdCon-HPRD-X (HPRD graph with third-party queries), IdCon-Cite (Cora and PubMed citation graphs), and the held-out IdCon-HPRD-H and IdCon-Hard-H. The archive contains generators, importers, manifests and input hashes, references, an independent CNF/DRAT reference check, frozen predictions, method adapters, scoring and the paper source. Licences: code MIT (LICENSE); IdCon's own data, references and predictions CC BY 4.0 (DATA_LICENSE.md); patched LAD2025 sources CeCILL-B. HPRD, CEMR and Planetoid files are not included (see DATA_LICENSE.md).",
+  "creators": [
+    {
+      "name": "Liu, Yulin",
+      "affiliation": "Beijing Institute of Technology"
+    },
+    {
+      "name": "Liu, Zhiyu",
+      "affiliation": "Beijing Institute of Technology"
+    },
+    {
+      "name": "Wang, Ru",
+      "affiliation": "Beijing Institute of Technology"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "subgraph matching",
+    "certain answers",
+    "identity uncertainty",
+    "benchmark",
+    "graph diagnosis",
+    "DRAT",
+    "SAT"
+  ],
+  "notes": "Per-component licences: source code MIT; IdCon-generated data, references, predictions and design records CC BY 4.0 (DATA_LICENSE.md); experiment/third_party/lad2025_src CeCILL-B (CECILL-B-LICENSE.txt). Third-party graphs are not redistributed.",
+  "version": "1.2"
+}

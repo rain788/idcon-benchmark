@@ -1,0 +1,11 @@
+{
+ "suite": "idcon_hard_h",
+ "tasks": 72,
+ "assessed": 65,
+ "seed_registered": "experiment/results/revision_r2/design.json",
+ "inputs_canonical_format": "one line per task, sorted by task_id: task_id TAB identity-file SHA-256 TAB tables-file SHA-256",
+ "inputs_sha256": "d0f76aa72e23253d925c3f564fc9010a53be80f9559da570a87a38a19cc7ad2c",
+ "references_canonical_format": "one JSON object per task, sorted by task_id, keys sorted: {\"complete\", \"label\", \"task_id\"}, newline-terminated",
+ "references_sha256": "5da9e1e2b06d46cde4c4b07f908ed0a6a823f3670702d800aebceb950083a63a",
+ "note": "Inputs, manifest and references are kept by the maintainers; send predictions to the corresponding author for scoring."
+}

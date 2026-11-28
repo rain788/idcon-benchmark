@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\caption{IdCon-Hard by stratum: ancestor-equal PAR-2 in ms (correct runs) and, last row, the bootstrap probability that the best certified method has the lowest PAR-2 with the 95\% interval of its difference to the runner-up (10,000 ancestor resamples, stratified by family; 12 ancestors per stratum, 2 per family). Best certified method in bold; $^{\circ}$the interval includes 0, so the best and second-best methods are not distinguishable. P(best) is the share of resamples in which the method is best, a stability measure rather than a probability of being best.}
+\label{tab:strata-hard}
+\centering\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & 2k plain & 4k plain & 8k plain & 2k constr. & 4k constr. & 8k constr.\\
+\midrule
+LAD & \textbf{196 (168)} & \textbf{580 (165)} & 2,108 (117) & 1,121 (147) & 2,306 (91) & \textbf{3,500 (37)}\\
+Glasgow & 458 (154) & 789 (152) & \textbf{1,877 (120)} & 2,007 (104) & 3,548 (32) & 4,000 (0)\\
+Glasgow-staged$^\dagger$ & 418 (154) & 602 (154) & 1,302 (138) & 1,693 (113) & 2,672 (73) & 3,751 (19)\\
+CP-SAT & 3,842 (8) & 3,954 (2) & 3,925 (4) & \textbf{1,086 (142)} & \textbf{1,607 (137)} & 3,576 (28)\\
+Trad-CP & 2,618 (76) & 3,758 (16) & 3,957 (2) & 2,481 (80) & 3,374 (33) & 3,895 (7)\\
+Enum-Glasgow$^\ast$ & 3,319 (30) & 3,257 (34) & 3,550 (24) & 4,000 (0) & 4,000 (0) & 4,000 (0)\\
+Enum-VF2$^\ast$ & 3,953 (2) & 3,866 (6) & 4,000 (0) & 3,887 (6) & 4,000 (0) & 4,000 (0)\\
+ASP-cautious$^\ast$ & 3,963 (3) & 4,000 (0) & 4,000 (0) & 3,842 (12) & 4,000 (0) & 4,000 (0)\\
+SAT$^\ddagger$ & 2,612 (95) & 3,953 (2) & 3,953 (2) & 1,844 (137) & 3,953 (2) & 3,953 (2)\\
+First-match & 1,665 (100) & 2,391 (72) & 2,554 (76) & 1,032 (132) & 1,310 (133) & 2,455 (113)\\
+\midrule
+P(best) & LAD 0.75$^{\circ}$ & LAD 1.00 & Glasgow 0.99 & CP-SAT 0.63$^{\circ}$ & CP-SAT 1.00 & LAD 0.75$^{\circ}$\\
+$\Delta$ to 2nd, 95\% CI & [-569, 44] & [-280, -139] & [-429, -32] & [-367, 299] & [-885, -512] & [-263, 110]\\
+\bottomrule
+\end{tabular}
+\end{table*}

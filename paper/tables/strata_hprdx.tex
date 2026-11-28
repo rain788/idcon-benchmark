@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\caption{IdCon-HPRD-X by stratum: ancestor-equal PAR-2 in ms (correct runs) and, last row, the bootstrap probability that the best certified method has the lowest PAR-2 with the 95\% interval of its difference to the runner-up (10,000 ancestor resamples). Best certified method in bold; $^{\circ}$the interval includes 0, so the best and second-best methods are not distinguishable. P(best) is the share of resamples in which the method is best, a stability measure rather than a probability of being best.}
+\label{tab:strata-hprdx}
+\centering\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & 8d & 8s & 16d & 16s & 24d & 24s & 32d & 32s\\
+\midrule
+LAD & 2,095 (32) & 2,165 (30) & 2,717 (21) & 2,310 (28) & 2,369 (27) & 2,695 (22) & 2,805 (21) & 2,948 (18)\\
+Glasgow & 3,957 (1) & 4,000 (0) & 4,000 (0) & 4,000 (0) & 4,000 (0) & 4,000 (0) & 4,000 (0) & 4,000 (0)\\
+Glasgow-staged & 644 (46) & 655 (46) & 1,812 (32) & 1,834 (32) & 1,845 (32) & 2,120 (28) & 2,714 (20) & 2,245 (29)\\
+CP-SAT & 477 (48) & 1,257 (38) & 600 (48) & 638 (46) & 598 (48) & 1,025 (43) & 1,067 (44) & 978 (45)\\
+Trad-CP & 2,858 (17) & 2,738 (21) & 3,200 (14) & 1,957 (34) & 2,265 (29) & 2,519 (26) & 2,645 (24) & 2,644 (26)\\
+Enum-Glasgow$^\ast$ & 2,582 (26) & 2,816 (21) & 3,681 (7) & 3,556 (9) & 3,907 (2) & 4,000 (0) & 4,000 (0) & 4,000 (0)\\
+Enum-VF2$^\ast$ & 2,267 (23) & 3,038 (14) & 3,304 (10) & 3,284 (10) & 3,451 (9) & 3,796 (3) & 3,903 (2) & 3,793 (3)\\
+ASP-cautious$^\ast$ & 1,122 (46) & 1,112 (47) & 1,392 (45) & 986 (48) & 1,135 (47) & 1,531 (41) & 1,087 (48) & 1,476 (43)\\
+SAT$^\ddagger$ & \textbf{354 (48)} & \textbf{359 (48)} & \textbf{461 (48)} & \textbf{299 (48)} & \textbf{374 (48)} & \textbf{423 (48)} & \textbf{351 (48)} & \textbf{420 (48)}\\
+First-match & 2,363 (26) & 2,451 (24) & 2,205 (28) & 2,354 (26) & 2,275 (28) & 2,264 (28) & 1,773 (36) & 2,256 (28)\\
+\midrule
+P(best) & SAT 0.99 & SAT 1.00 & SAT 1.00 & SAT 1.00 & SAT 1.00 & SAT 1.00 & SAT 1.00 & SAT 1.00\\
+$\Delta$ to 2nd, 95\% CI & [-250, -10] & [-630, -73] & [-221, -58] & [-696, -110] & [-306, -134] & [-1,179, -218] & [-1,268, -388] & [-1,044, -258]\\
+\bottomrule
+\end{tabular}
+\end{table*}

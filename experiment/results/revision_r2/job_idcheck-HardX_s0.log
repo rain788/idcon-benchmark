@@ -1,0 +1,28 @@
+IDCHECK h_articulation_modules_n16384_q128_forest_plain__decoy_u SATISFIES 92.5
+IDCHECK h_erdos_n16384_q128_forest_plain__mixed UNKNOWN 135.6
+Traceback (most recent call last):
+  File "/home/claude/w/experiment/src/r2_runs.py", line 398, in <module>
+    idcheck(int(sys.argv[2]))
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/claude/w/experiment/src/r2_runs.py", line 355, in idcheck
+    subprocess.run([PY, str(ROOT / 'independent/idcheck.py'), 'run', str(path),
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    str(OUT / f'idcheck.w{worker}.jsonl')] + limits, check=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/root/.claude-science/cc/042486f3ed904967/compute.envs/gen/821cd772de216dfca175792f5fca17862b9a6dd8a19768751086be8d9efd612f/bin/python', '/home/claude/w/experiment/independent/idcheck.py', 'run', '/home/claude/w/experiment/results/revision_r2/idcheck_todo0.json', '/home/claude/w/experiment/results/revision_r2/idcheck.w0.jsonl', '120', '300']' died with <Signals.SIGKILL: 9>.
+IDCHECK h_geometric_n16384_q128_forest_plain__background UNRESOLVED 521.2
+IDCHECK h_preferential_n16384_q128_forest_plain__perturbed UNKNOWN 57.2
+IDCHECK h_regular_n16384_q128_forest_plain__mixed UNKNOWN 168.4
+IDCHECK h_small_world_n16384_q128_forest_plain__decoy_u SATISFIES 127.5
+IDCHECK h_articulation_modules_n16384_q128_induced_constrained__perturbed EMPTY 96.0
+IDCHECK h_erdos_n16384_q128_induced_constrained__decoy_u SATISFIES 76.2
+IDCHECK h_erdos_n16384_q128_induced_constrained__focal_v VIOLATES 71.9
+IDCHECK h_erdos_n16384_q128_induced_constrained__perturbed EMPTY 116.5
+IDCHECK h_preferential_n16384_q128_induced_constrained__focal_v VIOLATES 54.2
+IDCHECK h_regular_n16384_q128_induced_constrained__decoy_v SATISFIES 104.6
+IDCHECK h_regular_n16384_q128_induced_constrained__mixed SATISFIES 139.6
+IDCHECK h_small_world_n16384_q128_induced_constrained__background SATISFIES 84.2
+IDCHECK h_small_world_n16384_q128_induced_constrained__mixed SATISFIES 112.0

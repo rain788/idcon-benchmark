@@ -1,0 +1,111 @@
+IDCHECK cite_cora_dense_8_0__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_dense_8_1__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_8_2__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_8_3__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_dense_8_4__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_dense_8_5__spec_wrong VIOLATES 0.1
+IDCHECK cite_cora_dense_8_6__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_dense_8_7__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_sparse_8_0__spec_wrong VIOLATES 0.1
+IDCHECK cite_cora_sparse_8_1__spec_wrong VIOLATES 0.1
+IDCHECK cite_cora_sparse_8_2__spec_wrong UNKNOWN 0.1
+IDCHECK cite_cora_sparse_8_3__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_sparse_8_4__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_sparse_8_5__spec_wrong UNKNOWN 0.1
+IDCHECK cite_cora_sparse_8_6__spec_wrong VIOLATES 0.2
+IDCHECK cite_cora_sparse_8_7__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_16_0__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_dense_16_1__spec_wrong VIOLATES 0.5
+IDCHECK cite_cora_dense_16_2__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_16_3__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_dense_16_4__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_16_5__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_16_6__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_16_7__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_sparse_16_0__spec_wrong VIOLATES 0.7
+IDCHECK cite_cora_sparse_16_1__spec_wrong UNKNOWN 0.2
+IDCHECK cite_cora_sparse_16_2__spec_wrong VIOLATES 0.7
+IDCHECK cite_cora_sparse_16_3__spec_wrong VIOLATES 0.5
+IDCHECK cite_cora_sparse_16_4__spec_wrong VIOLATES 0.5
+IDCHECK cite_cora_sparse_16_5__spec_wrong UNKNOWN 0.1
+IDCHECK cite_cora_sparse_16_6__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_sparse_16_7__spec_wrong UNKNOWN 0.2
+IDCHECK cite_cora_dense_24_0__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_dense_24_1__spec_wrong VIOLATES 0.7
+IDCHECK cite_cora_dense_24_2__spec_wrong VIOLATES 0.5
+IDCHECK cite_cora_dense_24_3__spec_wrong VIOLATES 0.5
+IDCHECK cite_cora_dense_24_4__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_dense_24_5__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_dense_24_6__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_dense_24_7__spec_wrong VIOLATES 0.9
+IDCHECK cite_cora_sparse_24_0__spec_wrong VIOLATES 0.5
+IDCHECK cite_cora_sparse_24_1__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_sparse_24_2__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_sparse_24_3__spec_wrong VIOLATES 0.7
+IDCHECK cite_cora_sparse_24_4__spec_wrong VIOLATES 0.3
+IDCHECK cite_cora_sparse_24_5__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_sparse_24_6__spec_wrong VIOLATES 0.4
+IDCHECK cite_cora_sparse_24_7__spec_wrong VIOLATES 0.4
+IDCHECK cite_pubmed_dense_8_0__spec_wrong VIOLATES 2.4
+IDCHECK cite_pubmed_dense_8_1__spec_wrong VIOLATES 2.5
+IDCHECK cite_pubmed_dense_8_2__spec_wrong VIOLATES 1.5
+IDCHECK cite_pubmed_dense_8_3__spec_wrong UNKNOWN 1.7
+IDCHECK cite_pubmed_dense_8_4__spec_wrong VIOLATES 3.7
+IDCHECK cite_pubmed_dense_8_5__spec_wrong UNKNOWN 1.2
+IDCHECK cite_pubmed_dense_8_6__spec_wrong UNKNOWN 1.7
+IDCHECK cite_pubmed_dense_8_7__spec_wrong UNKNOWN 1.4
+IDCHECK cite_pubmed_sparse_8_0__spec_wrong UNKNOWN 2.3
+IDCHECK cite_pubmed_sparse_8_1__spec_wrong UNKNOWN 1.5
+IDCHECK cite_pubmed_sparse_8_2__spec_wrong UNKNOWN 2.4
+IDCHECK cite_pubmed_sparse_8_3__spec_wrong UNKNOWN 2.1
+IDCHECK cite_pubmed_sparse_8_4__spec_wrong UNKNOWN 2.3
+IDCHECK cite_pubmed_sparse_8_5__spec_wrong UNKNOWN 0.9
+IDCHECK cite_pubmed_sparse_8_6__spec_wrong UNKNOWN 1.8
+IDCHECK cite_pubmed_sparse_8_7__spec_wrong UNKNOWN 1.1
+IDCHECK cite_pubmed_dense_16_0__spec_wrong UNKNOWN 5.2
+IDCHECK cite_pubmed_dense_16_1__spec_wrong UNKNOWN 3.6
+IDCHECK cite_pubmed_dense_16_2__spec_wrong UNKNOWN 3.7
+IDCHECK cite_pubmed_dense_16_3__spec_wrong UNKNOWN 2.7
+IDCHECK cite_pubmed_dense_16_4__spec_wrong UNKNOWN 5.3
+IDCHECK cite_pubmed_dense_16_5__spec_wrong UNKNOWN 5.5
+IDCHECK cite_pubmed_dense_16_6__spec_wrong UNKNOWN 3.5
+IDCHECK cite_pubmed_dense_16_7__spec_wrong VIOLATES 3.4
+IDCHECK cite_pubmed_sparse_16_0__spec_wrong UNKNOWN 6.9
+IDCHECK cite_pubmed_sparse_16_1__spec_wrong UNKNOWN 2.7
+IDCHECK cite_pubmed_sparse_16_2__spec_wrong UNKNOWN 4.6
+IDCHECK cite_pubmed_sparse_16_3__spec_wrong UNKNOWN 3.8
+IDCHECK cite_pubmed_sparse_16_4__spec_wrong UNKNOWN 3.5
+IDCHECK cite_pubmed_sparse_16_5__spec_wrong UNKNOWN 3.8
+IDCHECK cite_pubmed_sparse_16_6__spec_wrong UNKNOWN 4.4
+IDCHECK cite_pubmed_sparse_16_7__spec_wrong UNKNOWN 2.2
+IDCHECK cite_pubmed_dense_24_0__spec_wrong UNKNOWN 9.7
+IDCHECK cite_pubmed_dense_24_1__spec_wrong UNKNOWN 6.9
+IDCHECK cite_pubmed_dense_24_2__spec_wrong VIOLATES 5.8
+IDCHECK cite_pubmed_dense_24_3__spec_wrong VIOLATES 11.4
+IDCHECK cite_pubmed_dense_24_4__spec_wrong VIOLATES 13.3
+IDCHECK cite_pubmed_dense_24_5__spec_wrong UNKNOWN 9.0
+IDCHECK cite_pubmed_dense_24_6__spec_wrong VIOLATES 8.6
+IDCHECK cite_pubmed_dense_24_7__spec_wrong UNKNOWN 3.6
+IDCHECK cite_pubmed_sparse_24_0__spec_wrong UNKNOWN 10.1
+IDCHECK cite_pubmed_sparse_24_1__spec_wrong UNKNOWN 7.6
+IDCHECK cite_pubmed_sparse_24_2__spec_wrong UNKNOWN 8.3
+IDCHECK cite_pubmed_sparse_24_3__spec_wrong UNKNOWN 3.6
+IDCHECK cite_pubmed_sparse_24_4__spec_wrong UNKNOWN 5.9
+IDCHECK cite_pubmed_sparse_24_5__spec_wrong UNKNOWN 4.9
+IDCHECK cite_pubmed_sparse_24_6__spec_wrong UNKNOWN 7.4
+IDCHECK cite_pubmed_sparse_24_7__spec_wrong UNKNOWN 6.5
+IDCHECK h_articulation_modules_n16384_q128_induced_constrained__decoy_v UNKNOWN 25.9
+IDCHECK h_erdos_n16384_q128_induced_constrained__background SATISFIES 95.5
+Traceback (most recent call last):
+  File "/home/claude/w/experiment/src/r2_runs.py", line 390, in <module>
+    idcheck(int(sys.argv[2]))
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/claude/w/experiment/src/r2_runs.py", line 347, in idcheck
+    subprocess.run([PY, str(ROOT / 'independent/idcheck.py'), 'run', str(path),
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    str(OUT / f'idcheck.w{worker}.jsonl')] + limits, check=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/root/.claude-science/cc/042486f3ed904967/compute.envs/gen/821cd772de216dfca175792f5fca17862b9a6dd8a19768751086be8d9efd612f/bin/python', '/home/claude/w/experiment/independent/idcheck.py', 'run', '/home/claude/w/experiment/results/revision_r2/idcheck_todo1.json', '/home/claude/w/experiment/results/revision_r2/idcheck.w1.jsonl', '120', '300']' died with <Signals.SIGKILL: 9>.

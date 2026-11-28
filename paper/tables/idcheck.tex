@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Independent reference check: an encoding written without any benchmark code, solved by CaDiCaL; witnesses replayed against the raw input; negatives decided on the unpruned encoding with DRAT proofs verified by drat-trim. Settles: tasks \textsc{Unassessed} in the reference that the check decides. Limits: 600\,s per solve and 1,200\,s per proof check (registered) for the first 4 tasks, 120\,s and 300\,s for the rest (Amendment~6); Hard-X single-engine negatives: every IdCon-Hard-X task with a negative state that only one reference engine established, not already sampled (Amendment~7).}
+\label{tab:idcheck}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Sample & Tasks & Agree & Disagree & Unresolved & Settles\\
+\midrule
+Hard, unconfirmed negative & 17 & 10 & 0 & 7 & 0\\
+Hard, stratified random & 48 & 44 & 0 & 4 & 0\\
+HPRD-X, no ASP answer & 4 & 4 & 0 & 0 & 0\\
+Cite, all tasks & 192 & 192 & 0 & 0 & 0\\
+Hard-X, one per ancestor & 12 & 10 & 0 & 1 & 1\\
+Hard-X, single-engine negative & 19 & 19 & 0 & 0 & 0\\
+\midrule
+Total & 292 & 279 & 0 & 12 & 1\\
+\bottomrule
+\end{tabular}
+\end{table}

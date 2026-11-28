@@ -1,0 +1,4 @@
+IDCHECK h_erdos_n4096_q64_forest_plain__perturbed EMPTY 24.3
+IDCHECK h_erdos_n8192_q96_forest_plain__mixed UNKNOWN 34.5
+IDCHECK h_geometric_n2048_q48_induced_plain__perturbed UNRESOLVED 1222.3
+IDCHECK h_geometric_n4096_q64_induced_plain__mixed UNRESOLVED 687.1

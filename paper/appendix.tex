@@ -1,0 +1,65 @@
+\section{Datasheet}
+\label{app:datasheet}
+\textbf{Motivation.} IdCon measures whether a system returns the consensus diagnosis of a requirement pattern over all admissible embeddings, and at what cost. It was created by the authors; no external funding body shaped its content.
+
+\textbf{Composition.} Each instance is a task: a pattern graph with roles, a host graph with entity coordinates, optional anchors, metric edges and unary domains, checked roles with $S/U/V$ observation tables, and a reference outcome in \{\Sat, \Vio, \Unk, \Emp\}. Tasks are grouped by ancestor (one pattern--host pair). IdCon-Hard has 72 ancestors and 504 tasks, IdCon-Hard-X \hardxAncestors{} and \hardxTasks{}, IdCon-HPRD 100 and 200, IdCon-HPRD-X 96 and 192, IdCon-Cite \citeAncestors{} and \citeTasks{}; the held-out IdCon-HPRD-H has 100 and 200 and IdCon-Hard-H 12 and \hardhTasks{}. Tasks without a determined reference are released as \textsc{Unassessed} and excluded from scoring. No instance contains personal information.
+
+\textbf{Collection process.} The synthetic suites are produced by a seeded generator from six NetworkX random-graph families; patterns are extracted by seeded BFS; no solver is called during generation and no instance is selected or rejected by solver outcome. The HPRD suites import the data graph and query graphs unchanged from Sun and Luo and from the CEMR artifact; IdCon-Cite imports Cora and PubMed unchanged from Planetoid and extracts queries by seeded random walks. Only the checked-role choice and the observation rule are added.
+
+\textbf{Preprocessing.} Host graphs are relabelled to contiguous integers; Cora and PubMed edges are made undirected, self-loops dropped, and the few unlabelled vertices removed. Synthetic coordinates are integer grid points with a per-entity offset below $10^{-3}$ of the length tolerance so that anchors are unique.
+
+\textbf{Uses.} Evaluating exact and approximate consensus solvers, studying when first-match diagnosis fails, and testing adapters that turn subgraph engines into certain-answer engines. Labels are environment-independent; timings are not.
+
+\textbf{Distribution and licences.} Code MIT; our generated data, references and predictions CC BY 4.0. HPRD is free for academic, non-commercial use and commercial users need a licence from its maintainers; the CEMR query files carry no licence; Planetoid is MIT-licensed and Cora and PubMed should be cited as their creators ask. None of these is redistributed: fetch scripts pin the upstream commits, and task files built from them are generated locally and inherit their terms. The patched LAD2025 sources are CeCILL-B.
+
+\textbf{Maintenance.} The corresponding author maintains the repository; \archiveSentence. Errata and new results are added as new records; frozen records are never edited. Held-out predictions are scored on request.
+
+\section{Stages, Amendments and Deviations}
+\label{app:registration}
+\textbf{Stage-1 design record.} After input generation and before any timed inference or reference computation, a local hash-stamped record fixed the IdCon-Hard seed, factors, scenarios, methods, budget, scoring and reference procedure, with SHA-256 hashes of sources, binaries, manifest, inputs and construction maps; IdCon-HPRD had its own record before inference. Neither was publicly timestamped. Tier sizes came from a pilot on six cells with a different seed.
+
+\textbf{Amendment 1 (stage 1).} \textsf{decoy\_s} (checked roles $V$, decoys $S$) is decided by the observation tables: an identity has state $S$ only if every checked role lands on an $S$ entity, and decoys reach only some checked roles, so every reference is \Vio. It was kept in the scored set as a control, and \textsf{focal\_v} was added before any of its inference or references.
+
+\textbf{Amendment 2 (stage 1).} Some constrained 8,192-entity references were unresolved after the LAD/Glasgow/CP-SAT procedure. The amendment let EG-ICAF, a consensus solver of the authors, settle state queries; it was made while timed inference was running and after an interim look at partial predictions. Three tasks were settled that way (re-settled without it in stage~2).
+
+\textbf{Amendment 3 (stage 1, post hoc arm).} After scoring, default Glasgow had answered no IdCon-HPRD run; profiling showed about 1.4~s per call in its supplemental-graph preprocessing of the gadget-enlarged target. The \texttt{-{}-staged} arm was added with the same encoding, driver and budget, and is marked $^\dagger$ on IdCon-Hard and IdCon-HPRD.
+
+\textbf{Stage-2 design record and Amendment 4.} Written before any stage-2 run (\path{experiment/results/revision_r1/design.json}). It dropped a stage-1 suite of the authors' own construction (IdCon-Core) and the authors' solvers EG-ICAF and LAD-SV from the benchmark, re-settled the Amendment-2 tasks, re-queried every unconfirmed negative, and added the tool baselines, IdCon-HPRD-X, IdCon-HPRD-H, the 10~s reruns, the overhead and embedding-count measurements, and the stage-2 analyses. Dropping them was decided after the stage-1 results were known; the two solvers' frozen results are in Table~\ref{tab:legacy}: EG-ICAF answers \legEgCorrect{} of 1,008 IdCon-Hard runs at 2\,s (PAR-2 \legEgPar~ms) and LAD-SV \legSvCorrect{} (\legSvPar~ms), both without a wrong certified answer. They are not ranked because they are unpublished methods of the authors.
+
+\textbf{Stage-2 deviations.} (i) The stage-1 Glasgow binary did not record its source commit; stage~2 rebuilt commit \texttt{01ef6ca}. (ii) Proof logging is not used for Glasgow: its \texttt{-{}-prove} rejects labelled inputs. (iii) Enum-Glasgow builds metric gadgets in Python without interruption, so some runs overran the budget (scored as unanswered). (iv) The VM restarted at about 20:30~UTC during the embedding counts; the orchestrator resumed from the records. (v) The two concurrent reference re-check shards were killed three times by the out-of-memory killer (about 3~GB per CP-SAT or Glasgow query on 8,192-entity hosts); the re-check was finished serially and then per task with a 6.5~GB limit; it overlapped in time with some timed stage-2 jobs on the other vCPU. All are logged in \path{orchestrate.log}.
+
+\textbf{Stage-3 design record and Amendment 5.} Written before any stage-3 run, any generation of the stage-3 suites and any stage-3 reference (\path{experiment/results/revision_r2/design.json}). It fixes IdCon-Hard-X, IdCon-Hard-H and IdCon-Cite, the SAT baseline, the 2/10/60\,s runs, the independent check, the overhead decomposition, the calibration and the stage-3 analyses; Amendment~5 lists the post hoc analyses (Table~\ref{tab:registration}). The stage-2 primary analysis (504 IdCon-Hard tasks with \textsf{decoy\_s}) stays primary. Pilots used seeds 777002--777005 outside every suite; on 10 pilot tasks the independent check agreed with the reference procedure.
+
+\textbf{Stage-3 deviations.} (i) Stage~3 ran on a different 2-vCPU VM (calibration in Section~\ref{sec:protocol}). (ii) LAD2025 crashes with the default 8\,MB stack on 16,384-entity hosts; stage-3 jobs run with an unlimited stack. (iii) The orchestrator was restarted once to stop an executor from idling while a memory-heavy job ran (the scheduler change is in the repository), and once after the VM restarted; runs in flight were not recorded and were rerun from the records. (iv) The machine also served light interactive work (editing, compiling) during the timed jobs. (v) The machine has 8\,GB of memory. On 16,384-entity hosts the out-of-memory killer ended Glasgow runs (recorded as runtime errors, Table~\ref{tab:errors}), Glasgow corroboration queries of the reference builder (logged as no evidence, which is why few IdCon-Hard-X negatives are corroborated), and six times a whole Python job: the two 60\,s IdCon-Hard-X jobs, one IdCon-Hard-H reference shard (twice) and the independent check (three times). From 12:14~UTC a guard made the killer prefer solver processes; from 14:33~UTC a 12\,GB swap file was available, and the remaining memory-heavy jobs (the 60\,s IdCon-Hard-X runs among them) ran one at a time. Interrupted jobs resumed from their records; runs in flight were not recorded.
+
+\textbf{Amendments 6 and 7 (stage 3, during the runs).} After 4 of the registered independent-check tasks had finished (two unresolved after 687 and 1,222\,s), Amendment~6 lowered the limits to 120\,s per solve and 300\,s per proof check, ordered the check IdCon-Cite first, and replaced the 72 IdCon-Hard-X tasks by one seeded task per ancestor, because the registered workload would have taken well over a day on 2 vCPUs. After the IdCon-Hard-X references showed that most of their negatives rest on one engine, Amendment~7 added every IdCon-Hard-X task with such a negative. Both were written before the tasks they add were checked (\path{amendment_6.json}, \path{amendment_7.json}); a lower limit can turn an agreement into \emph{unresolved} but cannot create a disagreement.
+
+\input{tables/registration}
+
+\textbf{Timing.} All methods run in one Python driver (3.10 in stages 1--2, 3.13 in stage 3) on a 2-vCPU Linux VM, single-threaded, in a randomized method order per task and repeat, with two executors pinned to one vCPU each.
+
+\input{tables/legacy}
+\input{tables/sensitivity}
+\input{tables/errors}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig3_strata.pdf}
+\caption{Ancestor-equal PAR-2 (ms) per stratum: IdCon-Hard by host tier and variant, IdCon-HPRD, and IdCon-HPRD-X by query size and density. Boxes mark the best certified method per column (on Hard and HPRD, Glasgow-staged is a post hoc arm and is never boxed); a dashed box marks a column whose best and second-best methods are not distinguishable (bootstrap interval includes 0).}
+\label{fig:strata}
+\end{figure*}
+
+\input{tables/strata_hard}
+\input{tables/strata_hprdx}
+
+\section{Further Tables}
+Table~\ref{tab:repr} gives structural statistics, Table~\ref{tab:labels} correct runs by label, Table~\ref{tab:budget} completion at short budgets, Table~\ref{tab:scenario} IdCon-Hard by scenario, Table~\ref{tab:family} by graph family, and Table~\ref{tab:refs} the reference re-check and results restricted to fully confirmed references.
+\input{tables/repr}
+\input{tables/labels}
+\input{tables/budget}
+\input{tables/scenario}
+\input{tables/family}
+\input{tables/refs}
+
+\section{Reproduction Checklist}
+Verify record hashes; install the pinned Python dependencies (\path{requirements.txt}); build the patched LAD2025 binary, Glasgow at commit \texttt{01ef6ca}, CaDiCaL 2.1.3 and drat-trim; run \texttt{tools/verify.py}, which recomputes every table and macro of this paper from the frozen records without timing anything; fetch the upstream HPRD, CEMR and Planetoid files, regenerate the inputs and check their hashes; rerun the independent check with \path{experiment/independent/idcheck.py}. New timing runs should use a new output directory and be reported as new results.

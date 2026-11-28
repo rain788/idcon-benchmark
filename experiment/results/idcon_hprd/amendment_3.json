@@ -1,0 +1,12 @@
+{
+ "amendment": 3,
+ "time": "2026-11-26T14:01:53.696256Z",
+ "reason": "Post-hoc, after scoring and an internal review: Glasgow answered none of the IdCon-HPRD runs. Profiling one task showed ~1.4 s of each Glasgow call spent in its default supplemental-graph preprocessing on the gadget-enlarged target, with 9 search nodes. Glasgow ships a --staged option (cheap filtering first, supplemental graphs only if a bounded first search round fails). A new arm glasgow_staged (identical encoding, --staged) is run on all IdCon-Hard and IdCon-HPRD tasks with the same driver, budget and two repeats. The registered glasgow arm and its records are unchanged and still reported; glasgow_staged is labelled post hoc.",
+ "new_records": [
+  "results/idcon_hard/predictions.glasgow_staged.w0.jsonl",
+  "results/idcon_hard/predictions.glasgow_staged.manifest_focal.w0.jsonl",
+  "results/idcon_hprd/predictions.glasgow_staged.w0.jsonl"
+ ],
+ "glasgow_baseline_sha256": "62e226631d15a64453ac75d450c8df7478309bcd39049bcc67e1dce23b3fb17c",
+ "hard_benchmark_sha256": "e3bfac73165795680bf3126f9fee24e66b6edd0be650b69547c739b435cd6eb8"
+}

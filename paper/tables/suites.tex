@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\caption{IdCon suites. Labels: assessed references as \Sat/\Vio/\Unk/\Emp. Priors predict the label without search (leave one ancestor out): majority of the scenario, majority of all metadata, and a gradient-boosted classifier on metadata and observation-table statistics. IdCon-HPRD-H and IdCon-Hard-H are held-out splits whose labels are not public; IdCon-Hard-H inputs are also withheld (hashes published). $^\ddagger$: added in stage~3.}
+\label{tab:suites}
+\centering\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lccccccc}
+\toprule
+ & Hard & Hard-X$^\ddagger$ & HPRD & HPRD-X & Cite$^\ddagger$ & HPRD-H & Hard-H$^\ddagger$\\
+\midrule
+Source & synthetic & synthetic & \multicolumn{2}{c}{HPRD; third-party queries} & Cora, PubMed & HPRD & synthetic\\
+Ancestors / tasks & 72 / 504 & 12 / 72 & 100 / 200 & 96 / 192 & 96 / 192 & 100 / 200 & 12 / 72\\
+Entities & 2,048--8,192 & 16,384 & 9,460 & 9,460 & 2,708; 19,717 & 9,460 & 16,384\\
+Roles & 48--96 & 128 & 16 & 8--32 & 8--24 & 16 & 128\\
+Anchors / metric & 0--2 / yes & 0--2 / yes & no / no & no / no & no / no & no / no & 0--2 / yes\\
+Unary domains & no & no & yes & yes & yes & yes & no\\
+Assessed refs & 504 & 68 & 200 & 192 & 192 & hidden & hidden\\
+Labels & 171/128/161/44 & 21/9/30/8 & 16/99/85/0 & 19/93/80/0 & 14/52/126/0 & hidden & hidden\\
+Scenario prior & 339/504 & 45/68 & 183/200 & 170/192 & 134/192 & -- & --\\
+Metadata prior & 368/504 & 38/68 & 183/200 & 164/192 & 162/192 & -- & --\\
+Learned prior & 419/504 & 52/68 & 181/200 & 166/192 & 162/192 & -- & --\\
+\bottomrule
+\end{tabular}
+\end{table*}

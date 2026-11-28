@@ -1,0 +1,88 @@
+{
+ "stage": "registered after input generation, before any timed inference or reference computation",
+ "seed": 202611260901,
+ "families": [
+  "geometric",
+  "preferential",
+  "small_world",
+  "regular",
+  "erdos",
+  "articulation_modules"
+ ],
+ "tiers": [
+  [
+   2048,
+   48
+  ],
+  [
+   4096,
+   64
+  ],
+  [
+   8192,
+   96
+  ]
+ ],
+ "constructions": [
+  "forest",
+  "induced"
+ ],
+ "variants": [
+  "plain",
+  "constrained"
+ ],
+ "scenarios": [
+  "decoy_v",
+  "decoy_u",
+  "decoy_s",
+  "mixed",
+  "background",
+  "perturbed"
+ ],
+ "methods": [
+  "lad_state",
+  "lad_sv_early",
+  "eg_icaf",
+  "glasgow",
+  "whole_cp",
+  "traditional_cp",
+  "first_match"
+ ],
+ "repeats": 2,
+ "budget_seconds": 2.0,
+ "ancestors": 72,
+ "tasks": 432,
+ "expected_records": 6048,
+ "tier_choice": "Pilot with seed 777 on six held-out cells (not part of this population): LAD state-query ~0.15 s at 2048/48, 1-2 s at 8192/96, all methods except EG-ICAF timed out at 32768/192; tiers fixed to 2048/48, 4096/64, 8192/96 before generation.",
+ "scoring": "Five-way outcome (SATISFIES, VIOLATES, UNKNOWN, EMPTY, NO_ANSWER). Correct = outcome equals complete reference. PAR-2 charges 4 s to any assessed run that is incorrect or unanswered. Ancestor-equal averaging; ancestor is the independent unit.",
+ "reference": "Positive witnesses replayed against original constraints; remaining exact-state queries by LAD2025 state query (30 s) with Glasgow corroboration (30 s); LAD timeouts fall back to Glasgow (60 s) then CP-SAT (60 s). Reference process never reads predictions; witnesses from predictions are replayed at scoring only.",
+ "process_model": "All seven methods run inside one Python driver process; LAD, LAD-SV, Glasgow and first-match pay one external process start per native query, EG-ICAF and CP arms run in-process. Single timing worker on a 2-vCPU Linux VM.",
+ "source_hashes": {
+  "hard_benchmark.py": "706b6cede172285fce3eb7820bd3b898d66ddc2b9c8fd61c78305930bb82e993",
+  "lad_baseline.py": "cef358baf037eb131cfe1914c2e1749067d61068ea77c04be4edc20061d8043f",
+  "identity_consensus_lad.py": "c35ae565df67711198ac9a22a97be219b4c9b9c3f68bb21d277c49a9cad196bb",
+  "glasgow_baseline.py": "154b29e699262c50aa352b6ca6a379d53af760c634d4f12978a8883eff49ce17",
+  "comparison_baselines.py": "600ef39a2802ee9a471a4ae6e25962be3cf44ba3f040e31cf3051c4907d5ab26",
+  "full_benchmark_methods.py": "e4c7724198ac70858222d950c3297be11846f2293d32bb7f0d945df04a456f0b",
+  "eg_icaf_baseline.py": "1b1ce1e935e11e876fd4a8f9119248d735db1b00465c686f52e1a2212942d584",
+  "eg_icaf_runtime.py": "b541b90e93440fafb699f4528eb5b502b00bd07640fe6fd56f4683bbbbdb2270",
+  "projection_engine.py": "f30e142b93d926a6c176abc5e7b4b92de1f2d041ea02512d75ea59e0b64421fd",
+  "semantic_projection.py": "4d81e31b992b126531223e90c6982bdd87716df00039402316f52419ba624752",
+  "structural_projection.py": "847723c6c01da29d59b3aa7dde04eb5bb2b2400e236d6b626e6fc668471a45db",
+  "submission_data.py": "271379c2ba899d99390bcb8057bfef82fa1c0dec36509add1153397600c7ed47"
+ },
+ "binary_hashes": {
+  "third_party/build/lad2025/lad2025": "700597c182146fae40fe63e7473f0178132a962792c68de65f51eb6b0bb804fb",
+  "third_party/build/lad2025_direct/lad2025": "2080225ef77236d2a373a5644c1935103abe8215ce5074e914661daca0ab58cb",
+  "third_party/build/glasgow_subgraph_solver": "b7adad911828208eb9d17052bbc2f33d40b8fd2c8f27e7737f49b20a58182e64",
+  "src/native/libeg_icaf_search.so": "3e2607984f1660196523e433c1b4c665451b7d005585ae8812396be416596537",
+  "src/native/libeg_icaf_injective_gac.so": "c354f3def0f0e7beb53761db66c00637fb489d65f17e5bb21badd2312c43e20f"
+ },
+ "manifest_sha256": "78559a25b9cfa83fea0b489d5f724aff2c18c556b982d47541713f9fdcc1167f",
+ "inputs_sha256": "d0d29aed5ef0abf148279fe0f96b8372a0af473824320489356af26543f620b8",
+ "construction_maps_sha256": "8456b4a5f19ff1b4b2942bc7bfd368d02a884e6339620afd5841f7acbf66c8b2",
+ "environment": {
+  "python": "3.10.20 (main, Jul 18 2026, 17:02:35) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39"
+ }
+}

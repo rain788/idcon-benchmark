@@ -1,0 +1,1 @@
+OVERHEAD {'lad_state': {'calls': 48, 'median_total_s': 0.704, 'median_solver_wall_s': 0.217, 'median_outside_solver_s': 0.23, 'median_solver_reported_s': 0.13}, 'glasgow_staged': {'calls': 48, 'median_total_s': 0.474, 'median_solver_wall_s': 0.174, 'median_outside_solver_s': 0.165, 'median_solver_reported_s': 0.097}}

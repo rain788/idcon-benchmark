@@ -1,0 +1,55 @@
+\documentclass[sigconf,review]{acmart}
+\usepackage{amsmath,booktabs,graphicx,multirow}
+\emergencystretch=2em
+\setcopyright{none}
+\acmConference[KDD '27 D\&B]{ACM SIGKDD Conference on Knowledge Discovery and Data Mining}{2027}{San Jose, CA, USA}
+\acmYear{2027}
+\acmDOI{}
+\acmISBN{}
+\input{results_macros}
+\newcommand{\Sat}{\textsc{Satisfies}}
+\newcommand{\Vio}{\textsc{Violates}}
+\newcommand{\Unk}{\textsc{Unknown}}
+\newcommand{\Emp}{\textsc{Empty}}
+\begin{document}
+\title{IdCon: A Benchmark for Identity-Consensus Diagnosis over Ambiguous Graph Embeddings}
+\author{Yulin Liu}
+\authornote{These authors contributed equally to this work.}
+\author{Zhiyu Liu}
+\authornotemark[1]
+\author{Ru Wang}
+\authornote{Corresponding author.}
+\email{ru.wang13@bit.edu.cn}
+\affiliation{%
+  \institution{School of Mechanical Engineering, Beijing Institute of Technology}
+  \streetaddress{No. 5 Zhongguancun South Street, Haidian District}
+  \city{Beijing}
+  \postcode{100081}
+  \country{China}
+}
+\renewcommand{\shortauthors}{Liu et al.}
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012><concept><concept_id>10002951.10002952.10002953.10010146</concept_id><concept_desc>Information systems~Graph-based database models</concept_desc><concept_significance>500</concept_significance></concept></ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Information systems~Graph-based database models}
+\keywords{subgraph matching, certain answers, identity uncertainty, benchmark, graph diagnosis}
+\maketitle
+
+\input{body}
+
+\begin{acks}
+\textbf{Generative AI disclosure.} An AI assistant (Claude, Anthropic) was used under the authors' direction to write and refactor experiment code (including the SAT baseline, the independent checker and the analysis scripts), to run experiments, and to draft and revise text. The authors specified the study, reviewed all code, results and text, and take full responsibility for the content. Funding acknowledgments will be added for the camera-ready version.
+\end{acks}
+
+\input{references}
+
+\clearpage
+\appendix
+\input{appendix}
+\clearpage
+\end{document}

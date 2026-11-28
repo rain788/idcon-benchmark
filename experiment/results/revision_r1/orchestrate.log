@@ -1,0 +1,56 @@
+2026-11-26T18:03:10Z ORCHESTRATE begin
+2026-11-26T18:03:10Z START cpu0 R1_main hard s0
+2026-11-26T18:03:10Z START cpu1 R1_main hard_focal s0
+2026-11-26T18:11:54Z END   cpu1 R1_main hard_focal s0 rc=0 523s
+2026-11-26T18:11:54Z START cpu1 R1_main hprd s0
+2026-11-26T18:26:07Z END   cpu1 R1_main hprd s0 rc=0 853s
+2026-11-26T18:26:07Z START cpu1 R1_main hard s1
+2026-11-26T18:48:40Z END   cpu0 R1_main hard s0 rc=0 2729s
+2026-11-26T18:48:40Z START cpu0 R1_main hard_focal s1
+2026-11-26T18:56:01Z END   cpu0 R1_main hard_focal s1 rc=0 441s
+2026-11-26T18:56:01Z START cpu0 R1_main hprd s1
+2026-11-26T19:09:45Z END   cpu0 R1_main hprd s1 rc=0 825s
+2026-11-26T19:09:45Z START cpu0 recheck hard s0
+2026-11-26T19:14:37Z END   cpu1 R1_main hard s1 rc=0 2910s
+2026-11-26T19:14:37Z START cpu1 recheck hard s1
+2026-11-26T19:20:14Z END   cpu0 recheck hard s0 rc=-9 629s
+2026-11-26T19:20:14Z START cpu0 R1_X s0
+2026-11-26T19:28:31Z END   cpu1 recheck hard s1 rc=-9 834s
+2026-11-26T19:28:31Z START cpu1 R1_X s1
+2026-11-26T19:55:42Z END   cpu0 R1_X s0 rc=0 2128s
+2026-11-26T19:55:42Z START cpu0 reference hprd_x s0
+2026-11-26T20:02:01Z END   cpu0 reference hprd_x s0 rc=0 380s
+2026-11-26T20:02:01Z START cpu0 reference hprd_h s0
+2026-11-26T20:06:48Z END   cpu0 reference hprd_h s0 rc=0 287s
+2026-11-26T20:06:48Z START cpu0 reference hprd_x s1
+2026-11-26T20:12:49Z END   cpu0 reference hprd_x s1 rc=0 360s
+2026-11-26T20:12:49Z START cpu0 reference hprd_h s1
+2026-11-26T20:17:13Z END   cpu1 R1_X s1 rc=0 2922s
+2026-11-26T20:17:13Z START cpu1 counts
+2026-11-26T20:17:52Z END   cpu0 reference hprd_h s1 rc=0 303s
+2026-11-26T20:37:13Z ORCHESTRATE resume
+2026-11-26T20:37:13Z START cpu0 counts
+2026-11-26T20:44:54Z END   cpu0 counts rc=0 461s
+2026-11-26T20:44:54Z START cpu0 pairs10
+2026-11-26T20:44:56Z END   cpu0 pairs10 rc=0 2s
+2026-11-26T20:44:56Z START cpu0 B10 hard s0
+2026-11-26T20:44:56Z START cpu1 B10 hard_focal s0
+2026-11-26T20:56:20Z END   cpu1 B10 hard_focal s0 rc=0 684s
+2026-11-26T20:56:20Z START cpu1 B10 hprd s0
+2026-11-26T21:08:50Z END   cpu1 B10 hprd s0 rc=0 751s
+2026-11-26T21:08:50Z START cpu1 B10 hard s1
+2026-11-26T22:00:09Z END   cpu0 B10 hard s0 rc=0 4513s
+2026-11-26T22:00:09Z START cpu0 B10 hard_focal s1
+2026-11-26T22:11:30Z END   cpu0 B10 hard_focal s1 rc=0 681s
+2026-11-26T22:11:30Z START cpu0 B10 hprd s1
+2026-11-26T22:22:05Z END   cpu1 B10 hard s1 rc=0 4395s
+2026-11-26T22:25:09Z END   cpu0 B10 hprd s1 rc=0 819s
+2026-11-26T22:25:09Z START cpu0 overhead
+2026-11-26T22:25:50Z END   cpu0 overhead rc=0 41s
+2026-11-26T22:25:50Z START cpu0 recheck hard serial
+2026-11-26T22:45:01Z END   cpu0 recheck hard serial rc=0 1150s
+2026-11-26T22:45:01Z START cpu0 recheck hard serial
+2026-11-26T22:57:32Z END   cpu0 recheck hard serial rc=-9 751s
+2026-11-26T22:57:32Z ORCHESTRATE done
+2026-11-26T23:03:54Z START recheck per-task (6.5 GB limit) after OOM
+2026-11-26T23:17:14Z END recheck per-task

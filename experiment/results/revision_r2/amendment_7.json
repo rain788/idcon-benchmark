@@ -1,0 +1,13 @@
+{
+ "amendment": 7,
+ "revision": "R2",
+ "time": "2026-11-27T16:28:10Z",
+ "stage": "after the IdCon-Hard-X references were built and after 8 of the 12 Amendment-6 IdCon-Hard-X items had been checked; before the independent check of any task added here",
+ "why": "In the IdCon-Hard-X references, 29 of 33 non-trivial negative states rest on one engine (Glasgow corroboration timed out or was ended by the out-of-memory killer on the 16,384-entity hosts), so a one-per-ancestor sample checks too few of them.",
+ "idcheck": {
+  "add": "every complete IdCon-Hard-X task with a non-trivial negative state (engine other than predicate_range) that is not corroborated, in sorted task_id order, appended after the Amendment 6 items (why = uncorroborated_negative)",
+  "limits": "as Amendment 6 (120 s per solve, 300 s per proof check)",
+  "run": "alone on cpu0 (memory)"
+ },
+ "unchanged": "everything else"
+}

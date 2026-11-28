@@ -1,0 +1,147 @@
+{
+ "study": "revision_r2",
+ "time": "2026-11-27T08:01:47.106756+00:00",
+ "stage": "registered after the R2 pilots (seeds 777002-777005, instances outside every released or new suite) and before any R2 run on a released suite, before generating the new suites, before any R2 reference computation and before any R2 scoring",
+ "why": "responses to an independent review of the R1 manuscript: headroom claims (budget extension, harder tier), shortcut and composition analyses, reference independence, overhead, coverage (real hosts with real labels), a generic SAT baseline, and a synthetic held-out split",
+ "new_suites": {
+  "idcon_hard_x": {
+   "generator": "hard_benchmark.generate",
+   "seed": 202611280201,
+   "tiers": "16384 entities, 128 roles",
+   "density": 1,
+   "families": "six (as IdCon-Hard)",
+   "cells": "forest+plain and induced+constrained (12 ancestors)",
+   "scenarios": [
+    "decoy_v",
+    "decoy_u",
+    "focal_v",
+    "mixed",
+    "background",
+    "perturbed"
+   ],
+   "tasks": 72,
+   "note": "decoy_s left out (decided by the observation tables; Amendment 1)"
+  },
+  "idcon_hard_h": {
+   "generator": "as idcon_hard_x",
+   "seed": 202611280301,
+   "tasks": 72,
+   "release": "held out: inputs, construction maps and references stay with the authors; manifest hashes, input hashes and the SHA-256 of the reference file are published (commitment); no method is run on it in R2"
+  },
+  "idcon_cite": {
+   "builder": "external_cite.py",
+   "seed": 202611280101,
+   "hosts": "Cora (2,708 vertices, 7 labels) and PubMed (19,717 vertices, 3 labels) from github.com/kimiyoung/planetoid commit af6abf4 (MIT); not redistributed",
+   "queries": "random-walk induced subgraphs, k in {8,16,24}, dense (avg degree >= 3) and sparse, 8 per set and host (96 ancestors)",
+   "observation_rule": "as IdCon-HPRD (spec_true / spec_wrong)",
+   "tasks": 192
+  }
+ },
+ "methods": {
+  "new": {
+   "sat_cadical": "sat_baseline.py: identity space encoded to CNF (independent/cnf_encoding.py), two-query reduction with selector unit clauses, one CaDiCaL 2.1.3 process per query, killed at the budget; witnesses replayed"
+  },
+  "idcon_cite": [
+   "lad_state",
+   "glasgow",
+   "glasgow_staged",
+   "whole_cp",
+   "traditional_cp",
+   "first_match",
+   "enum_glasgow",
+   "enum_nx",
+   "asp_cautious",
+   "sat_cadical"
+  ],
+  "idcon_hard_x": [
+   "lad_state",
+   "glasgow",
+   "glasgow_staged",
+   "whole_cp",
+   "enum_glasgow",
+   "first_match",
+   "sat_cadical"
+  ],
+  "idcon_hard_x_note": "Trad-CP, Enum-VF2 and ASP-cautious are not run on IdCon-Hard-X: on IdCon-Hard they answer 214, 14 and 15 of 1,008 runs at 2 s; compute is spent on longer budgets instead",
+  "released_suites": "sat_cadical on IdCon-Hard, IdCon-HPRD and IdCon-HPRD-X (2 s, two repeats)"
+ },
+ "runs": {
+  "calib": "50 seeded IdCon-Hard tasks x {LAD, Glasgow --staged}, repeat 0, 2 s, on the R2 machine; compared with the frozen v1 records (speed ratio, outcome agreement)",
+  "hardx_2s": "IdCon-Hard-X, 7 methods, 2 s, one repeat",
+  "hardx_10s": "IdCon-Hard-X, 7 methods, 10 s, one repeat",
+  "hardx_60s": "IdCon-Hard-X, LAD / Glasgow --staged / SAT pairs unanswered at 10 s, 60 s",
+  "cite_2s": "IdCon-Cite, 10 methods, 2 s, two repeats",
+  "cite_10s": "IdCon-Cite, pairs unanswered in a 2 s repeat for LAD, Glasgow --staged, CP-SAT, ASP-cautious, SAT; 10 s, repeat 0",
+  "hard_60s": "IdCon-Hard repeat 0: LAD and Glasgow --staged on every pair not answered correctly at 2 s or 10 s; CP-SAT on every task that no method answered at 2 s or 10 s; 60 s",
+  "sat_released": "sat_cadical on IdCon-Hard, IdCon-HPRD, IdCon-HPRD-X, 2 s, two repeats",
+  "overhead": "first query (exists T in {S,U,V}) of LAD2025 and Glasgow --staged on 48 IdCon-Hard tasks (8 per tier x variant): total, solver process wall time, outside-solver time, solver-reported time",
+  "process_model": "two executors pinned to one vCPU each (taskset); jobs on 16,384-entity hosts never run concurrently with each other (memory); timed jobs first, then pairs, extended budgets, then untimed jobs (references, independent check), then the overhead job alone",
+  "machine": {
+   "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+   "python": "3.13.18",
+   "note": "2 vCPU / 8 GB cloud VM, not the R1 VM; see calib",
+   "ortools": "9.15.6755",
+   "clingo": "5.8.3",
+   "networkx": "3.4.2",
+   "numpy": "2.5.3",
+   "binaries": {
+    "cadical": "562ecaf78550a8904155a5cfa0eb8979a6ebaf8879ac8956c52dc1a48a0e4de1",
+    "drat-trim": "92f0aa9575ed519d66a99b8b1b3dde6ece4618ae4c202a3a4b200265dda0aa7a",
+    "glasgow_subgraph_solver": "ff982019e4796f6412d45592acd3a0afbab5863dc5d1bb1df313bfe2838c6530",
+    "lad2025": "700597c182146fae40fe63e7473f0178132a962792c68de65f51eb6b0bb804fb"
+   },
+   "glasgow_commit": "01ef6caec4dbf0ef0206689d769f0b67aacd38b5 (rebuilt with gcc 13.3)",
+   "cadical": "rel-2.1.3 (f13d744)",
+   "drat_trim": "2e3b2dc",
+   "stack": "unlimited (LAD2025 segfaults on 16,384-entity hosts with 8 MB)"
+  }
+ },
+ "references": {
+  "new_suites": "hard_benchmark.reference_task (LAD2025 30 s per state, Glasgow corroboration 30 s; LAD timeouts fall back to Glasgow 60 s then CP-SAT 60 s; construction-map replay for synthetic suites); the independent check below is the second engine",
+  "independent_check": {
+   "code": "experiment/independent/ (cnf_encoding.py, idcheck.py): imports nothing from experiment/src",
+   "procedure": "per task, the three exact-state queries T(y)=S,U,V: witness search on an arc-consistent CNF, witness replayed against the raw JSON; a negative answer is re-derived on the CNF without arc consistency with a DRAT proof checked by drat-trim; no-search negatives only for an empty domain (anchors, unary domains, degree bound, tables) or no entity in the queried state; 600 s per solve, 1,200 s per proof check",
+   "sample": "IdCon-Hard: every task with a negative state not confirmed by a second engine in R1, plus 8 seeded tasks per tier x variant stratum (48); IdCon-HPRD-X: every task ASP-cautious did not answer; IdCon-Cite and IdCon-Hard-X: every task",
+   "pilot": "10 pilot tasks (seeds 777004, 777005): 10 agreements with reference_task"
+  }
+ },
+ "analyses": {
+  "registered_r2": [
+   "IdCon-Hard VBS at 2 s, 10 s and 60 s (repeat 0) over the sound methods, with and without Glasgow --staged; LAD at 10 s and 60 s",
+   "completion curves to 60 s (IdCon-Hard, IdCon-Hard-X)",
+   "IdCon-Hard-X and IdCon-Cite main tables (correct / wrong / unanswered, ancestor-equal PAR-2 at the run budget, correct by label), with the three no-search priors",
+   "sat_cadical rows for every suite",
+   "independent-check agreement table (agree / disagree / unresolved, by suite and why)",
+   "overhead decomposition on IdCon-Hard",
+   "calibration of the R2 machine against v1 records"
+  ],
+  "amendment_5_posthoc": [
+   "disclosure of the two solvers removed by Amendment 4 (EG-ICAF, LAD-SV: the authors' own, unpublished methods): frozen-record results on IdCon-Hard and IdCon-HPRD and their effect on the VBS (appendix; not ranked)",
+   "IdCon-Hard sensitivity: without the decoy_s control (432 tasks) and without the tasks whose label the tables decide up to non-emptiness (non-perturbed, two states excluded by the tables)",
+   "embedding multiplicity corrected for query automorphisms (IdCon-HPRD)",
+   "stratum comparisons: differences whose bootstrap interval includes 0 reported as not distinguishable",
+   "runtime errors per method and suite",
+   "overlap of the three priors' errors"
+  ],
+  "note": "the R1 primary analysis (504 IdCon-Hard tasks, decoy_s included) stays the primary analysis; the sensitivity analyses are post hoc"
+ },
+ "data_handling": {
+  "history_rewrite": "2026-11-27: repository history rewritten with git filter-repo to remove experiment/data/raw/hprd_sun_luo/ (HPRD graph, Sun-Luo queries); old->new commit map in results/revision_r2/commit_map.txt; frozen records unchanged (records_sha256.json)"
+ },
+ "code_sha256": {
+  "hard_benchmark.py": "2e2c3ad4f4d23142ddcf05b7b8e1a1c20e1f8d6d942544cac9b76c1ee2d9dbdd",
+  "submission_data.py": "8818b7baafcfcd839d5d433e0b2b22792bd68db4208bb0422a3e600775d240a6",
+  "external_cite.py": "48ce7627eacbb9ffdfed084135e2f067eaed6bfbd77b5f479c5371d584e491fd",
+  "external_hprd.py": "e639550e574ae2e408b4c388fa679b4c5a3ad340605401f7aad612e7853104a9",
+  "external_hprd_x.py": "00748d24135d93d09dbd7b49acdcf76847155f4a8a9075e64e848e92d5ff079a",
+  "sat_baseline.py": "ed709212902a45751eb84fae93fe2bcbd86d72034512e1e63f684dc8846d665c",
+  "r2_runs.py": "517ba3b9fc994b33eb593586018fef70f946b666cd60c9d356f6629d717cacfb",
+  "r2_register.py": "97c1b9603a1ed8de5715d5c26f91ee3067e209828b1c2de6cd2540156b4d7864",
+  "lad_baseline.py": "7b5f94dc633742cb9139c0d1678bf2cf9cd0ad65ae4cf2cd47296bfd295e8ec8",
+  "glasgow_baseline.py": "62e226631d15a64453ac75d450c8df7478309bcd39049bcc67e1dce23b3fb17c",
+  "revision_baselines.py": "8704922a00b6657ea6a181f09d463ecd1057bba6524c2901d51e02dec043fb7d",
+  "comparison_baselines.py": "5fdb653895f4b280f699605c7d9adfde7f6f4d25304a270ff1a07e6f654e4f0e",
+  "independent/cnf_encoding.py": "6731f967bdb0945485c6625eb9101f726b1e76f2e2909f7fe301f87b23df76b8",
+  "independent/idcheck.py": "0e97cc9877ce0cfb765e1fbab57f6a2b768b656c017502ecbc6fac17f71e05d4"
+ }
+}

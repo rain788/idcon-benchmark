@@ -1,0 +1,25 @@
+\begin{table}[t]
+\caption{Correct runs within 0.5, 1 and 2\,s (read off the recorded end-to-end times of both repeats), and within 10\,s for repeat~0 (2\,s record if answered, otherwise the stage-2 rerun with a 10\,s budget; methods in that run only).}
+\label{tab:budget}
+\centering\footnotesize
+\setlength{\tabcolsep}{1.9pt}
+\begin{tabular}{lrrrr rrrr}
+\toprule
+ & \multicolumn{4}{c}{IdCon-Hard} & \multicolumn{4}{c}{IdCon-HPRD}\\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+Method & 0.5\,s & 1\,s & 2\,s & 10\,s$^{0}$ & 0.5\,s & 1\,s & 2\,s & 10\,s$^{0}$\\
+\midrule
+LAD & 360 & 526 & 725 & 460/504 & 0 & 281 & 389 & 200/200\\
+Glasgow & 314 & 421 & 562 & -- & 0 & 0 & 0 & 184/200\\
+Glasgow-staged$^\dagger$ & 403 & 539 & 651 & 400/504 & 243 & 271 & 304 & 194/200\\
+CP-SAT & 97 & 213 & 321 & 231/504 & 377 & 384 & 384 & 196/200\\
+Trad-CP & 55 & 126 & 214 & -- & 49 & 188 & 279 & --\\
+Enum-Glasgow$^\ast$ & 64 & 75 & 88 & 44/504 & 0 & 0 & 235 & 198/200\\
+Enum-VF2$^\ast$ & 8 & 12 & 14 & -- & 56 & 98 & 127 & --\\
+ASP-cautious$^\ast$ & 0 & 0 & 15 & -- & 47 & 361 & 400 & --\\
+SAT$^\ddagger$ & 16 & 24 & 240 & -- & 315 & 400 & 400 & --\\
+\midrule
+First-match & 327 & 498 & 626 & -- & 38 & 230 & 230 & --\\
+\bottomrule
+\end{tabular}
+\end{table}

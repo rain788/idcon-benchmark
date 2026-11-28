@@ -1,0 +1,802 @@
+{
+"hprd_query_dense_16_1__spec_true": {
+"identity_file": "6600114913d25b4e2f89141e41fc3952ec942f4298a68b3f15f70127f79c9b0e",
+"tables_file": "cc2a4882fda0d31498fb458de668b539550f1f0e88f3977e8f40815446e3d246"
+},
+"hprd_query_dense_16_1__spec_wrong": {
+"identity_file": "6600114913d25b4e2f89141e41fc3952ec942f4298a68b3f15f70127f79c9b0e",
+"tables_file": "6c6e5f5f4ec820b0d20c2bc159ff5ac33cb07b3d9202423c18605632445f84fe"
+},
+"hprd_query_dense_16_2__spec_true": {
+"identity_file": "0cb98592bfd49c7f937d1cc2bdf7be3251390888524b0a7a2d06263965d73a0f",
+"tables_file": "914c90952b6861bb00369e3a062131455fbf7de48af88a042c473b6d82f2f943"
+},
+"hprd_query_dense_16_2__spec_wrong": {
+"identity_file": "0cb98592bfd49c7f937d1cc2bdf7be3251390888524b0a7a2d06263965d73a0f",
+"tables_file": "c0fc7db88f9eb13be4e7a5ab38de96bdf6b8448bd22015d482d16835818d8b48"
+},
+"hprd_query_dense_16_3__spec_true": {
+"identity_file": "a62f3e9e52b6f058837e0866fff6e14747bf1f827c505c18a3e972ed4ab52fd8",
+"tables_file": "f800adeedecc640346dfb0aaf5b9def1d83875973b99fd0cbac4ed9a77456201"
+},
+"hprd_query_dense_16_3__spec_wrong": {
+"identity_file": "a62f3e9e52b6f058837e0866fff6e14747bf1f827c505c18a3e972ed4ab52fd8",
+"tables_file": "aa5d1b33c28a2fba991460387aadad094cf55c2e232c1d8a593c088b9bb67e7d"
+},
+"hprd_query_dense_16_4__spec_true": {
+"identity_file": "09ce0928969f584a9087afda17b04272ec244560c7c9e825feec367cb6ea53f4",
+"tables_file": "94e7f20d73347bca301989aadacc55a62629f2a71e4133ebe7c74127133a77e5"
+},
+"hprd_query_dense_16_4__spec_wrong": {
+"identity_file": "09ce0928969f584a9087afda17b04272ec244560c7c9e825feec367cb6ea53f4",
+"tables_file": "693b2f31679ad24da9ee5b9b4eff8bec2859b3694e6682ec84054772a7ee6774"
+},
+"hprd_query_dense_16_5__spec_true": {
+"identity_file": "b272d34164a6f60553ea31621f282fa5faf773696fd28b5ae18232100e31e705",
+"tables_file": "0f90e0ac1276f0ce2a70e221f2fa1a31492464dae3d1d44ca947164aa7429953"
+},
+"hprd_query_dense_16_5__spec_wrong": {
+"identity_file": "b272d34164a6f60553ea31621f282fa5faf773696fd28b5ae18232100e31e705",
+"tables_file": "69876fe28f5233f634d2ba70c26cbc8ae575698866f31c8dd45bb3120e5ec8d1"
+},
+"hprd_query_dense_16_6__spec_true": {
+"identity_file": "09924f656006987949b50c57a7420049b08421813b3d81dce1d38b64b05395a2",
+"tables_file": "eb5a295d56b9c1f8d8916d4515ccf7ecdbf0ce7aa8540106e74a58cd8286e7e9"
+},
+"hprd_query_dense_16_6__spec_wrong": {
+"identity_file": "09924f656006987949b50c57a7420049b08421813b3d81dce1d38b64b05395a2",
+"tables_file": "6b2c2e5e8b26e0f9c4186eea92c51766c18f4807744befece19b4498925145cb"
+},
+"hprd_query_dense_16_7__spec_true": {
+"identity_file": "cb255f7ff87e5e78e482b39657207751c2451d869decd14c1d6d2d3bd10bfb7d",
+"tables_file": "887abfe02e3cd396d08fc22224de4f03a07ca284397f092479c93d6c85c6115d"
+},
+"hprd_query_dense_16_7__spec_wrong": {
+"identity_file": "cb255f7ff87e5e78e482b39657207751c2451d869decd14c1d6d2d3bd10bfb7d",
+"tables_file": "59240bb79fe4f7e9c2c57b207eafdbe14aea1b7a87c22a5c303ab93dd414e803"
+},
+"hprd_query_dense_16_8__spec_true": {
+"identity_file": "2dc91694dd41ad3ec24300beef188ab41f8f08aad8a3b51808823e9d816e0957",
+"tables_file": "b6f1079d6e79285def30de73ceb080d19f9537cc25651695067e87a4bb9c0f3d"
+},
+"hprd_query_dense_16_8__spec_wrong": {
+"identity_file": "2dc91694dd41ad3ec24300beef188ab41f8f08aad8a3b51808823e9d816e0957",
+"tables_file": "c4c6f25e4239490eea21117d3c03d81512ad0b84794ac1acc314e1d7586e027b"
+},
+"hprd_query_dense_16_9__spec_true": {
+"identity_file": "0c20039bbf0f02e40f445637a3bde864350dc196af913f06069a45d73c8b04fc",
+"tables_file": "5dc2bc64877cff1ad3af5d2898b651218aaab394b9e8639587e1735e3f4f74ef"
+},
+"hprd_query_dense_16_9__spec_wrong": {
+"identity_file": "0c20039bbf0f02e40f445637a3bde864350dc196af913f06069a45d73c8b04fc",
+"tables_file": "cfbc0b016f9156954a6d9d4a5b9a2e0862e188e7a24b9b601f7f3a1cf9da2670"
+},
+"hprd_query_dense_16_10__spec_true": {
+"identity_file": "e87f14ed3a7158e5f8f51b8e73c32e67f878868d0e54abf86afb97fb757c23a4",
+"tables_file": "01302af85a4254bb8da83e7d2885fd586d031712d474f047920300e914870c61"
+},
+"hprd_query_dense_16_10__spec_wrong": {
+"identity_file": "e87f14ed3a7158e5f8f51b8e73c32e67f878868d0e54abf86afb97fb757c23a4",
+"tables_file": "f71ec7f05dfc6970c1ca96b8f1a2e258a1176bb5af8592fe29bc8e666d42b2f1"
+},
+"hprd_query_dense_16_11__spec_true": {
+"identity_file": "71e8e301154bcc8bc46489628690e8bcd9c6b4e14508c1caf78fe78bc0d66d19",
+"tables_file": "94ba08a7e17e2118463e0aa5e78edad305fc99da16da9a486f337c70c60fe50b"
+},
+"hprd_query_dense_16_11__spec_wrong": {
+"identity_file": "71e8e301154bcc8bc46489628690e8bcd9c6b4e14508c1caf78fe78bc0d66d19",
+"tables_file": "679b70a0295f2e6f73323df0aff4ab82f58e6bd3b8cd43c9ad7095d525e5f41d"
+},
+"hprd_query_dense_16_12__spec_true": {
+"identity_file": "943a5be2176d5027a02007333b85896a3195987e380bb16c5789924dce1597c3",
+"tables_file": "90f8c56288e375dd01ecc672c014eb861dca8491457918d997fde695f7dfa5ef"
+},
+"hprd_query_dense_16_12__spec_wrong": {
+"identity_file": "943a5be2176d5027a02007333b85896a3195987e380bb16c5789924dce1597c3",
+"tables_file": "a200efb0c3b0ddbafa705235379bb05d3062b614593e1c33bf5a8c8df77714bb"
+},
+"hprd_query_dense_16_13__spec_true": {
+"identity_file": "6e84e4536326669669304f2c8414abce54cf93f943f7fe31dbf2ffd85ef7b1cf",
+"tables_file": "62f5e75cb5f0399f2f9507a46bd03c6911974d1ce9ba60c52924fc83c8dde372"
+},
+"hprd_query_dense_16_13__spec_wrong": {
+"identity_file": "6e84e4536326669669304f2c8414abce54cf93f943f7fe31dbf2ffd85ef7b1cf",
+"tables_file": "6a86259326a53b690a3551d1f60dd206f94e5be943702192a5371d013c12d8a6"
+},
+"hprd_query_dense_16_14__spec_true": {
+"identity_file": "01fb742da4c56e46c19117148c3c794171d82c53631c6841bd2db34dbddba32b",
+"tables_file": "8973d3837a5f1944768ab7ee73656eaa943ba1b753867c95398b36269e88e521"
+},
+"hprd_query_dense_16_14__spec_wrong": {
+"identity_file": "01fb742da4c56e46c19117148c3c794171d82c53631c6841bd2db34dbddba32b",
+"tables_file": "5733e0d4b0cdd2f1f02da5e9cf3d30ff87882524ff41c9b83994343366347a90"
+},
+"hprd_query_dense_16_15__spec_true": {
+"identity_file": "ac1dac3c0253ffdaa69f12626235fff437d3d20699b0b38471cffad017190729",
+"tables_file": "53d039a265e9acfb7bedefaf771d8d9b3fd6f70322fd642f3f499ddda48cdd49"
+},
+"hprd_query_dense_16_15__spec_wrong": {
+"identity_file": "ac1dac3c0253ffdaa69f12626235fff437d3d20699b0b38471cffad017190729",
+"tables_file": "83579a871eb7db0c7cc4a35a449052c1785da953af1c96b690b7e8b028369e48"
+},
+"hprd_query_dense_16_16__spec_true": {
+"identity_file": "e3a97b39fac9091e445e73680674eb31fddb5c8e7c7036dfb4daac6c0ff7e5eb",
+"tables_file": "3290fead29fe68f489b908c9092ee6a690d33f9080ac0dbd26d8471c5c1b7a3a"
+},
+"hprd_query_dense_16_16__spec_wrong": {
+"identity_file": "e3a97b39fac9091e445e73680674eb31fddb5c8e7c7036dfb4daac6c0ff7e5eb",
+"tables_file": "db9575f6c97e8ef1468bbcf8d01cb07cae8891e65889efcc4ffd75f82d6cae40"
+},
+"hprd_query_dense_16_17__spec_true": {
+"identity_file": "bc02a1161154c880f194f7bf5044d9d1e60e0a2a60dce78949fec9b2ddc5c35b",
+"tables_file": "4c5779cfa0dc53c352bf6eb8b7999f29cd68df7ce32d7c19c171ef93a5d73b80"
+},
+"hprd_query_dense_16_17__spec_wrong": {
+"identity_file": "bc02a1161154c880f194f7bf5044d9d1e60e0a2a60dce78949fec9b2ddc5c35b",
+"tables_file": "25380655d1183a3a5a78a26f7b3fef0934e1da68cf05af1f9dd5bb4c0ed76cf4"
+},
+"hprd_query_dense_16_18__spec_true": {
+"identity_file": "147f35ed3e920fe96d9100eb8ebdc086c7fd8e77fba93720e17b859644676929",
+"tables_file": "bef4c6d0ec9972fe69fd516cab089728f27c0f4853a88429c54ae982fd91ed3b"
+},
+"hprd_query_dense_16_18__spec_wrong": {
+"identity_file": "147f35ed3e920fe96d9100eb8ebdc086c7fd8e77fba93720e17b859644676929",
+"tables_file": "d562c1cb48f44e0911ca05dd6eb1aee26c3bc9b61d099ca0cebbf1df1c30b2e8"
+},
+"hprd_query_dense_16_19__spec_true": {
+"identity_file": "22566d5c85ed98a3f1c0166bd383a5f2f80f0b9148f806ae372edfce01f243d6",
+"tables_file": "74b1fbba744e502372144dc370de41efa6b88affc76791445835ab646458b21b"
+},
+"hprd_query_dense_16_19__spec_wrong": {
+"identity_file": "22566d5c85ed98a3f1c0166bd383a5f2f80f0b9148f806ae372edfce01f243d6",
+"tables_file": "bba6cc960f79038de859ae23a06b5e7964407226171bd7d30d0c7f1374bdd9f1"
+},
+"hprd_query_dense_16_20__spec_true": {
+"identity_file": "12917fda5ce70222986c1d826669c504afc718846f455528d20381a4e949bbdb",
+"tables_file": "2052e63059be2caaffec2bd22733e5eaaa8907c98f4cd47e248884d6d016a4b1"
+},
+"hprd_query_dense_16_20__spec_wrong": {
+"identity_file": "12917fda5ce70222986c1d826669c504afc718846f455528d20381a4e949bbdb",
+"tables_file": "346435c85356dff952af82d2f1f2e453185c78ec74aaa9f227a9c7bd47021983"
+},
+"hprd_query_dense_16_21__spec_true": {
+"identity_file": "c742f92ffd64e9cc882ccfc24f256608f584686fea2cde3240eb9265c0e4c42f",
+"tables_file": "bff2c34489620857df59ef09f2c80f80dac478ee7fc8a8726370f23dbe86415c"
+},
+"hprd_query_dense_16_21__spec_wrong": {
+"identity_file": "c742f92ffd64e9cc882ccfc24f256608f584686fea2cde3240eb9265c0e4c42f",
+"tables_file": "6a674158a07fe5ec6dc948bdbe5115d86ab0b2e8957dad2f1a481930aafdfdce"
+},
+"hprd_query_dense_16_22__spec_true": {
+"identity_file": "b92d61e158dc12f6664b43e2761a69cd028e200dd1cb8202bc5873cd3544d71c",
+"tables_file": "7990d6952ebd911ee7ca27d57319ebda4fa7cb7cc4fd1be00ea9dd8b62bb9fe3"
+},
+"hprd_query_dense_16_22__spec_wrong": {
+"identity_file": "b92d61e158dc12f6664b43e2761a69cd028e200dd1cb8202bc5873cd3544d71c",
+"tables_file": "b6e77efd1553927d3a23b9f13138d55ebeeddf0d8f1d5dde83481535adfbb6ae"
+},
+"hprd_query_dense_16_23__spec_true": {
+"identity_file": "9641f778ad87e0cbc2b9fe6e9ee4f056f34bf54e9b0046d36de62781260762fa",
+"tables_file": "f4731242d2c0c3c45683a4e866832bc5b06dc9390e1645165c47016940899e4b"
+},
+"hprd_query_dense_16_23__spec_wrong": {
+"identity_file": "9641f778ad87e0cbc2b9fe6e9ee4f056f34bf54e9b0046d36de62781260762fa",
+"tables_file": "fd9f9e4816306bdc2363d8a9f552fda608d6ddead0a598212ef5464c3ed9a490"
+},
+"hprd_query_dense_16_24__spec_true": {
+"identity_file": "a424b26c88fbe392bec493f2e64edb4bad88f37d8a123d76122535112aae838c",
+"tables_file": "0b621ae21b9b9f7f06d6a8824573405dc76478d6b63dc3876500147050ee8e74"
+},
+"hprd_query_dense_16_24__spec_wrong": {
+"identity_file": "a424b26c88fbe392bec493f2e64edb4bad88f37d8a123d76122535112aae838c",
+"tables_file": "cd30cbf24698bd8e5cdb3e3ce2431327e2cf9d0aeee351dc13468d00d4a89550"
+},
+"hprd_query_dense_16_25__spec_true": {
+"identity_file": "0782e3637aaf89d3310b2ee89b73b253da4bb19578e9f7cc3ef169fb695a7680",
+"tables_file": "cfe2d473efa9a554ea600d62f9c4ad203fafe09ffdb2657d945459c8feb9e8b7"
+},
+"hprd_query_dense_16_25__spec_wrong": {
+"identity_file": "0782e3637aaf89d3310b2ee89b73b253da4bb19578e9f7cc3ef169fb695a7680",
+"tables_file": "abf3c6e5c68d73cdf293280c3adaabf2339b0878c8a6bdb1939ab521c1635a7e"
+},
+"hprd_query_dense_16_26__spec_true": {
+"identity_file": "0d5af99683010cdbedd4146ef5892b0d148214e4e62ff83d8b6a9976c01866f1",
+"tables_file": "7db03daf2603b72a115c156a6d2a76e9accc31172d7fce0d5f55cf0eb3b603a1"
+},
+"hprd_query_dense_16_26__spec_wrong": {
+"identity_file": "0d5af99683010cdbedd4146ef5892b0d148214e4e62ff83d8b6a9976c01866f1",
+"tables_file": "d7a476cf787f2f5d77adf9f98cd502e2bc356f8f333981627ce798fbda529a6c"
+},
+"hprd_query_dense_16_27__spec_true": {
+"identity_file": "62033fd05d634dc46743cbd9f37bbd51d9dad4ef83e0cbd1e74ce8d2d53a73b4",
+"tables_file": "ee4437c5cc0aa976b45639bc264ba4452305cb7e48267f87cebc9403dd93a8b6"
+},
+"hprd_query_dense_16_27__spec_wrong": {
+"identity_file": "62033fd05d634dc46743cbd9f37bbd51d9dad4ef83e0cbd1e74ce8d2d53a73b4",
+"tables_file": "5ef73cac8bb8e8ba70eeb08d9d42577725ca0f79bb1eab6ca26ae81d930245e1"
+},
+"hprd_query_dense_16_28__spec_true": {
+"identity_file": "b7e8175cbdb64a098f290d202e251559876da5544387da647418b221410ea7ae",
+"tables_file": "6098d3c3c279d858342a8037bea9d2588bce277e7b47d03fccdca6a944a8ee6f"
+},
+"hprd_query_dense_16_28__spec_wrong": {
+"identity_file": "b7e8175cbdb64a098f290d202e251559876da5544387da647418b221410ea7ae",
+"tables_file": "96aec97cb1365198cdf53194101fcd5e3cde7be70e5c5ab49a2587888300044e"
+},
+"hprd_query_dense_16_29__spec_true": {
+"identity_file": "12e3f520968261d53418940559890d2ae6420a20283a938c88499d9dc508b2de",
+"tables_file": "3779048490e6622148d77553d2751dabacc34398059bba1677881b93c0c447b6"
+},
+"hprd_query_dense_16_29__spec_wrong": {
+"identity_file": "12e3f520968261d53418940559890d2ae6420a20283a938c88499d9dc508b2de",
+"tables_file": "cdfa489d3e86949d614cf60050e1c1697a9f2386453eadc4ac1652e7482a9a13"
+},
+"hprd_query_dense_16_30__spec_true": {
+"identity_file": "425478089dc65eaa2902678d75c0284f4dd19a649aeb6210947d29b23c78e663",
+"tables_file": "6f0842d271ee48469cd9f7073dddaa42e5a047e7c6b17827c088b259992f2400"
+},
+"hprd_query_dense_16_30__spec_wrong": {
+"identity_file": "425478089dc65eaa2902678d75c0284f4dd19a649aeb6210947d29b23c78e663",
+"tables_file": "8532bd5d5712d9a0bde6235ba348ed34d5481f64432d531ed12d83faba75fc9c"
+},
+"hprd_query_dense_16_31__spec_true": {
+"identity_file": "f32d7824f0a5068fd3246ae13c36f1043c5e3a5f2470d58675afdd8fd9165e4d",
+"tables_file": "55fd0585d3cdd880f47b29d51d087c7cf925bf12316488386268216dc04e17ca"
+},
+"hprd_query_dense_16_31__spec_wrong": {
+"identity_file": "f32d7824f0a5068fd3246ae13c36f1043c5e3a5f2470d58675afdd8fd9165e4d",
+"tables_file": "6932932e156d5fe78a6d08d597a329dc8c60555587451db1c209d6df97bbfd3c"
+},
+"hprd_query_dense_16_32__spec_true": {
+"identity_file": "20345197ffc6d850c99dad836fd665189512c877ca42ffd0f541d368a705eb2f",
+"tables_file": "949d57a5597747442eba444cbdd71e3345334bf955c477b324f768ad3255d3ac"
+},
+"hprd_query_dense_16_32__spec_wrong": {
+"identity_file": "20345197ffc6d850c99dad836fd665189512c877ca42ffd0f541d368a705eb2f",
+"tables_file": "60ccae982d1c214d5f7e652af9363ef6b36c5abac9596e7b24405565847ac781"
+},
+"hprd_query_dense_16_33__spec_true": {
+"identity_file": "807e18a43c6551b0a215e2ffbe62f09d9adfb720c5b1fa34fc85846cc243a72e",
+"tables_file": "4aaf1948d74d479570bc63d9afa4a3eca09545a742909a31b72f97db74503cd8"
+},
+"hprd_query_dense_16_33__spec_wrong": {
+"identity_file": "807e18a43c6551b0a215e2ffbe62f09d9adfb720c5b1fa34fc85846cc243a72e",
+"tables_file": "897eaaff96a8c1220d3f58af7b5791ee8727b2be3650998e14e69ef39124e25e"
+},
+"hprd_query_dense_16_34__spec_true": {
+"identity_file": "668f846cd308124b5f4a7bb35beb6e1c987b06961dd4b43fd183e3357f1a7e2e",
+"tables_file": "9d01c03677d161edaec4b0dab82b32ff373dfbd9f0f04e75e3efe8ea23a023a0"
+},
+"hprd_query_dense_16_34__spec_wrong": {
+"identity_file": "668f846cd308124b5f4a7bb35beb6e1c987b06961dd4b43fd183e3357f1a7e2e",
+"tables_file": "96abe0eba1d4da58a09d4601df636229dc5c7e8ad32f0276a8bd94ab23a92bae"
+},
+"hprd_query_dense_16_35__spec_true": {
+"identity_file": "6295594f222a9e7dd0597c67dc7ecb587817a7de7a255ebd203d0a48eeb386f2",
+"tables_file": "17784f32974d6777f175d96ea4e17a671c676193eef9c3ab4d9092634c875f60"
+},
+"hprd_query_dense_16_35__spec_wrong": {
+"identity_file": "6295594f222a9e7dd0597c67dc7ecb587817a7de7a255ebd203d0a48eeb386f2",
+"tables_file": "64ae104d4b4db25898b31a18aba45288fff077d8f5aebcf1a4b2bf562b3456e0"
+},
+"hprd_query_dense_16_36__spec_true": {
+"identity_file": "a33893de5e8856faf4b19a0e118ad8d984752074b3154d53f7549660f3ccbf5e",
+"tables_file": "e1d7efc089753ef1e11227ac2480faf873190db9883a083cbd8de745f28771a8"
+},
+"hprd_query_dense_16_36__spec_wrong": {
+"identity_file": "a33893de5e8856faf4b19a0e118ad8d984752074b3154d53f7549660f3ccbf5e",
+"tables_file": "c927f870069a5229466f3f395dd85cfd2333ff2bcce9d843f73087b5fc582a64"
+},
+"hprd_query_dense_16_37__spec_true": {
+"identity_file": "2098c055875ebe91cc1adc89c22d32eee042a9908812f2fc9a0aa53ae3fd0779",
+"tables_file": "72b58e4f705f2a548c706975dd62d7d68df785add3109e1a05725853a27613e9"
+},
+"hprd_query_dense_16_37__spec_wrong": {
+"identity_file": "2098c055875ebe91cc1adc89c22d32eee042a9908812f2fc9a0aa53ae3fd0779",
+"tables_file": "3978255d1be0a927f46bc2c89ac13588999a405fa2da6ba0b279738a0e6e1782"
+},
+"hprd_query_dense_16_38__spec_true": {
+"identity_file": "f1231a1a7ee35bd9f15469db8f9a39d61be822583fe767e94dfe25afdb818e70",
+"tables_file": "c412a9d5655cab06c74bb1fa92f2ba9e7c132bd61181b60286da389576bd3613"
+},
+"hprd_query_dense_16_38__spec_wrong": {
+"identity_file": "f1231a1a7ee35bd9f15469db8f9a39d61be822583fe767e94dfe25afdb818e70",
+"tables_file": "94cc2f115a06f8d9f56989d5f2fda04d9d5321785216397949c7ef56784d8fbb"
+},
+"hprd_query_dense_16_39__spec_true": {
+"identity_file": "ae765303c7916cf24591faa129c69d569f2bd43d67e94a5dff8dd00d19b1a211",
+"tables_file": "3a26bdf476ba2ac9a005cdcbc853ec7beffff56760559b3a02be6c53af601248"
+},
+"hprd_query_dense_16_39__spec_wrong": {
+"identity_file": "ae765303c7916cf24591faa129c69d569f2bd43d67e94a5dff8dd00d19b1a211",
+"tables_file": "156b0495a5acf204eb335f0ebad0d02564e96f8240d280e731a1470c1f3d3b09"
+},
+"hprd_query_dense_16_40__spec_true": {
+"identity_file": "0f5bb4719dfd77bf6517a22ebe68fdbe7d4bd4dc3d6594eb9a2c239245a69e42",
+"tables_file": "e8cb8b879d3d41dd56de1eed428364c771fa2d6d097bb82436eb72afb50c0763"
+},
+"hprd_query_dense_16_40__spec_wrong": {
+"identity_file": "0f5bb4719dfd77bf6517a22ebe68fdbe7d4bd4dc3d6594eb9a2c239245a69e42",
+"tables_file": "dc548b4d527fd9812e91ba4f202d61f21f89ee2b75b91743d7fae5c516b68b64"
+},
+"hprd_query_dense_16_41__spec_true": {
+"identity_file": "3cc65508e90aa17baf1dadfe5ce50f3f2a9ce17e030b3be80c3706e5d024ac9b",
+"tables_file": "245f142bd2aa1c030d0fcdbaedfd7e585dab3425ad61a7535a479934055313a6"
+},
+"hprd_query_dense_16_41__spec_wrong": {
+"identity_file": "3cc65508e90aa17baf1dadfe5ce50f3f2a9ce17e030b3be80c3706e5d024ac9b",
+"tables_file": "b34ddde3c64047807c27674c960782dbf2be02eb6f77d9dfcaf9bc1087b4fbac"
+},
+"hprd_query_dense_16_42__spec_true": {
+"identity_file": "4846558cf441b5536522301596d14432c78058112a0a3f2da8c45910b6459aff",
+"tables_file": "3fdbc3408b13c201d051e07522308dda1f337d83eb3adcf6b29e8c247c9f5b69"
+},
+"hprd_query_dense_16_42__spec_wrong": {
+"identity_file": "4846558cf441b5536522301596d14432c78058112a0a3f2da8c45910b6459aff",
+"tables_file": "8f4500e51b1e1c9f05eb2e189269c938d25327bc8d35bfa1eb1cd92e169794f0"
+},
+"hprd_query_dense_16_43__spec_true": {
+"identity_file": "64717d72bad260363a8540b266bfbdf2612f281877eb33154b15bd4d5bda58fe",
+"tables_file": "94119f28b6afbbf412f8713af744731229360bfd16a04b297934477db3f1f80a"
+},
+"hprd_query_dense_16_43__spec_wrong": {
+"identity_file": "64717d72bad260363a8540b266bfbdf2612f281877eb33154b15bd4d5bda58fe",
+"tables_file": "fcfcd02e4b92d0bf6dfc5b73611407c4e51141524211f9b5a6da32b3e4477451"
+},
+"hprd_query_dense_16_44__spec_true": {
+"identity_file": "6e326ab27d59179842f371df6b800e5e6f1d7a654f2e0829a5e03bc395cfa1c3",
+"tables_file": "77e2bbd0689823de94cf63110e67793d3c6818866b01186053cc9eef69f65410"
+},
+"hprd_query_dense_16_44__spec_wrong": {
+"identity_file": "6e326ab27d59179842f371df6b800e5e6f1d7a654f2e0829a5e03bc395cfa1c3",
+"tables_file": "9de052bcf11146a2b1c2578aef03a56702fefc007a2caf2e1db75456615184eb"
+},
+"hprd_query_dense_16_45__spec_true": {
+"identity_file": "168df6e711f0e6243e3f1b317b14c173d3ac3d4bad9df003f3be1bb44210c836",
+"tables_file": "26d18df37a9dc15fefa975323a84b4f563260b0c6ede853eaa8083e4dc75236f"
+},
+"hprd_query_dense_16_45__spec_wrong": {
+"identity_file": "168df6e711f0e6243e3f1b317b14c173d3ac3d4bad9df003f3be1bb44210c836",
+"tables_file": "1c66f7a2788d1ec7a2a04f00252728c8f1c9dca6af1f789d5ce22cf8eec2a9fd"
+},
+"hprd_query_dense_16_46__spec_true": {
+"identity_file": "657ec667886a4dc0b9821a7c13ddc0c4a628221f5bc06af940f7d1e2e5b21f34",
+"tables_file": "30170a304c34e7523608b02c52b1ac0ea52f1e5701b0c8dd35f47f18920866bb"
+},
+"hprd_query_dense_16_46__spec_wrong": {
+"identity_file": "657ec667886a4dc0b9821a7c13ddc0c4a628221f5bc06af940f7d1e2e5b21f34",
+"tables_file": "d3929d8bc5acf8790317213efd072bec858401a33bf3035ed78e43750bed1fdf"
+},
+"hprd_query_dense_16_47__spec_true": {
+"identity_file": "f2af0ca12aec85fb5c9fa5176225447b1b1df169205285a27c37faecad8dfd19",
+"tables_file": "c90184e8e0a20f430553c2d6e0b89e7442ff1d3d8160755290eef4b67abeab5a"
+},
+"hprd_query_dense_16_47__spec_wrong": {
+"identity_file": "f2af0ca12aec85fb5c9fa5176225447b1b1df169205285a27c37faecad8dfd19",
+"tables_file": "9893b8f3e14278bfbf03414894f52da68d9066fa17d15b7fdfee31edacfe38a8"
+},
+"hprd_query_dense_16_48__spec_true": {
+"identity_file": "85acc55f98b2a80092c28a44733ef650a153122cb4add518c1eb56a8161f8121",
+"tables_file": "a0409b27d61282173f915f6aa4c72654dfdb686ddd7d8ab77756932dde07bfe9"
+},
+"hprd_query_dense_16_48__spec_wrong": {
+"identity_file": "85acc55f98b2a80092c28a44733ef650a153122cb4add518c1eb56a8161f8121",
+"tables_file": "240fd729915f9711e4c9568c8676ae730a72cba87f27749fadead16a3a512538"
+},
+"hprd_query_dense_16_49__spec_true": {
+"identity_file": "d5b64a80e705ec193081acf460eeb13a32c2269f279ebae7a4855a2c6294b422",
+"tables_file": "4efda1ef5dd1aef3f016d229e075b894d9d6cdc18b482084bfa3638985a8eb14"
+},
+"hprd_query_dense_16_49__spec_wrong": {
+"identity_file": "d5b64a80e705ec193081acf460eeb13a32c2269f279ebae7a4855a2c6294b422",
+"tables_file": "0b18678eb9656b7998e27d0e17d149eedd0ad612f2f26e0da9f62021aa30376c"
+},
+"hprd_query_dense_16_50__spec_true": {
+"identity_file": "7022ec6b3cf659c0a7bce9d9bdea3ffd63e2d84ccec33e6a0b24f979a52dff8a",
+"tables_file": "57f206bb41a5d1e840af7f75397b4d572c189b481f72b12aee0d4580db7abdc7"
+},
+"hprd_query_dense_16_50__spec_wrong": {
+"identity_file": "7022ec6b3cf659c0a7bce9d9bdea3ffd63e2d84ccec33e6a0b24f979a52dff8a",
+"tables_file": "95c5e6e6c853277e3eb0ac0da301b778ebdf892ff2d04d44dc5e7741901a9aea"
+},
+"hprd_query_dense_16_51__spec_true": {
+"identity_file": "d55fc7ea37ca7c6335add65ac6e02c52f997cbf4328c740ebbdaa722c9d56a6e",
+"tables_file": "a20f36603de34da3a3d26417a9da7725e2d9aa0c121948e9daa3b3e72a107c9e"
+},
+"hprd_query_dense_16_51__spec_wrong": {
+"identity_file": "d55fc7ea37ca7c6335add65ac6e02c52f997cbf4328c740ebbdaa722c9d56a6e",
+"tables_file": "88a4b8ffb83748dc8f59a55cf8fd773c36e11b7745d8c2dfd6cb645415358224"
+},
+"hprd_query_dense_16_52__spec_true": {
+"identity_file": "855d49ee19d01898a056930812741c51808558952c21ca3936316b76285c3f65",
+"tables_file": "c9d4507d66ea6c08e79193eeba5f49181bad7399df8b838245c9688dfcfd5fbc"
+},
+"hprd_query_dense_16_52__spec_wrong": {
+"identity_file": "855d49ee19d01898a056930812741c51808558952c21ca3936316b76285c3f65",
+"tables_file": "4c94b6510ff0a5824266f982712958b4175ab9e276ceee71ccc519d89a1124fe"
+},
+"hprd_query_dense_16_53__spec_true": {
+"identity_file": "92dde42380afd8db5e112adf2dc3076873f547c29907fcca1d067d489a2f0b7b",
+"tables_file": "1621354e2442c39d32acd69a01d4893ba0d895f5e76510e453fdb198323a4cdc"
+},
+"hprd_query_dense_16_53__spec_wrong": {
+"identity_file": "92dde42380afd8db5e112adf2dc3076873f547c29907fcca1d067d489a2f0b7b",
+"tables_file": "95a10fbf490c918bc8e34af97ff9d9a4f48232d7834b3ecf2fe12edb9f621846"
+},
+"hprd_query_dense_16_54__spec_true": {
+"identity_file": "bef9a0ab48a2cbb0bed8259db88140d5d3b4add614f196c9d0ff0a885e9606e7",
+"tables_file": "f5b29d931650a3716f60a5b6a6d6fc250e32954a7e3dea2d075f260b9d2dfb63"
+},
+"hprd_query_dense_16_54__spec_wrong": {
+"identity_file": "bef9a0ab48a2cbb0bed8259db88140d5d3b4add614f196c9d0ff0a885e9606e7",
+"tables_file": "86ac539a7b5fc34e78e9bd0f3fab7b83bdb5883ac1a131ef492d4fb5ccbc8695"
+},
+"hprd_query_dense_16_55__spec_true": {
+"identity_file": "c8f7f662a84e2b2cc47615e150a5d0cc141a7cff117e34ebfe696898fa94d71d",
+"tables_file": "5b4924a9cc0173258c6304cffec574d56b9e783b90dfebc85815cd90b54010e3"
+},
+"hprd_query_dense_16_55__spec_wrong": {
+"identity_file": "c8f7f662a84e2b2cc47615e150a5d0cc141a7cff117e34ebfe696898fa94d71d",
+"tables_file": "52afa6042af4cd367f00c4fba19f26b274ff7d6f8f9cc111bdab7db0079b71eb"
+},
+"hprd_query_dense_16_56__spec_true": {
+"identity_file": "87b5172240cf132a3c18ed7ed0f8f323af813140f3245e01359c59e90e98cdfc",
+"tables_file": "f4c422386242c7e0d0d3db2258195d98e287e3380ff75f115a591d69e14d72a4"
+},
+"hprd_query_dense_16_56__spec_wrong": {
+"identity_file": "87b5172240cf132a3c18ed7ed0f8f323af813140f3245e01359c59e90e98cdfc",
+"tables_file": "93121236180b4f3741d62a908245e6739fa0137809c85cbfdddec2aab3f1776e"
+},
+"hprd_query_dense_16_57__spec_true": {
+"identity_file": "c13b5f61874aea912f2ef27f5d90b3e92ad4e98f458e94e1cff952a87cd666ba",
+"tables_file": "d65477b6010f077f8f95b69ace3ea88b4d84e0a3f99bb7bf73b79599ed9c25f2"
+},
+"hprd_query_dense_16_57__spec_wrong": {
+"identity_file": "c13b5f61874aea912f2ef27f5d90b3e92ad4e98f458e94e1cff952a87cd666ba",
+"tables_file": "5285fde49936044d4dc8edbb8c6e8fb2c4ce72489aa629ec559617e31c1b93c5"
+},
+"hprd_query_dense_16_58__spec_true": {
+"identity_file": "23845fe83b13a1f88fad0bbf5f053558eab2ab5685e88ac0944354c634fcb968",
+"tables_file": "e95bb7ab49b71020c8790bd6f1acd747596eb33b51887bb92d5d42783ab6c264"
+},
+"hprd_query_dense_16_58__spec_wrong": {
+"identity_file": "23845fe83b13a1f88fad0bbf5f053558eab2ab5685e88ac0944354c634fcb968",
+"tables_file": "783df3da873f35cf457d0df611c7dbc75159be552e5b08eaf873475f3658daa1"
+},
+"hprd_query_dense_16_59__spec_true": {
+"identity_file": "bbdb8566d22523852877e96b5bc93fc981ff7e9213b889a80d8f55caa78678f8",
+"tables_file": "0905f93a66285fcc732f4a75cef5e0605aa8fb3f56987b22b5d0186db55903a2"
+},
+"hprd_query_dense_16_59__spec_wrong": {
+"identity_file": "bbdb8566d22523852877e96b5bc93fc981ff7e9213b889a80d8f55caa78678f8",
+"tables_file": "3bf52e43b0194b848b3c97028714cc6cd3da5184cbcb26b046c24c020b6387b6"
+},
+"hprd_query_dense_16_60__spec_true": {
+"identity_file": "bf65b31cc331d0e35cbac4e6d6642e24ae211135f8f0c3aee85b340d78c87db1",
+"tables_file": "778082455e4b4470289fc74dc657cf15d8b768e364e13a006d39f83b6a7a8536"
+},
+"hprd_query_dense_16_60__spec_wrong": {
+"identity_file": "bf65b31cc331d0e35cbac4e6d6642e24ae211135f8f0c3aee85b340d78c87db1",
+"tables_file": "644b4dfce571a24afa4ef31bb3172d420db15864ae1a485fbced6e7226c706a1"
+},
+"hprd_query_dense_16_61__spec_true": {
+"identity_file": "84282c94005987e4078490948d4f2abd8e663de92ed8db2e9d65ae1ccbffea67",
+"tables_file": "cfd9fd29a4a733c3bb141d115cdda8a092fdc192cd57144ddcf24a73200aa6af"
+},
+"hprd_query_dense_16_61__spec_wrong": {
+"identity_file": "84282c94005987e4078490948d4f2abd8e663de92ed8db2e9d65ae1ccbffea67",
+"tables_file": "868510eacef97fbb5c6cd06feb45721b86e8d95750c09f603b338fd9a9acf32d"
+},
+"hprd_query_dense_16_62__spec_true": {
+"identity_file": "6974bce5049529d9a39fcc583995f078215f14fbcade526d701ee5159406026b",
+"tables_file": "d554b320501d91d135efd53086b54924bb8db94c63a4741927d891ddf478a132"
+},
+"hprd_query_dense_16_62__spec_wrong": {
+"identity_file": "6974bce5049529d9a39fcc583995f078215f14fbcade526d701ee5159406026b",
+"tables_file": "3a71afbfa89bf7a7a60c8c31f65727d2b33ec202408870b09b08a71e682843c2"
+},
+"hprd_query_dense_16_63__spec_true": {
+"identity_file": "7afd5a9da2c1228f90b67c52b740a1acca882902ad93b0f1f9e350e88f6d0329",
+"tables_file": "2e63242fa34e0d19057fce4752b84eef1501da88666dea459def1f34d9cf8a2d"
+},
+"hprd_query_dense_16_63__spec_wrong": {
+"identity_file": "7afd5a9da2c1228f90b67c52b740a1acca882902ad93b0f1f9e350e88f6d0329",
+"tables_file": "51eb3d223bce5ba875bb2e7eeaeb4b1e8484cbeff28b3a42377a1430f3407db8"
+},
+"hprd_query_dense_16_64__spec_true": {
+"identity_file": "7a845f44614bd9e32d3d34d5a3d9260b7a4b86d04a1ea2a30a2e9e631a3464d0",
+"tables_file": "a2424b4585f39a159e324cd6e78d3121480a24c0e504312f962bc2d86c2570c5"
+},
+"hprd_query_dense_16_64__spec_wrong": {
+"identity_file": "7a845f44614bd9e32d3d34d5a3d9260b7a4b86d04a1ea2a30a2e9e631a3464d0",
+"tables_file": "8dfae5e1d576b1604e7fc1a55db50eae535e3a6f74c28fcdea49d3fea6a3fc5c"
+},
+"hprd_query_dense_16_65__spec_true": {
+"identity_file": "ab32b05158d0b5f4350c47f9685833a81e5e3767a4be7c531d1d35ffa3e2476a",
+"tables_file": "cf553f4272143493a81404aaf62e9a10fbbed359b43d2413a71a696d076afc8e"
+},
+"hprd_query_dense_16_65__spec_wrong": {
+"identity_file": "ab32b05158d0b5f4350c47f9685833a81e5e3767a4be7c531d1d35ffa3e2476a",
+"tables_file": "8da6de9c1d82cd9c0d70f3441899541baba20b446c272e0153e9874cb38480e4"
+},
+"hprd_query_dense_16_66__spec_true": {
+"identity_file": "2bcd85e5bd61437fa0382cfcfdeaf6df162dd88ff10ca3f5acd6cb7f611a865d",
+"tables_file": "2cc6a90630af57b4e9cab9ca80eb91d52804dec8d2b2370c3ab0e9050d00b3c3"
+},
+"hprd_query_dense_16_66__spec_wrong": {
+"identity_file": "2bcd85e5bd61437fa0382cfcfdeaf6df162dd88ff10ca3f5acd6cb7f611a865d",
+"tables_file": "f8e5222d44dd2519d8d81964714684da3e49e8a25a548c5b362422824effb46e"
+},
+"hprd_query_dense_16_67__spec_true": {
+"identity_file": "0a1e12eea9159285eccbca58cbc4d2ce49f35c0e0e6b9bb7775a317937cf74a5",
+"tables_file": "de1bd29335a407ec76471ec1aa8b139d737911c6c0e12a2d7114afdd317adff9"
+},
+"hprd_query_dense_16_67__spec_wrong": {
+"identity_file": "0a1e12eea9159285eccbca58cbc4d2ce49f35c0e0e6b9bb7775a317937cf74a5",
+"tables_file": "6390bf86c4ac756263a72eda31cb7114c8d5f09b1cf77ebd0f94c2d8e0913f9e"
+},
+"hprd_query_dense_16_68__spec_true": {
+"identity_file": "59a938b9566c3b2787d7c7fbf0115bbd59460b3efeb0ea36a3d3f673144e1632",
+"tables_file": "9d85ae7ddad8613909843e5f02b1dc08100028eb823cca169223f43342cffae3"
+},
+"hprd_query_dense_16_68__spec_wrong": {
+"identity_file": "59a938b9566c3b2787d7c7fbf0115bbd59460b3efeb0ea36a3d3f673144e1632",
+"tables_file": "56de73795799cc4e4d4ad9a3f30cb85463cdc624d66bf14c7e236c9acc8d32cb"
+},
+"hprd_query_dense_16_69__spec_true": {
+"identity_file": "21b377279627b52dafa7beb1cb4d0487d0543f6904c5936c528d81953d1e8d39",
+"tables_file": "0eba3d7b893547830483d33806590d122057e3ba62e8cf41e5cc68385d6d5792"
+},
+"hprd_query_dense_16_69__spec_wrong": {
+"identity_file": "21b377279627b52dafa7beb1cb4d0487d0543f6904c5936c528d81953d1e8d39",
+"tables_file": "8dc0c3b61220aae3933da7846bcc44983048922a11ba982d0a8850e0fb7f4a5a"
+},
+"hprd_query_dense_16_70__spec_true": {
+"identity_file": "092e4b7f992b4decdc140cad5f7dce80e8ec0eb4a3951a26723b84fc0f07cc79",
+"tables_file": "f7a67319c5a033b316d9d5e0f67338cf2d4432957edfe0985357939b6fd156b3"
+},
+"hprd_query_dense_16_70__spec_wrong": {
+"identity_file": "092e4b7f992b4decdc140cad5f7dce80e8ec0eb4a3951a26723b84fc0f07cc79",
+"tables_file": "1b651ef1c9586d2b3c1021611296ab4a4db63ed069c36abd7949f70d2172bd4f"
+},
+"hprd_query_dense_16_71__spec_true": {
+"identity_file": "3415c4be02931f54f32490eef90ed2c3da5252e0c95d8bb357c15ceb41e70638",
+"tables_file": "480bc51a5e6d99279d33f7912e6f155382b6f7cb894bc4c1560aff4a8dda1c37"
+},
+"hprd_query_dense_16_71__spec_wrong": {
+"identity_file": "3415c4be02931f54f32490eef90ed2c3da5252e0c95d8bb357c15ceb41e70638",
+"tables_file": "c3d4d15940ca4314dddc66ab174c596cdcef353761f4ec56e9b33b79cccce36f"
+},
+"hprd_query_dense_16_72__spec_true": {
+"identity_file": "b68f72fafa1dd1310883648fab7a61e74e97216c6f8d6e49df90e7b40657f66f",
+"tables_file": "a050631fef67c7b4a18bdc4ce47b7d37880907674e6e4caac156d700f2a422be"
+},
+"hprd_query_dense_16_72__spec_wrong": {
+"identity_file": "b68f72fafa1dd1310883648fab7a61e74e97216c6f8d6e49df90e7b40657f66f",
+"tables_file": "9aae1811e2758dfb7059800b29f8ef9aa8fe185cda96b0fb322e42ee930dc4eb"
+},
+"hprd_query_dense_16_73__spec_true": {
+"identity_file": "0a7a3b1b239f1e7f6ab57ffb80d8e2ab947a95f5deb33803be7a716e2a5ea6f0",
+"tables_file": "8edfbdc148064aad8083f0f56854f25e5cd611f6cc28bbd13a0ab1700ef96cd9"
+},
+"hprd_query_dense_16_73__spec_wrong": {
+"identity_file": "0a7a3b1b239f1e7f6ab57ffb80d8e2ab947a95f5deb33803be7a716e2a5ea6f0",
+"tables_file": "87f4a22d985e6781835edd138b56ec3eb53e798d72533b5103628d5b833db05b"
+},
+"hprd_query_dense_16_74__spec_true": {
+"identity_file": "ae7b386016f5866d186036f8eb765d7fb9c45c6f3d2efe560f9a066b3a9db7d9",
+"tables_file": "b2bc78a1079ed938334649e70618665458d2e977e82731b62a2cea198d6a688d"
+},
+"hprd_query_dense_16_74__spec_wrong": {
+"identity_file": "ae7b386016f5866d186036f8eb765d7fb9c45c6f3d2efe560f9a066b3a9db7d9",
+"tables_file": "37827bcde67d6ba5afce56fb43be4a5667e494b3f1ba0043b7a573ee4bdb3eb6"
+},
+"hprd_query_dense_16_75__spec_true": {
+"identity_file": "4a91cc493e9e1fd07bc3b5a74ad644933eea4dfc085539d1976419e051c06f8c",
+"tables_file": "09e8ddc87a0d286e429950ebd3890e3a9e02e2ae894583823a87dbcf7e61049e"
+},
+"hprd_query_dense_16_75__spec_wrong": {
+"identity_file": "4a91cc493e9e1fd07bc3b5a74ad644933eea4dfc085539d1976419e051c06f8c",
+"tables_file": "8d85bddad2f82dce53166f6752149e5f0b8654be3bbc269e00779af54593fb0e"
+},
+"hprd_query_dense_16_76__spec_true": {
+"identity_file": "7788f6d91362399b03d6b18700f7fea4b226b64a023cbee3e0a14ce1d6320791",
+"tables_file": "dcdeb306d19790f9603cac3447a04fc81099ff851f47236572d33fb4fe586e4f"
+},
+"hprd_query_dense_16_76__spec_wrong": {
+"identity_file": "7788f6d91362399b03d6b18700f7fea4b226b64a023cbee3e0a14ce1d6320791",
+"tables_file": "4c0e9fbeddc322594ac5a6a271328cbac5fe9e7f1fa77eaa233c97a5a07ffc74"
+},
+"hprd_query_dense_16_77__spec_true": {
+"identity_file": "a2788ae9198113213cde96250c74710ab608fa9ee2f53aab2312797019a5ac08",
+"tables_file": "5dc238f2296ee88ca94cfd07326acc7fc062ee1ca6c3bd236d2047150eed9802"
+},
+"hprd_query_dense_16_77__spec_wrong": {
+"identity_file": "a2788ae9198113213cde96250c74710ab608fa9ee2f53aab2312797019a5ac08",
+"tables_file": "2e956ca4c7937dac3b55106f97351816aaa316af2163d9532538f9753fc4b149"
+},
+"hprd_query_dense_16_78__spec_true": {
+"identity_file": "29171c4425f822de50264c075b65e7ca97235af4970310c98fd8bea238e21cb6",
+"tables_file": "0ede2b253a07f6889246affcbfdb7c48bb6c16d27678a6dc8ebfae4d26dbb203"
+},
+"hprd_query_dense_16_78__spec_wrong": {
+"identity_file": "29171c4425f822de50264c075b65e7ca97235af4970310c98fd8bea238e21cb6",
+"tables_file": "4403e2d1848fb81c576dd26a72edd3f66b265784a41f98a0ad6174bf5416a390"
+},
+"hprd_query_dense_16_79__spec_true": {
+"identity_file": "d4fa0daf35dae981a12c704b53324b37345998e36acc80445835a8ec97469793",
+"tables_file": "bb5d07b9350e561addbcf4679f3512e089fdee04e8ef71dffb99ede3af14c583"
+},
+"hprd_query_dense_16_79__spec_wrong": {
+"identity_file": "d4fa0daf35dae981a12c704b53324b37345998e36acc80445835a8ec97469793",
+"tables_file": "bcd0c407c2870f37f0b4697c15bf9f89df8e34663a5be2998fd6b57de54ff50d"
+},
+"hprd_query_dense_16_80__spec_true": {
+"identity_file": "9ba8d256702926343f4be66a1eac87738923bcd7244d97d005c2d589640de2d6",
+"tables_file": "ec0ab7f64d12f257b9dfce78da8613f6d4b99b14ed4553f1f2f66504b22fe3b5"
+},
+"hprd_query_dense_16_80__spec_wrong": {
+"identity_file": "9ba8d256702926343f4be66a1eac87738923bcd7244d97d005c2d589640de2d6",
+"tables_file": "7a1f13d937fa07960574de33d40465979e52f8d990919736d4b0a61e2cde944d"
+},
+"hprd_query_dense_16_81__spec_true": {
+"identity_file": "a14c529e9effd2f868586e191ec276c8285a41b3dac09ab32fdee19ee90d4a7e",
+"tables_file": "f8d7a54f87ee561d670990bd81618c8f1fa4dffd5fd7e1f279024b56f344e476"
+},
+"hprd_query_dense_16_81__spec_wrong": {
+"identity_file": "a14c529e9effd2f868586e191ec276c8285a41b3dac09ab32fdee19ee90d4a7e",
+"tables_file": "d98fcee741a17a4720444ef9525f98c700a64c275f574dde5c1ec28fab5919d6"
+},
+"hprd_query_dense_16_82__spec_true": {
+"identity_file": "2fc10f4ad10ae5091fb04e9a89c0b8740691e20acc6518c3ad49509c374e2713",
+"tables_file": "c3e40f1d86f699b84da82dc6c4b9a62a5c86a2a14c834f21f10299a76b6e9829"
+},
+"hprd_query_dense_16_82__spec_wrong": {
+"identity_file": "2fc10f4ad10ae5091fb04e9a89c0b8740691e20acc6518c3ad49509c374e2713",
+"tables_file": "54342f99df3d34ef02ee042552c1e02979f684a67c90a70e4774f93b355a6440"
+},
+"hprd_query_dense_16_83__spec_true": {
+"identity_file": "3357134e775a6a0556bf46c9e654b2f0450d058d4ed46ee5b3d6f313fdcf3d0b",
+"tables_file": "acaed6e16c6ad033cc1a1e837b972ca7dd4b9a48a16207392ba6315c44e04163"
+},
+"hprd_query_dense_16_83__spec_wrong": {
+"identity_file": "3357134e775a6a0556bf46c9e654b2f0450d058d4ed46ee5b3d6f313fdcf3d0b",
+"tables_file": "e5192ec19e90b2a7c3c3bcdd409b9ca597723e12ea7e112d0b7414d3324406c1"
+},
+"hprd_query_dense_16_84__spec_true": {
+"identity_file": "f1cef4c69c341b6ae9e7c10af96f881cd5f3ccb772e28325ed46a748dfd199a4",
+"tables_file": "85ba5ff9207cdc508dd843c660d19f89580a1359624c1659d3eb07d3af384f2e"
+},
+"hprd_query_dense_16_84__spec_wrong": {
+"identity_file": "f1cef4c69c341b6ae9e7c10af96f881cd5f3ccb772e28325ed46a748dfd199a4",
+"tables_file": "992d3ee82f6606f5d44f23b018307f700a8ef19820c65a5b84b80bbbb094c6ac"
+},
+"hprd_query_dense_16_85__spec_true": {
+"identity_file": "917d7922a1c563d66f45cb8c9a9df295316792952b83e5fba34d509f0f828607",
+"tables_file": "baba935eb87c12d7df86b3d3dca7722520d487e4ba7baaca7b6e0981a6e7aadf"
+},
+"hprd_query_dense_16_85__spec_wrong": {
+"identity_file": "917d7922a1c563d66f45cb8c9a9df295316792952b83e5fba34d509f0f828607",
+"tables_file": "1da1af2d5d7649b8f01881c6f2a62fccddcadcab349c797bf076be5e1b84ddfa"
+},
+"hprd_query_dense_16_86__spec_true": {
+"identity_file": "4d92e7dfc5b3e8f1c9fbcb3ffaf00dc678c8bbc49462e2fdc9f5227c27c2d328",
+"tables_file": "d2f4b6a64993f14fce80f3f123b5bb100e773e4af39d453bcba497eaa8b0bb92"
+},
+"hprd_query_dense_16_86__spec_wrong": {
+"identity_file": "4d92e7dfc5b3e8f1c9fbcb3ffaf00dc678c8bbc49462e2fdc9f5227c27c2d328",
+"tables_file": "b974d5c009731296a92f8996a1831c2de73ddad552b1dab8b5ba4f455b959bd2"
+},
+"hprd_query_dense_16_87__spec_true": {
+"identity_file": "8d85a86c758315e57dc7f5002aa3c5593f6de070e659f50e9616efdaf075ef9b",
+"tables_file": "8694e11cc2416dc78faba786561cf78c8e14dab0e59f52de98449629ec8787ae"
+},
+"hprd_query_dense_16_87__spec_wrong": {
+"identity_file": "8d85a86c758315e57dc7f5002aa3c5593f6de070e659f50e9616efdaf075ef9b",
+"tables_file": "b01f7a3341b57a152d09f0d4d8e327ee95d3efb7d5a9bf83333b343155434cf5"
+},
+"hprd_query_dense_16_88__spec_true": {
+"identity_file": "94aa0dd1f0ab975632b38caee3565546a7bb5127e9c9c673c1292e875f085c1e",
+"tables_file": "fa2e7166c744bdb08f5e8223b788e664873e97670f670f2443d01a2103756cf6"
+},
+"hprd_query_dense_16_88__spec_wrong": {
+"identity_file": "94aa0dd1f0ab975632b38caee3565546a7bb5127e9c9c673c1292e875f085c1e",
+"tables_file": "c2872e70d7e3911d3ab7cfb1f27eff7a5a0b6a8bf419e61fafaf929fd19884db"
+},
+"hprd_query_dense_16_89__spec_true": {
+"identity_file": "d8180983a71d101d9c2f4dc24f6cf62acb3bb824e7defbcc056668586931740c",
+"tables_file": "00dd2826b7bbaf2a6777e652e75742735b5dc0538c662e9cf32b578e7bd2acf0"
+},
+"hprd_query_dense_16_89__spec_wrong": {
+"identity_file": "d8180983a71d101d9c2f4dc24f6cf62acb3bb824e7defbcc056668586931740c",
+"tables_file": "d6da3142caa2865217296b9c4cb84f0d687fea8b89d8e684004d9d84611822b3"
+},
+"hprd_query_dense_16_90__spec_true": {
+"identity_file": "5be68ea2ff91f687d1154a8dc766dbef28fc2c10d4b43da4a9b2547857c3db22",
+"tables_file": "08c4509415a884c2ddbac5ff25b97ccf7e221112866feffb9f44fdcb54d05786"
+},
+"hprd_query_dense_16_90__spec_wrong": {
+"identity_file": "5be68ea2ff91f687d1154a8dc766dbef28fc2c10d4b43da4a9b2547857c3db22",
+"tables_file": "9051c0a3de8f174bd569ba6364c3bdf482670c8fba731b6561ec114ab38dae8c"
+},
+"hprd_query_dense_16_91__spec_true": {
+"identity_file": "1a0f677390b34adf86987d354667b8359d1762ca194cbfdce4d32bc03d2d37fb",
+"tables_file": "f53c746b566eeaf7a5c4ef6222b8f569ae2224e4d642c5e47e923b91d431f993"
+},
+"hprd_query_dense_16_91__spec_wrong": {
+"identity_file": "1a0f677390b34adf86987d354667b8359d1762ca194cbfdce4d32bc03d2d37fb",
+"tables_file": "82eb63f350744aa37415b33081e954cf3096eaba6d5d92601adb60af60671b38"
+},
+"hprd_query_dense_16_92__spec_true": {
+"identity_file": "bd14e99986d720a05cd3bfbb49d6823555227e5d9c436be4576f4f35c013311d",
+"tables_file": "a44421f6a49ac6618bcb59b9b860831891acd9106dcc991d204b7d680e08a20e"
+},
+"hprd_query_dense_16_92__spec_wrong": {
+"identity_file": "bd14e99986d720a05cd3bfbb49d6823555227e5d9c436be4576f4f35c013311d",
+"tables_file": "390083548682078ea51ec995b5e2520f21432a50882748b180b0420cd5927596"
+},
+"hprd_query_dense_16_93__spec_true": {
+"identity_file": "d189f7974122770bb191f7a033571f8b2fd88957eb993b04c7fb1eda02bd9152",
+"tables_file": "041f4f35f9459fcc72383c2025631c5a9c2275e29a324beeda328012cd69a564"
+},
+"hprd_query_dense_16_93__spec_wrong": {
+"identity_file": "d189f7974122770bb191f7a033571f8b2fd88957eb993b04c7fb1eda02bd9152",
+"tables_file": "dada2ee63a939b5708a1ff04a4c024b8b19fff9e119de882d10a236043f53972"
+},
+"hprd_query_dense_16_94__spec_true": {
+"identity_file": "8f8d152c9291deb67ace703df6ef18dfe4049730e8a2b04e4b883aad5a7c4f0e",
+"tables_file": "16a4dba6d73b666d36ecc1eacbe4c17234e6416d7e56b333c7dc84be5d474ad6"
+},
+"hprd_query_dense_16_94__spec_wrong": {
+"identity_file": "8f8d152c9291deb67ace703df6ef18dfe4049730e8a2b04e4b883aad5a7c4f0e",
+"tables_file": "20afbd551ee7c99c0949ebd779fd5a1c9e01efbe97e8d97d14068a834dd8affd"
+},
+"hprd_query_dense_16_95__spec_true": {
+"identity_file": "a9fa7dc6162ce43163a20462e582280b780988ed3fbbb00bc7f933889c8eb29d",
+"tables_file": "3c677d0b27edbe17726ba79229f6a5983432fecc68bbb0b398380430a294ba98"
+},
+"hprd_query_dense_16_95__spec_wrong": {
+"identity_file": "a9fa7dc6162ce43163a20462e582280b780988ed3fbbb00bc7f933889c8eb29d",
+"tables_file": "6d98fe28fa23d4f6f0ce62516b7979e258e4a11e63e84d470c4ed6380da16f47"
+},
+"hprd_query_dense_16_96__spec_true": {
+"identity_file": "efa01fd55b2d26da897d2de5639dc318c9373e079f520ceddff7b8b6b848debe",
+"tables_file": "04a0db01467c57fe44de0c43892118840a6cb1776ef10312774c389cb72a9c74"
+},
+"hprd_query_dense_16_96__spec_wrong": {
+"identity_file": "efa01fd55b2d26da897d2de5639dc318c9373e079f520ceddff7b8b6b848debe",
+"tables_file": "c7aab7bbeb6f29896489584dbafe862d48374aa5a1db000f6605997a67aff4c0"
+},
+"hprd_query_dense_16_97__spec_true": {
+"identity_file": "4b8052f6607ca0ecf72ef98b27178b6b088bb49c62e76db9571745ebb2d6260e",
+"tables_file": "2b39763925873fa619f87a299e7f7a01d3a7b0b5a736e91d868d08be335917e4"
+},
+"hprd_query_dense_16_97__spec_wrong": {
+"identity_file": "4b8052f6607ca0ecf72ef98b27178b6b088bb49c62e76db9571745ebb2d6260e",
+"tables_file": "a9223ea1655fc75565a8a6c96260ec4eb40eb09b23322c007d74245b05e41de5"
+},
+"hprd_query_dense_16_98__spec_true": {
+"identity_file": "77b258d7b3b17deb5472ae10ad4c3369a1e6bde5e4a1963d683414f27a0964db",
+"tables_file": "e24cbb36fa9b3296b0aacc6d381c7033a2a0c3e96f37ddaae896daa228a8e660"
+},
+"hprd_query_dense_16_98__spec_wrong": {
+"identity_file": "77b258d7b3b17deb5472ae10ad4c3369a1e6bde5e4a1963d683414f27a0964db",
+"tables_file": "e614e93ae5a3ab9cd565a2e9754936b43a7cb13100d6465c4a339c6c8bea1144"
+},
+"hprd_query_dense_16_99__spec_true": {
+"identity_file": "2d49dfe3bf6da37db656bdb2dba989da3b58acf6c27b4c0ff4eefedb03756465",
+"tables_file": "9d31865eabfb2f8295673626ae37cd1a76fd94d0b02ebe88fbd5828404a841e9"
+},
+"hprd_query_dense_16_99__spec_wrong": {
+"identity_file": "2d49dfe3bf6da37db656bdb2dba989da3b58acf6c27b4c0ff4eefedb03756465",
+"tables_file": "de9a3394c809352a0463902dca0fc4f353c0ab6a7b18a6391be747ce2dc9c396"
+},
+"hprd_query_dense_16_100__spec_true": {
+"identity_file": "8cf30c20d438849d1b0d3e22ab0e67309e4b7cdbcc404bad49e0ec240bddcc47",
+"tables_file": "2e1b9d43c006835fa7d848c6a26dc65716cef14d4387aaee8794cf26137aab8c"
+},
+"hprd_query_dense_16_100__spec_wrong": {
+"identity_file": "8cf30c20d438849d1b0d3e22ab0e67309e4b7cdbcc404bad49e0ec240bddcc47",
+"tables_file": "45742a51cf1fe1750396816ce9ed027db882af26f1e6fc1a534f514992a30c0f"
+}
+}

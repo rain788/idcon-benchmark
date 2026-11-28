@@ -1,0 +1,25 @@
+\begin{table}[t]
+\caption{IdCon-Hard sensitivity (Amendment~5, post hoc): correct runs and ancestor-equal PAR-2 (ms) on all 504 tasks (registered analysis), without the \textsf{decoy\_s} control (432), and without the 113 tasks whose label the observation tables decide up to the existence of an identity (two states excluded by the tables in a scenario whose construction embedding is admissible; 70 of them \textsf{decoy\_s}).}
+\label{tab:sensitivity}
+\centering\footnotesize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{lrr rr rr}
+\toprule
+ & \multicolumn{2}{c}{All (1,008 runs)} & \multicolumn{2}{c}{No \textsf{decoy\_s} (864)} & \multicolumn{2}{c}{Non-trivial (782)}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Method & Correct & PAR-2 & Correct & PAR-2 & Correct & PAR-2\\
+\midrule
+LAD & 725 & 1,635 & 594 & 1,757 & 517 & 1,857\\
+Glasgow & 562 & 2,113 & 460 & 2,209 & 398 & 2,288\\
+Glasgow-staged & 651 & 1,740 & 534 & 1,846 & 464 & 1,940\\
+CP-SAT & 321 & 2,998 & 279 & 2,982 & 254 & 2,966\\
+Trad-CP & 214 & 3,347 & 187 & 3,332 & 165 & 3,320\\
+Enum-Glasgow$^\ast$ & 88 & 3,688 & 82 & 3,659 & 82 & 3,626\\
+Enum-VF2$^\ast$ & 14 & 3,951 & 14 & 3,943 & 14 & 3,937\\
+ASP-cautious$^\ast$ & 15 & 3,968 & 14 & 3,965 & 12 & 3,964\\
+SAT$^\ddagger$ & 240 & 3,378 & 206 & 3,372 & 182 & 3,369\\
+\midrule
+First-match & 626 & 1,901 & 493 & 2,078 & 417 & 2,189\\
+\bottomrule
+\end{tabular}
+\end{table}

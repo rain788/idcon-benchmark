@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use IdCon, please cite it as below."
+title: "IdCon: A Benchmark for Identity-Consensus Diagnosis over Ambiguous Graph Embeddings"
+authors:
+  - family-names: Liu
+    given-names: Yulin
+  - family-names: Liu
+    given-names: Zhiyu
+  - family-names: Wang
+    given-names: Ru
+    email: ru.wang13@bit.edu.cn
+    affiliation: "School of Mechanical Engineering, Beijing Institute of Technology"
+version: "1.2"
+# Code: MIT. IdCon data, references and predictions: CC BY 4.0 (DATA_LICENSE.md).
+# Patched LAD2025 sources: CeCILL-B. Third-party graphs are not redistributed.
+license: MIT
+repository-code: "https://github.com/rain788/idcon-benchmark"

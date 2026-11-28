@@ -1,0 +1,27 @@
+\begin{table}[t]
+\caption{Stage-3 suites (repeat~0, one run per task and budget on IdCon-Hard-X; two repeats at 2\,s on IdCon-Cite). Correct runs within 2, 10 and 60\,s (a run unanswered at a budget is rerun at the next for the methods listed in the design record; -- not rerun). VBS: tasks that no sound method answers within the budget. No certified answer contradicts a reference.}
+\label{tab:newsuites}
+\centering\footnotesize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{lrrr rrr}
+\toprule
+ & \multicolumn{3}{c}{IdCon-Hard-X (68 tasks)} & \multicolumn{3}{c}{IdCon-Cite (192 tasks)}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method & 2\,s & 10\,s & 60\,s & 2\,s$^{2}$ & PAR-2 & 10\,s\\
+\midrule
+LAD & 1 & 30 & 64 & 192 & 2,086 & 191\\
+Glasgow & 1 & 29 & -- & 92 & 3,256 & --\\
+Glasgow-staged & 15 & 33 & 46 & 126 & 2,904 & 107\\
+CP-SAT & 5 & 11 & -- & 124 & 2,911 & 88\\
+Trad-CP & -- & -- & -- & 190 & 2,188 & --\\
+Enum-Glasgow$^\ast$ & 1 & 4 & -- & 104 & 3,118 & --\\
+Enum-VF2$^\ast$ & -- & -- & -- & 77 & 3,300 & --\\
+ASP-cautious$^\ast$ & -- & -- & -- & 223 & 1,964 & 192\\
+SAT$^\ddagger$ & 2 & 2 & 40 & 265 & 1,598 & 192\\
+\midrule
+First-match & 1 & 35 & -- & 114 & 2,837 & --\\
+\midrule
+VBS unsolved & 49 & 23 & 3 & 110 & -- & 0\\
+\bottomrule
+\end{tabular}
+\end{table}

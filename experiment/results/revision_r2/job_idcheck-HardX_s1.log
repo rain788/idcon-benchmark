@@ -1,0 +1,4 @@
+IDCHECK h_geometric_n16384_q128_induced_constrained__decoy_v SATISFIES 428.8
+IDCHECK h_preferential_n16384_q128_induced_constrained__perturbed EMPTY 103.2
+IDCHECK h_regular_n16384_q128_induced_constrained__background SATISFIES 120.8
+IDCHECK h_small_world_n16384_q128_induced_constrained__decoy_u SATISFIES 66.7

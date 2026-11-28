@@ -1,0 +1,8 @@
+{
+ "amendment": 1,
+ "time": "2026-11-26T09:40:21.952220Z",
+ "reason": "decoy_s is decided by the observation tables alone: with max aggregation a state-S identity needs every checked role on an S entity, and decoys reach only a subset of checked roles, so the predicate range excludes S and every decoy_s reference is VIOLATES. decoy_s stays in the release as a predicate-range control; focal_v (one checked role all-V except S decoys) is added as the structure-dependent V-side scenario.",
+ "registered_before": "any focal_v inference or reference; main-population predictions and references were not read to design focal_v beyond the decoy_s label count",
+ "manifest_focal_sha256": "8ca0be5993851d311376fae34461b413eedaf0faf7c32d8d7ebc4df3a65fcd64",
+ "generator_sha256": "b0644fde3ec6c93c3e35307ccf7640935674808880f3e59559d8a5640a64c66c"
+}

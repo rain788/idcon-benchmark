@@ -1,0 +1,19 @@
+\begin{table}[t]
+\caption{The authors\textquotesingle{} own unpublished solvers EG-ICAF and LAD-SV, run in stage~1 and not part of the benchmark (Amendment~4), from the frozen stage-1 records scored against the final references. They are not ranked; they show that the headroom left by the benchmarked methods is not a lower bound on what exact methods can do. VBS unsolved: runs that no sound method answers, over the stage-1 and stage-2 methods / with EG-ICAF / with both.}
+\label{tab:legacy}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr rrr}
+\toprule
+ & \multicolumn{3}{c}{IdCon-Hard (1,008 runs)} & \multicolumn{3}{c}{IdCon-HPRD (400 runs)}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method & Correct & Wrong & PAR-2 & Correct & Wrong & PAR-2\\
+\midrule
+LAD & 725 & 0 & 1,635 & 389 & 0 & 1,036\\
+EG-ICAF & 861 & 0 & 874 & -- & -- & --\\
+LAD-SV & 799 & 0 & 1,352 & 400 & 0 & 971\\
+\midrule
+VBS unsolved & \multicolumn{3}{c}{186 / 34 / 29} & \multicolumn{3}{c}{0 / 0 / 0}\\
+\bottomrule
+\end{tabular}
+\end{table}

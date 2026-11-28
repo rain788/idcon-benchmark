@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\caption{Status of every reported analysis. S1-reg / S2-reg / S3-reg: fixed in the design record of stage 1, 2 or 3 before any run of that stage; S1-post / S2-post: decided after results of that stage; S3-post: decided after results and recorded in Amendment~5 of the stage-3 record; S3 A6/A7: amendments made during the stage-3 runs. Known: whether results on the same suite were known when the analysis was fixed; an analysis fixed before a stage's runs but after earlier results on the same data protects less than a registration before any result.}
+\label{tab:registration}
+\centering\footnotesize
+\begin{tabular}{p{0.52\textwidth}llp{0.20\textwidth}}
+\toprule
+Analysis & Status & Known & Where\\
+\midrule
+2\,s comparison of LAD, Glasgow, CP-SAT, Trad-CP, First-match on Hard and HPRD (correct, wrong, PAR-2) & S1-reg & no & Table~\ref{tab:main}\\
+Reference procedure (LAD2025, Glasgow confirmation, CP-SAT fallback) & S1-reg & no & Section~\ref{sec:protocol}\\
+\textsf{focal\_v} added; \textsf{decoy\_s} kept in the scored set as a control & S1 (A1) & partly & Section~\ref{sec:bench}\\
+Glasgow-staged on Hard and HPRD & S1-post (A3) & yes & Table~\ref{tab:main} ($^\dagger$)\\
+Scenario and metadata priors; correct runs by label; 0.5/1\,s budgets; family and scenario tables; confirmed-subset results & S1-post & yes & Tables~\ref{tab:suites}, \ref{tab:labels}, \ref{tab:budget}, \ref{tab:scenario}, \ref{tab:family}, \ref{tab:refs}\\
+VBS over the stage-1/2 registered methods (Glasgow-staged excluded) & S1-post & yes & Section~\ref{sec:exact}\\
+Removal of IdCon-Core, EG-ICAF and LAD-SV (Amendment 4) & S2-reg & yes & Appendix~\ref{app:registration}\\
+Enum-Glasgow, Enum-VF2, ASP-cautious on Hard and HPRD; all methods on HPRD-X; HPRD-H references & S2-reg & Hard, HPRD: yes & Tables~\ref{tab:main}, \ref{tab:labels}\\
+Reference re-check of unconfirmed negatives; re-settling the Amendment-2 tasks & S2-reg & yes & Section~\ref{sec:refquality}, Table~\ref{tab:refs}\\
+10\,s reruns of unanswered pairs; per-call overhead on HPRD & S2-reg & yes & Section~\ref{sec:budget}, Table~\ref{tab:budget}\\
+First-match errors by reference label; embedding counts; soundness gate and PAR-10w; stratum bootstrap; learned prior; symmetry & S2-reg & Hard, HPRD: yes & Sections~\ref{sec:firstmatch}--\ref{sec:prior}\\
+Repeat agreement of outcomes & S2-post & yes & Section~\ref{sec:limits}\\
+IdCon-Hard-X, IdCon-Hard-H, IdCon-Cite: generation, runs at 2/10/60\,s, references, priors & S3-reg & no & Tables~\ref{tab:suites}, \ref{tab:newsuites}\\
+SAT baseline on every suite & S3-reg & no & Tables~\ref{tab:main}, \ref{tab:newsuites}\\
+60\,s reruns on IdCon-Hard; VBS at 2, 10 and 60\,s with and without Glasgow-staged & S3-reg & 2/10\,s: yes & Section~\ref{sec:budget}\\
+Independent check with DRAT proofs; overhead decomposition on Hard; machine calibration & S3-reg & references: yes & Table~\ref{tab:idcheck}, Section~\ref{sec:budget}\\
+Independent check: lower limits, IdCon-Cite first, one IdCon-Hard-X task per ancestor (Amendment 6); every single-engine IdCon-Hard-X negative (Amendment 7; fixed after 4 check results and the Hard-X references) & S3 A6/A7 & partly & Table~\ref{tab:idcheck}, Appendix~\ref{app:registration}\\
+Disclosure of EG-ICAF and LAD-SV; \textsf{decoy\_s} and table-decided sensitivity; automorphism-corrected counts; ``not distinguishable'' strata; runtime errors; prior overlap & S3-post & yes & Tables~\ref{tab:legacy}, \ref{tab:sensitivity}, \ref{tab:errors}; Sections~\ref{sec:firstmatch}, \ref{sec:prior}\\
+\bottomrule
+\end{tabular}
+\end{table*}

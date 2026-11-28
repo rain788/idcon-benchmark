@@ -1,0 +1,4 @@
+*.so binary
+*.tgz binary
+*.tar.gz binary
+experiment/third_party/build/** binary

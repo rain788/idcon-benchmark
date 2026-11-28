@@ -1,0 +1,17 @@
+{
+ "amendment": 6,
+ "revision": "R2",
+ "time": "2026-11-27T13:31:14Z",
+ "stage": "during the untimed phase: after 4 of the 333 registered independent-check items had finished (all from the IdCon-Hard sample; 2 UNRESOLVED after 687 s and 1,222 s), before any independent-check result on IdCon-Hard-X or IdCon-Cite, and before any scoring of the independent check",
+ "why": "At the registered limits (600 s per solve, 1,200 s per proof check) the 4 finished items took 24-1,222 s each; extrapolated to the 333 registered items (65 IdCon-Hard, 4 IdCon-HPRD-X, 192 IdCon-Cite, 72 IdCon-Hard-X on 16,384-entity hosts) on the 2-core revision machine the check would take well over 24 hours, beyond the revision window.",
+ "idcheck": {
+  "solve_s": 120,
+  "check_s": 300,
+  "order": "every IdCon-Cite task, then one IdCon-Hard-X task per ancestor (12, chosen with Python random.Random(hard_x_seed).choice over each ancestor's tasks in sorted group_id order), then the registered sample (IdCon-Hard 65, IdCon-HPRD-X 4) in its registered order",
+  "hard_x_seed": 202611270601,
+  "items_kept": "the 4 items finished under the registered limits are kept as they are and not rerun",
+  "workers": "items alternate between two workers (items[worker::2]); an item already in any idcheck.w*.jsonl is skipped"
+ },
+ "unchanged": "procedure, encoding, proof checking, the IdCon-Hard and IdCon-HPRD-X sample, and how results are tabulated; the paper reports the limits of every row (registered or Amendment 6) and the number of UNRESOLVED items",
+ "effect": "fewer IdCon-Hard-X tasks get a second engine (12 of 72 instead of 72); a lower limit can only turn an agreement or disagreement into UNRESOLVED, never create a disagreement"
+}

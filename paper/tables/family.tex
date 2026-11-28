@@ -1,0 +1,23 @@
+\begin{table}[t]
+\caption{IdCon-Hard ancestor-equal PAR-2 (ms) by graph family (12 ancestors each). Best certified method per family in bold.}
+\label{tab:family}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & Artic. & ER & Geom. & PA & Reg. & SW\\
+\midrule
+LAD & \textbf{1,303} & \textbf{1,535} & \textbf{2,484} & \textbf{1,404} & \textbf{1,500} & \textbf{1,584}\\
+Glasgow & 1,797 & 2,141 & 3,088 & 1,873 & 1,767 & 2,012\\
+Glasgow-staged$^\dagger$ & 1,273 & 1,887 & 2,832 & 1,460 & 1,399 & 1,586\\
+CP-SAT & 2,661 & 2,776 & 3,813 & 2,938 & 2,852 & 2,950\\
+Trad-CP & 2,649 & 3,537 & 4,000 & 2,376 & 3,633 & 3,888\\
+Enum-Glasgow$^\ast$ & 3,953 & 3,875 & 3,459 & 3,648 & 3,721 & 3,469\\
+Enum-VF2$^\ast$ & 4,000 & 3,960 & 4,000 & 3,907 & 3,838 & 4,000\\
+ASP-cautious$^\ast$ & 3,806 & 4,000 & 4,000 & 4,000 & 4,000 & 4,000\\
+SAT$^\ddagger$ & 3,154 & 3,258 & 4,000 & 3,338 & 3,268 & 3,251\\
+\midrule
+First-match & 2,077 & 1,423 & 2,628 & 2,243 & 1,846 & 1,189\\
+\bottomrule
+\end{tabular}
+\end{table}

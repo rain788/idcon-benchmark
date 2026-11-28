@@ -1,0 +1,37 @@
+{
+  "source_url": "https://perso.citi-lab.fr/csolnon/LAD2025.tgz",
+  "archive_sha256": "466f1b12e3364b200ac595de5cf145e30c52cf1960d210ccb3d11498333b1bd4",
+  "original_sources": {
+    "allDiff.c": "b02cba2e9545c2146d887fa875d618bf1f270d57b851b21e78eb03b71488251a",
+    "clique.c": "cce53ccf3127ba57446e53a2fcf6103c9d140d5459adeef9237d71e41543d19d",
+    "domains.c": "d8fd8c8154c949e9ec1ec09940d9c7dd9ac53fa179a7fd86637edce4776433e4",
+    "graph.c": "fac4ff3d5c3e5dee303cba5c0f3f2f8960a120311b6a4dd1b97de875a8dee71a",
+    "heuristic.c": "5c0f0c8b8f530949def0d1bb505e34ad7e0b1077960ed2b557d9bcd005640cda",
+    "lad.c": "afb76ace3b4b652c28c585df25a568a955daafbafe2d6d14ad7bbc76e5dc6308",
+    "main.c": "3ddc727fad1a88fd0d93cfec46acfdd69f3b7963f412ca0c6a89046b02052a94",
+    "nogoods.c": "aced998958bad3d14d7ad6e65c777614d0e7d29af94f2fa8615680ac62a14b26",
+    "random.c": "8d57d57929b3eb5d89a40365e1d30ce70cff9f3191f9fbb59eabd4899a9d5084",
+    "sparseSet.c": "cccd4a8fd63e5682eae2718d97d52c73a6ea4102f751c8d81aa4dfa64ec350da"
+  },
+  "adapted_sources": {
+    "allDiff.c": "b02cba2e9545c2146d887fa875d618bf1f270d57b851b21e78eb03b71488251a",
+    "clique.c": "cce53ccf3127ba57446e53a2fcf6103c9d140d5459adeef9237d71e41543d19d",
+    "domains.c": "209ff9cd2b04e0a8ead4c10fc238fb78d8051f3f5fdd66fa5995378e7d32b110",
+    "graph.c": "fac4ff3d5c3e5dee303cba5c0f3f2f8960a120311b6a4dd1b97de875a8dee71a",
+    "heuristic.c": "5c0f0c8b8f530949def0d1bb505e34ad7e0b1077960ed2b557d9bcd005640cda",
+    "lad.c": "afb76ace3b4b652c28c585df25a568a955daafbafe2d6d14ad7bbc76e5dc6308",
+    "main.c": "215858e3bc81ec6315226a34cbee18262373acc418d6650153c7a1fe2f488ab5",
+    "nogoods.c": "aced998958bad3d14d7ad6e65c777614d0e7d29af94f2fa8615680ac62a14b26",
+    "random.c": "8d57d57929b3eb5d89a40365e1d30ce70cff9f3191f9fbb59eabd4899a9d5084",
+    "sparseSet.c": "cccd4a8fd63e5682eae2718d97d52c73a6ea4102f751c8d81aa4dfa64ec350da"
+  },
+  "binary_sha256": "700597c182146fae40fe63e7473f0178132a962792c68de65f51eb6b0bb804fb",
+  "compiler": "gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "changes": [
+    "external vertex domains before filtering",
+    "edge metric compatibility in native edge checks",
+    "disable domain-ignorant clique shortcuts under external constraints"
+  ],
+  "adapter": "one fixed universal root eliminates isolated-role shortcut without removing original identities",
+  "performance": "not yet measured; validation required"
+}

@@ -1,0 +1,3303 @@
+{
+ "hard": {
+  "title": "IdCon-Hard",
+  "tasks": 504,
+  "ancestors": 72,
+  "complete": 504,
+  "unassessed": 0,
+  "labels": {
+   "VIOLATES": 128,
+   "UNKNOWN": 161,
+   "SATISFIES": 171,
+   "EMPTY": 44
+  },
+  "methods": {
+   "lad_state": {
+    "assessed": 1008,
+    "correct": 725,
+    "answered": 725,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 711.9842810303462,
+    "par2_ms": 1635.107741812501,
+    "par10w_ms": 1635.107741812501,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      165,
+      342
+     ],
+     "VIOLATES": [
+      221,
+      256
+     ],
+     "UNKNOWN": [
+      261,
+      322
+     ],
+     "EMPTY": [
+      78,
+      88
+     ]
+    }
+   },
+   "glasgow": {
+    "assessed": 1008,
+    "correct": 562,
+    "answered": 562,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 615.4877560640638,
+    "par2_ms": 2113.0001179642895,
+    "par10w_ms": 2113.0001179642895,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      104,
+      342
+     ],
+     "VIOLATES": [
+      169,
+      256
+     ],
+     "UNKNOWN": [
+      237,
+      322
+     ],
+     "EMPTY": [
+      52,
+      88
+     ]
+    }
+   },
+   "glasgow_staged": {
+    "assessed": 1008,
+    "correct": 651,
+    "answered": 651,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 500.3246143932411,
+    "par2_ms": 1739.792980128968,
+    "par10w_ms": 1739.792980128968,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      125,
+      342
+     ],
+     "VIOLATES": [
+      197,
+      256
+     ],
+     "UNKNOWN": [
+      262,
+      322
+     ],
+     "EMPTY": [
+      67,
+      88
+     ]
+    }
+   },
+   "whole_cp": {
+    "assessed": 1008,
+    "correct": 321,
+    "answered": 321,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 854.2623256573394,
+    "par2_ms": 2998.232347753974,
+    "par10w_ms": 2998.232347753974,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      145,
+      342
+     ],
+     "VIOLATES": [
+      80,
+      256
+     ],
+     "UNKNOWN": [
+      37,
+      322
+     ],
+     "EMPTY": [
+      59,
+      88
+     ]
+    }
+   },
+   "traditional_cp": {
+    "assessed": 1008,
+    "correct": 214,
+    "answered": 214,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 924.7321391261764,
+    "par2_ms": 3347.1157517589304,
+    "par10w_ms": 3347.1157517589304,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      59,
+      342
+     ],
+     "VIOLATES": [
+      49,
+      256
+     ],
+     "UNKNOWN": [
+      68,
+      322
+     ],
+     "EMPTY": [
+      38,
+      88
+     ]
+    }
+   },
+   "enum_glasgow": {
+    "assessed": 1008,
+    "correct": 88,
+    "answered": 88,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 421.8984923408713,
+    "par2_ms": 3687.6260588551554,
+    "par10w_ms": 3687.6260588551554,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      24,
+      342
+     ],
+     "VIOLATES": [
+      12,
+      256
+     ],
+     "UNKNOWN": [
+      26,
+      322
+     ],
+     "EMPTY": [
+      26,
+      88
+     ]
+    }
+   },
+   "enum_nx": {
+    "assessed": 1008,
+    "correct": 14,
+    "answered": 14,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 464.335946142845,
+    "par2_ms": 3950.8935548075397,
+    "par10w_ms": 3950.8935548075397,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      0,
+      342
+     ],
+     "VIOLATES": [
+      0,
+      256
+     ],
+     "UNKNOWN": [
+      6,
+      322
+     ],
+     "EMPTY": [
+      8,
+      88
+     ]
+    }
+   },
+   "asp_cautious": {
+    "assessed": 1008,
+    "correct": 15,
+    "answered": 15,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1825.3509221332326,
+    "par2_ms": 3967.6391506269824,
+    "par10w_ms": 3967.6391506269824,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      6,
+      342
+     ],
+     "VIOLATES": [
+      3,
+      256
+     ],
+     "UNKNOWN": [
+      6,
+      322
+     ],
+     "EMPTY": [
+      0,
+      88
+     ]
+    }
+   },
+   "sat_cadical": {
+    "assessed": 1008,
+    "correct": 240,
+    "answered": 240,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1387.9175411499962,
+    "par2_ms": 3378.0756050357136,
+    "par10w_ms": 3378.0756050357136,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      99,
+      342
+     ],
+     "VIOLATES": [
+      62,
+      256
+     ],
+     "UNKNOWN": [
+      45,
+      322
+     ],
+     "EMPTY": [
+      34,
+      88
+     ]
+    }
+   },
+   "first_match": {
+    "assessed": 1008,
+    "correct": 626,
+    "answered": 941,
+    "wrong": 315,
+    "certified_wrong": 0,
+    "success_ms": 620.3072075527008,
+    "par2_ms": 1901.1034840555462,
+    "par10w_ms": 6901.103484055547,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      306,
+      342
+     ],
+     "VIOLATES": [
+      235,
+      256
+     ],
+     "UNKNOWN": [
+      6,
+      322
+     ],
+     "EMPTY": [
+      79,
+      88
+     ]
+    }
+   }
+  },
+  "first_wrong_pct": 31.25,
+  "first_wrong_of_answered_pct": 33.4750265674814,
+  "first_wrong_by_label": {
+   "UNKNOWN": 315
+  },
+  "unknown_share_pct": 31.944444444444443,
+  "unsound": [],
+  "best": "lad_state",
+  "best_unsolved_pct": 28.075396825396826,
+  "vbs_unsolved": 186,
+  "vbs_runs": 1008,
+  "vbs_unsolved_pct": 18.452380952380953,
+  "vbs_unsolved_by_label": {
+   "VIOLATES": 32,
+   "UNKNOWN": 39,
+   "SATISFIES": 105,
+   "EMPTY": 10
+  },
+  "vbs_all_unsolved": 174,
+  "vbs_all_unsolved_pct": 17.261904761904763,
+  "neg_v1": 301,
+  "neg_v1_corroborated": 187,
+  "neg_r1": 305,
+  "neg_r1_corroborated": 285,
+  "eg_tasks": 3,
+  "eg_tasks_resolved": 3,
+  "corroborated_tasks": 487,
+  "corroborated_summary": {
+   "lad_state": {
+    "assessed": 974,
+    "correct": 710,
+    "answered": 710,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 710.6988169464813,
+    "par2_ms": 1618.2944279596402,
+    "par10w_ms": 1618.2944279596402,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      160,
+      322
+     ],
+     "VIOLATES": [
+      219,
+      254
+     ],
+     "UNKNOWN": [
+      261,
+      320
+     ],
+     "EMPTY": [
+      70,
+      78
+     ]
+    }
+   },
+   "glasgow": {
+    "assessed": 974,
+    "correct": 558,
+    "answered": 558,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 618.4323742939146,
+    "par2_ms": 2072.385700087966,
+    "par10w_ms": 2072.385700087966,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      104,
+      322
+     ],
+     "VIOLATES": [
+      169,
+      254
+     ],
+     "UNKNOWN": [
+      237,
+      320
+     ],
+     "EMPTY": [
+      48,
+      78
+     ]
+    }
+   },
+   "glasgow_staged": {
+    "assessed": 974,
+    "correct": 647,
+    "answered": 647,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 501.9931382565687,
+    "par2_ms": 1693.9952920989915,
+    "par10w_ms": 1693.9952920989915,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      125,
+      322
+     ],
+     "VIOLATES": [
+      197,
+      254
+     ],
+     "UNKNOWN": [
+      262,
+      320
+     ],
+     "EMPTY": [
+      63,
+      78
+     ]
+    }
+   },
+   "whole_cp": {
+    "assessed": 974,
+    "correct": 319,
+    "answered": 319,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 857.2871019122435,
+    "par2_ms": 3003.2858382043705,
+    "par10w_ms": 3003.2858382043705,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      145,
+      322
+     ],
+     "VIOLATES": [
+      80,
+      254
+     ],
+     "UNKNOWN": [
+      37,
+      320
+     ],
+     "EMPTY": [
+      57,
+      78
+     ]
+    }
+   },
+   "traditional_cp": {
+    "assessed": 974,
+    "correct": 212,
+    "answered": 212,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 930.0887719622705,
+    "par2_ms": 3354.3440671190488,
+    "par10w_ms": 3354.3440671190488,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      59,
+      322
+     ],
+     "VIOLATES": [
+      49,
+      254
+     ],
+     "UNKNOWN": [
+      68,
+      320
+     ],
+     "EMPTY": [
+      36,
+      78
+     ]
+    }
+   },
+   "enum_glasgow": {
+    "assessed": 974,
+    "correct": 78,
+    "answered": 78,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 415.0088796794354,
+    "par2_ms": 3689.644147801235,
+    "par10w_ms": 3689.644147801235,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      18,
+      322
+     ],
+     "VIOLATES": [
+      12,
+      254
+     ],
+     "UNKNOWN": [
+      26,
+      320
+     ],
+     "EMPTY": [
+      22,
+      78
+     ]
+    }
+   },
+   "enum_nx": {
+    "assessed": 974,
+    "correct": 14,
+    "answered": 14,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 464.335946142845,
+    "par2_ms": 3950.8935548075397,
+    "par10w_ms": 3950.8935548075397,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      0,
+      322
+     ],
+     "VIOLATES": [
+      0,
+      254
+     ],
+     "UNKNOWN": [
+      6,
+      320
+     ],
+     "EMPTY": [
+      8,
+      78
+     ]
+    }
+   },
+   "asp_cautious": {
+    "assessed": 974,
+    "correct": 15,
+    "answered": 15,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1825.3509221332326,
+    "par2_ms": 3967.6391506269824,
+    "par10w_ms": 3967.6391506269824,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      6,
+      322
+     ],
+     "VIOLATES": [
+      3,
+      254
+     ],
+     "UNKNOWN": [
+      6,
+      320
+     ],
+     "EMPTY": [
+      0,
+      78
+     ]
+    }
+   },
+   "sat_cadical": {
+    "assessed": 974,
+    "correct": 238,
+    "answered": 238,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1398.905811525207,
+    "par2_ms": 3385.852761054563,
+    "par10w_ms": 3385.852761054563,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      99,
+      322
+     ],
+     "VIOLATES": [
+      62,
+      254
+     ],
+     "UNKNOWN": [
+      45,
+      320
+     ],
+     "EMPTY": [
+      32,
+      78
+     ]
+    }
+   },
+   "first_match": {
+    "assessed": 974,
+    "correct": 604,
+    "answered": 917,
+    "wrong": 313,
+    "certified_wrong": 0,
+    "success_ms": 626.9188210678664,
+    "par2_ms": 1915.8541074573488,
+    "par10w_ms": 6981.4625730658145,
+    "ancestors": 72,
+    "by_label": {
+     "SATISFIES": [
+      294,
+      322
+     ],
+     "VIOLATES": [
+      233,
+      254
+     ],
+     "UNKNOWN": [
+      6,
+      320
+     ],
+     "EMPTY": [
+      71,
+      78
+     ]
+    }
+   }
+  },
+  "rank": [
+   "lad_state",
+   "glasgow",
+   "whole_cp",
+   "traditional_cp",
+   "sat_cadical",
+   "enum_glasgow",
+   "enum_nx",
+   "asp_cautious"
+  ],
+  "corroborated_rank": [
+   "lad_state",
+   "glasgow",
+   "whole_cp",
+   "traditional_cp",
+   "sat_cadical",
+   "enum_glasgow",
+   "enum_nx",
+   "asp_cautious"
+  ],
+  "prior_scenario": [
+   339,
+   504
+  ],
+  "prior_meta": [
+   368,
+   504
+  ],
+  "prior_learned": [
+   419,
+   504
+  ],
+  "symmetry": {
+   "not_explained_by_sampled_symmetry": 142,
+   "has_nontrivial_automorphism": 142,
+   "no_admissible_identity": 19,
+   "unknown_references": 161
+  },
+  "strata": {
+   "2k plain": {
+    "summary": {
+     "lad_state": {
+      "par2": 195.55341926784124,
+      "correct": 168,
+      "assessed": 168
+     },
+     "glasgow": {
+      "par2": 457.9830055000102,
+      "correct": 154,
+      "assessed": 168
+     },
+     "glasgow_staged": {
+      "par2": 417.65239473809436,
+      "correct": 154,
+      "assessed": 168
+     },
+     "whole_cp": {
+      "par2": 3841.83270155357,
+      "correct": 8,
+      "assessed": 168
+     },
+     "traditional_cp": {
+      "par2": 2617.6103739106934,
+      "correct": 76,
+      "assessed": 168
+     },
+     "enum_glasgow": {
+      "par2": 3318.914553398802,
+      "correct": 30,
+      "assessed": 168
+     },
+     "enum_nx": {
+      "par2": 3952.622908690476,
+      "correct": 2,
+      "assessed": 168
+     },
+     "asp_cautious": {
+      "par2": 3963.484543785712,
+      "correct": 3,
+      "assessed": 168
+     },
+     "sat_cadical": {
+      "par2": 2612.239287773832,
+      "correct": 95,
+      "assessed": 168
+     },
+     "first_match": {
+      "par2": 1665.185508982115,
+      "correct": 100,
+      "assessed": 168
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.7471,
+      "glasgow": 0.2529,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.0
+     },
+     "best": "lad_state",
+     "second": "glasgow",
+     "ancestors": 12,
+     "diff": -262.429586232169,
+     "ci95": [
+      -568.549012636965,
+      43.63656108926338
+     ]
+    }
+   },
+   "4k plain": {
+    "summary": {
+     "lad_state": {
+      "par2": 579.5504392262083,
+      "correct": 165,
+      "assessed": 168
+     },
+     "glasgow": {
+      "par2": 788.9517767916758,
+      "correct": 152,
+      "assessed": 168
+     },
+     "glasgow_staged": {
+      "par2": 602.124602327382,
+      "correct": 154,
+      "assessed": 168
+     },
+     "whole_cp": {
+      "par2": 3953.6990367857165,
+      "correct": 2,
+      "assessed": 168
+     },
+     "traditional_cp": {
+      "par2": 3758.0025356547712,
+      "correct": 16,
+      "assessed": 168
+     },
+     "enum_glasgow": {
+      "par2": 3256.5129761666644,
+      "correct": 34,
+      "assessed": 168
+     },
+     "enum_nx": {
+      "par2": 3865.6444112380977,
+      "correct": 6,
+      "assessed": 168
+     },
+     "asp_cautious": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "sat_cadical": {
+      "par2": 3952.6777019226206,
+      "correct": 2,
+      "assessed": 168
+     },
+     "first_match": {
+      "par2": 2391.050572970232,
+      "correct": 72,
+      "assessed": 168
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 1.0,
+      "glasgow": 0.0,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.0
+     },
+     "best": "lad_state",
+     "second": "glasgow",
+     "ancestors": 12,
+     "diff": -209.40133756546754,
+     "ci95": [
+      -280.25458233335337,
+      -138.54809279758183
+     ]
+    }
+   },
+   "8k plain": {
+    "summary": {
+     "lad_state": {
+      "par2": 2108.4780535178547,
+      "correct": 117,
+      "assessed": 168
+     },
+     "glasgow": {
+      "par2": 1876.5440763988192,
+      "correct": 120,
+      "assessed": 168
+     },
+     "glasgow_staged": {
+      "par2": 1302.400019809524,
+      "correct": 138,
+      "assessed": 168
+     },
+     "whole_cp": {
+      "par2": 3924.627794797621,
+      "correct": 4,
+      "assessed": 168
+     },
+     "traditional_cp": {
+      "par2": 3956.630107839288,
+      "correct": 2,
+      "assessed": 168
+     },
+     "enum_glasgow": {
+      "par2": 3550.328823565466,
+      "correct": 24,
+      "assessed": 168
+     },
+     "enum_nx": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "asp_cautious": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "sat_cadical": {
+      "par2": 3953.3370638869037,
+      "correct": 2,
+      "assessed": 168
+     },
+     "first_match": {
+      "par2": 2553.867934386902,
+      "correct": 76,
+      "assessed": 168
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0092,
+      "glasgow": 0.9908,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.0
+     },
+     "best": "glasgow",
+     "second": "lad_state",
+     "ancestors": 12,
+     "diff": -231.93397711903532,
+     "ci95": [
+      -429.15862572023457,
+      -31.591879220256715
+     ]
+    }
+   },
+   "2k constr.": {
+    "summary": {
+     "lad_state": {
+      "par2": 1121.4932521250232,
+      "correct": 147,
+      "assessed": 168
+     },
+     "glasgow": {
+      "par2": 2006.8831494107094,
+      "correct": 104,
+      "assessed": 168
+     },
+     "glasgow_staged": {
+      "par2": 1693.160544625,
+      "correct": 113,
+      "assessed": 168
+     },
+     "whole_cp": {
+      "par2": 1085.842755077394,
+      "correct": 142,
+      "assessed": 168
+     },
+     "traditional_cp": {
+      "par2": 2480.9976220059584,
+      "correct": 80,
+      "assessed": 168
+     },
+     "enum_glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "enum_nx": {
+      "par2": 3887.094008916663,
+      "correct": 6,
+      "assessed": 168
+     },
+     "asp_cautious": {
+      "par2": 3842.3503599761834,
+      "correct": 12,
+      "assessed": 168
+     },
+     "sat_cadical": {
+      "par2": 1844.022810273784,
+      "correct": 137,
+      "assessed": 168
+     },
+     "first_match": {
+      "par2": 1031.7526994285827,
+      "correct": 132,
+      "assessed": 168
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.3719,
+      "glasgow": 0.0,
+      "whole_cp": 0.6281,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.0
+     },
+     "best": "whole_cp",
+     "second": "lad_state",
+     "ancestors": 12,
+     "diff": -35.65049704762925,
+     "ci95": [
+      -367.31154371428045,
+      298.56122683930187
+     ]
+    }
+   },
+   "4k constr.": {
+    "summary": {
+     "lad_state": {
+      "par2": 2305.563117255923,
+      "correct": 91,
+      "assessed": 168
+     },
+     "glasgow": {
+      "par2": 3547.638699684522,
+      "correct": 32,
+      "assessed": 168
+     },
+     "glasgow_staged": {
+      "par2": 2672.140220494047,
+      "correct": 73,
+      "assessed": 168
+     },
+     "whole_cp": {
+      "par2": 1606.988897250008,
+      "correct": 137,
+      "assessed": 168
+     },
+     "traditional_cp": {
+      "par2": 3374.3392133512066,
+      "correct": 33,
+      "assessed": 168
+     },
+     "enum_glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "enum_nx": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "asp_cautious": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "sat_cadical": {
+      "par2": 3952.7161419285685,
+      "correct": 2,
+      "assessed": 168
+     },
+     "first_match": {
+      "par2": 1310.2583343988115,
+      "correct": 133,
+      "assessed": 168
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "whole_cp": 1.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.0
+     },
+     "best": "whole_cp",
+     "second": "lad_state",
+     "ancestors": 12,
+     "diff": -698.5742200059148,
+     "ci95": [
+      -884.6646424106823,
+      -512.483797601147
+     ]
+    }
+   },
+   "8k constr.": {
+    "summary": {
+     "lad_state": {
+      "par2": 3500.008169482156,
+      "correct": 37,
+      "assessed": 168
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "glasgow_staged": {
+      "par2": 3751.280098779762,
+      "correct": 19,
+      "assessed": 168
+     },
+     "whole_cp": {
+      "par2": 3576.4029010595355,
+      "correct": 28,
+      "assessed": 168
+     },
+     "traditional_cp": {
+      "par2": 3895.114657791664,
+      "correct": 7,
+      "assessed": 168
+     },
+     "enum_glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "enum_nx": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "asp_cautious": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 168
+     },
+     "sat_cadical": {
+      "par2": 3953.4606244285715,
+      "correct": 2,
+      "assessed": 168
+     },
+     "first_match": {
+      "par2": 2454.5058541666344,
+      "correct": 113,
+      "assessed": 168
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.7466,
+      "glasgow": 0.0,
+      "whole_cp": 0.2534,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.0
+     },
+     "best": "lad_state",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -76.39473157737916,
+     "ci95": [
+      -262.7214551369116,
+      109.67803732142602
+     ]
+    }
+   }
+  },
+  "budget": {
+   "lad_state": {
+    "0.5": 360,
+    "1.0": 526,
+    "2.0": 725,
+    "10.0_rep0": 460,
+    "2.0_rep0": 364,
+    "n_rep0": 504
+   },
+   "glasgow": {
+    "0.5": 314,
+    "1.0": 421,
+    "2.0": 562
+   },
+   "glasgow_staged": {
+    "0.5": 403,
+    "1.0": 539,
+    "2.0": 651,
+    "10.0_rep0": 400,
+    "2.0_rep0": 326,
+    "n_rep0": 504
+   },
+   "whole_cp": {
+    "0.5": 97,
+    "1.0": 213,
+    "2.0": 321,
+    "10.0_rep0": 231,
+    "2.0_rep0": 159,
+    "n_rep0": 504
+   },
+   "traditional_cp": {
+    "0.5": 55,
+    "1.0": 126,
+    "2.0": 214
+   },
+   "enum_glasgow": {
+    "0.5": 64,
+    "1.0": 75,
+    "2.0": 88,
+    "10.0_rep0": 44,
+    "2.0_rep0": 44,
+    "n_rep0": 504
+   },
+   "enum_nx": {
+    "0.5": 8,
+    "1.0": 12,
+    "2.0": 14
+   },
+   "asp_cautious": {
+    "0.5": 0,
+    "1.0": 0,
+    "2.0": 15
+   },
+   "sat_cadical": {
+    "0.5": 16,
+    "1.0": 24,
+    "2.0": 240
+   },
+   "first_match": {
+    "0.5": 327,
+    "1.0": 498,
+    "2.0": 626
+   }
+  },
+  "repeat_agree": [
+   4969,
+   5040
+  ]
+ },
+ "hprd": {
+  "title": "IdCon-HPRD",
+  "tasks": 200,
+  "ancestors": 100,
+  "complete": 200,
+  "unassessed": 0,
+  "labels": {
+   "UNKNOWN": 85,
+   "VIOLATES": 99,
+   "SATISFIES": 16
+  },
+  "methods": {
+   "lad_state": {
+    "assessed": 400,
+    "correct": 389,
+    "answered": 389,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 952.2363548920574,
+    "par2_ms": 1036.0498551325259,
+    "par10w_ms": 1036.0498551325259,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      23,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      168,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow": {
+    "assessed": 400,
+    "correct": 0,
+    "answered": 0,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": null,
+    "par2_ms": 4000.0,
+    "par10w_ms": 4000.0,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      0,
+      32
+     ],
+     "VIOLATES": [
+      0,
+      198
+     ],
+     "UNKNOWN": [
+      0,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow_staged": {
+    "assessed": 400,
+    "correct": 304,
+    "answered": 304,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 527.9101826414474,
+    "par2_ms": 1361.2117388075,
+    "par10w_ms": 1361.2117388075,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      22,
+      32
+     ],
+     "VIOLATES": [
+      153,
+      198
+     ],
+     "UNKNOWN": [
+      129,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "whole_cp": {
+    "assessed": 400,
+    "correct": 384,
+    "answered": 384,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 307.68491391404496,
+    "par2_ms": 455.37751735748316,
+    "par10w_ms": 455.37751735748316,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      190,
+      198
+     ],
+     "UNKNOWN": [
+      162,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "traditional_cp": {
+    "assessed": 400,
+    "correct": 279,
+    "answered": 279,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 929.4284706594751,
+    "par2_ms": 1858.2763582849839,
+    "par10w_ms": 1858.2763582849839,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      21,
+      32
+     ],
+     "VIOLATES": [
+      138,
+      198
+     ],
+     "UNKNOWN": [
+      120,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_glasgow": {
+    "assessed": 400,
+    "correct": 235,
+    "answered": 235,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1682.2390033446782,
+    "par2_ms": 2638.3154144649984,
+    "par10w_ms": 2638.3154144649984,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      18,
+      32
+     ],
+     "VIOLATES": [
+      107,
+      198
+     ],
+     "UNKNOWN": [
+      110,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_nx": {
+    "assessed": 400,
+    "correct": 127,
+    "answered": 127,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 651.0621071968413,
+    "par2_ms": 2936.7122190349974,
+    "par10w_ms": 2936.7122190349974,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      14,
+      32
+     ],
+     "VIOLATES": [
+      34,
+      198
+     ],
+     "UNKNOWN": [
+      79,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "asp_cautious": {
+    "assessed": 400,
+    "correct": 400,
+    "answered": 400,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 748.3521920700025,
+    "par2_ms": 748.3521920700025,
+    "par10w_ms": 748.3521920700025,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      170,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "sat_cadical": {
+    "assessed": 400,
+    "correct": 400,
+    "answered": 400,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 374.12644993502454,
+    "par2_ms": 374.12644993502454,
+    "par10w_ms": 374.12644993502454,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      170,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "first_match": {
+    "assessed": 400,
+    "correct": 230,
+    "answered": 400,
+    "wrong": 170,
+    "certified_wrong": 0,
+    "success_ms": 568.3866621261112,
+    "par2_ms": 2026.822330722514,
+    "par10w_ms": 8826.822330722514,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      0,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "first_wrong_pct": 42.5,
+  "first_wrong_of_answered_pct": 42.5,
+  "first_wrong_by_label": {
+   "UNKNOWN": 170
+  },
+  "unknown_share_pct": 42.5,
+  "unsound": [],
+  "best": "sat_cadical",
+  "best_unsolved_pct": 0.0,
+  "vbs_unsolved": 0,
+  "vbs_runs": 400,
+  "vbs_unsolved_pct": 0.0,
+  "vbs_unsolved_by_label": {},
+  "vbs_all_unsolved": 0,
+  "vbs_all_unsolved_pct": 0.0,
+  "neg_v1": 115,
+  "neg_v1_corroborated": 115,
+  "neg_r1": 115,
+  "neg_r1_corroborated": 115,
+  "eg_tasks": 0,
+  "eg_tasks_resolved": 0,
+  "corroborated_tasks": 200,
+  "corroborated_summary": {
+   "lad_state": {
+    "assessed": 400,
+    "correct": 389,
+    "answered": 389,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 952.2363548920574,
+    "par2_ms": 1036.0498551325259,
+    "par10w_ms": 1036.0498551325259,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      23,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      168,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow": {
+    "assessed": 400,
+    "correct": 0,
+    "answered": 0,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": null,
+    "par2_ms": 4000.0,
+    "par10w_ms": 4000.0,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      0,
+      32
+     ],
+     "VIOLATES": [
+      0,
+      198
+     ],
+     "UNKNOWN": [
+      0,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow_staged": {
+    "assessed": 400,
+    "correct": 304,
+    "answered": 304,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 527.9101826414474,
+    "par2_ms": 1361.2117388075,
+    "par10w_ms": 1361.2117388075,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      22,
+      32
+     ],
+     "VIOLATES": [
+      153,
+      198
+     ],
+     "UNKNOWN": [
+      129,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "whole_cp": {
+    "assessed": 400,
+    "correct": 384,
+    "answered": 384,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 307.68491391404496,
+    "par2_ms": 455.37751735748316,
+    "par10w_ms": 455.37751735748316,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      190,
+      198
+     ],
+     "UNKNOWN": [
+      162,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "traditional_cp": {
+    "assessed": 400,
+    "correct": 279,
+    "answered": 279,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 929.4284706594751,
+    "par2_ms": 1858.2763582849839,
+    "par10w_ms": 1858.2763582849839,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      21,
+      32
+     ],
+     "VIOLATES": [
+      138,
+      198
+     ],
+     "UNKNOWN": [
+      120,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_glasgow": {
+    "assessed": 400,
+    "correct": 235,
+    "answered": 235,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1682.2390033446782,
+    "par2_ms": 2638.3154144649984,
+    "par10w_ms": 2638.3154144649984,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      18,
+      32
+     ],
+     "VIOLATES": [
+      107,
+      198
+     ],
+     "UNKNOWN": [
+      110,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_nx": {
+    "assessed": 400,
+    "correct": 127,
+    "answered": 127,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 651.0621071968413,
+    "par2_ms": 2936.7122190349974,
+    "par10w_ms": 2936.7122190349974,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      14,
+      32
+     ],
+     "VIOLATES": [
+      34,
+      198
+     ],
+     "UNKNOWN": [
+      79,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "asp_cautious": {
+    "assessed": 400,
+    "correct": 400,
+    "answered": 400,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 748.3521920700025,
+    "par2_ms": 748.3521920700025,
+    "par10w_ms": 748.3521920700025,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      170,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "sat_cadical": {
+    "assessed": 400,
+    "correct": 400,
+    "answered": 400,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 374.12644993502454,
+    "par2_ms": 374.12644993502454,
+    "par10w_ms": 374.12644993502454,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      170,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "first_match": {
+    "assessed": 400,
+    "correct": 230,
+    "answered": 400,
+    "wrong": 170,
+    "certified_wrong": 0,
+    "success_ms": 568.3866621261112,
+    "par2_ms": 2026.822330722514,
+    "par10w_ms": 8826.822330722514,
+    "ancestors": 100,
+    "by_label": {
+     "SATISFIES": [
+      32,
+      32
+     ],
+     "VIOLATES": [
+      198,
+      198
+     ],
+     "UNKNOWN": [
+      0,
+      170
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "rank": [
+   "sat_cadical",
+   "whole_cp",
+   "asp_cautious",
+   "lad_state",
+   "traditional_cp",
+   "enum_glasgow",
+   "enum_nx",
+   "glasgow"
+  ],
+  "corroborated_rank": [
+   "sat_cadical",
+   "whole_cp",
+   "asp_cautious",
+   "lad_state",
+   "traditional_cp",
+   "enum_glasgow",
+   "enum_nx",
+   "glasgow"
+  ],
+  "prior_scenario": [
+   183,
+   200
+  ],
+  "prior_meta": [
+   183,
+   200
+  ],
+  "prior_learned": [
+   181,
+   200
+  ],
+  "symmetry": {
+   "not_explained_by_sampled_symmetry": 85,
+   "has_nontrivial_automorphism": 6,
+   "unknown_references": 85
+  },
+  "strata": {
+   "HPRD": {
+    "summary": {
+     "lad_state": {
+      "par2": 1036.0498551325259,
+      "correct": 389,
+      "assessed": 400
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 400
+     },
+     "glasgow_staged": {
+      "par2": 1361.2117388075,
+      "correct": 304,
+      "assessed": 400
+     },
+     "whole_cp": {
+      "par2": 455.37751735748316,
+      "correct": 384,
+      "assessed": 400
+     },
+     "traditional_cp": {
+      "par2": 1858.2763582849839,
+      "correct": 279,
+      "assessed": 400
+     },
+     "enum_glasgow": {
+      "par2": 2638.3154144649984,
+      "correct": 235,
+      "assessed": 400
+     },
+     "enum_nx": {
+      "par2": 2936.7122190349974,
+      "correct": 127,
+      "assessed": 400
+     },
+     "asp_cautious": {
+      "par2": 748.3521920700025,
+      "correct": 400,
+      "assessed": 400
+     },
+     "sat_cadical": {
+      "par2": 374.12644993502454,
+      "correct": 400,
+      "assessed": 400
+     },
+     "first_match": {
+      "par2": 2026.822330722514,
+      "correct": 230,
+      "assessed": 400
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "whole_cp": 0.1024,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.8976
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 100,
+     "diff": -81.25106742245862,
+     "ci95": [
+      -226.15431017746005,
+      35.13934003256509
+     ]
+    }
+   }
+  },
+  "budget": {
+   "lad_state": {
+    "0.5": 0,
+    "1.0": 281,
+    "2.0": 389,
+    "10.0_rep0": 200,
+    "2.0_rep0": 195,
+    "n_rep0": 200
+   },
+   "glasgow": {
+    "0.5": 0,
+    "1.0": 0,
+    "2.0": 0,
+    "10.0_rep0": 184,
+    "2.0_rep0": 0,
+    "n_rep0": 200
+   },
+   "glasgow_staged": {
+    "0.5": 243,
+    "1.0": 271,
+    "2.0": 304,
+    "10.0_rep0": 194,
+    "2.0_rep0": 153,
+    "n_rep0": 200
+   },
+   "whole_cp": {
+    "0.5": 377,
+    "1.0": 384,
+    "2.0": 384,
+    "10.0_rep0": 196,
+    "2.0_rep0": 192,
+    "n_rep0": 200
+   },
+   "traditional_cp": {
+    "0.5": 49,
+    "1.0": 188,
+    "2.0": 279
+   },
+   "enum_glasgow": {
+    "0.5": 0,
+    "1.0": 0,
+    "2.0": 235,
+    "10.0_rep0": 198,
+    "2.0_rep0": 118,
+    "n_rep0": 200
+   },
+   "enum_nx": {
+    "0.5": 56,
+    "1.0": 98,
+    "2.0": 127
+   },
+   "asp_cautious": {
+    "0.5": 47,
+    "1.0": 361,
+    "2.0": 400
+   },
+   "sat_cadical": {
+    "0.5": 315,
+    "1.0": 400,
+    "2.0": 400
+   },
+   "first_match": {
+    "0.5": 38,
+    "1.0": 230,
+    "2.0": 230
+   }
+  },
+  "repeat_agree": [
+   1958,
+   2000
+  ]
+ },
+ "hprdx": {
+  "title": "IdCon-HPRD-X",
+  "tasks": 192,
+  "ancestors": 96,
+  "complete": 192,
+  "unassessed": 0,
+  "labels": {
+   "UNKNOWN": 80,
+   "SATISFIES": 19,
+   "VIOLATES": 93
+  },
+  "methods": {
+   "lad_state": {
+    "assessed": 384,
+    "correct": 199,
+    "answered": 199,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1130.4261421105755,
+    "par2_ms": 2512.903130937512,
+    "par10w_ms": 2512.903130937512,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      8,
+      38
+     ],
+     "VIOLATES": [
+      107,
+      186
+     ],
+     "UNKNOWN": [
+      84,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow": {
+    "assessed": 384,
+    "correct": 1,
+    "answered": 1,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1947.5897489992349,
+    "par2_ms": 3994.655181638019,
+    "par10w_ms": 3994.655181638019,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      0,
+      38
+     ],
+     "VIOLATES": [
+      1,
+      186
+     ],
+     "UNKNOWN": [
+      0,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow_staged": {
+    "assessed": 384,
+    "correct": 265,
+    "answered": 265,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 715.7755129811466,
+    "par2_ms": 1733.5429972395934,
+    "par10w_ms": 1733.5429972395934,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      14,
+      38
+     ],
+     "VIOLATES": [
+      136,
+      186
+     ],
+     "UNKNOWN": [
+      115,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "whole_cp": {
+    "assessed": 384,
+    "correct": 360,
+    "answered": 360,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 618.705905555622,
+    "par2_ms": 830.0367864583957,
+    "par10w_ms": 830.0367864583957,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      38,
+      38
+     ],
+     "VIOLATES": [
+      177,
+      186
+     ],
+     "UNKNOWN": [
+      145,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "traditional_cp": {
+    "assessed": 384,
+    "correct": 191,
+    "answered": 191,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1192.0758263298378,
+    "par2_ms": 2603.350215700518,
+    "par10w_ms": 2603.350215700518,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      19,
+      38
+     ],
+     "VIOLATES": [
+      90,
+      186
+     ],
+     "UNKNOWN": [
+      82,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_glasgow": {
+    "assessed": 384,
+    "correct": 65,
+    "answered": 65,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1447.003545584574,
+    "par2_ms": 3567.8521626640554,
+    "par10w_ms": 3567.8521626640554,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      1,
+      38
+     ],
+     "VIOLATES": [
+      28,
+      186
+     ],
+     "UNKNOWN": [
+      36,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_nx": {
+    "assessed": 384,
+    "correct": 74,
+    "answered": 74,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 650.3531250405964,
+    "par2_ms": 3354.495133471365,
+    "par10w_ms": 3354.495133471365,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      5,
+      38
+     ],
+     "VIOLATES": [
+      15,
+      186
+     ],
+     "UNKNOWN": [
+      54,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "asp_cautious": {
+    "assessed": 384,
+    "correct": 365,
+    "answered": 365,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1085.780568947918,
+    "par2_ms": 1229.9737178801824,
+    "par10w_ms": 1229.9737178801824,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      38,
+      38
+     ],
+     "VIOLATES": [
+      176,
+      186
+     ],
+     "UNKNOWN": [
+      151,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "sat_cadical": {
+    "assessed": 384,
+    "correct": 384,
+    "answered": 384,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 380.00257818491673,
+    "par2_ms": 380.00257818491673,
+    "par10w_ms": 380.00257818491673,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      38,
+      38
+     ],
+     "VIOLATES": [
+      186,
+      186
+     ],
+     "UNKNOWN": [
+      160,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "first_match": {
+    "assessed": 384,
+    "correct": 224,
+    "answered": 384,
+    "wrong": 160,
+    "certified_wrong": 0,
+    "success_ms": 987.1101156517739,
+    "par2_ms": 2242.480900796868,
+    "par10w_ms": 8909.147567463535,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      38,
+      38
+     ],
+     "VIOLATES": [
+      186,
+      186
+     ],
+     "UNKNOWN": [
+      0,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "first_wrong_pct": 41.666666666666664,
+  "first_wrong_of_answered_pct": 41.666666666666664,
+  "first_wrong_by_label": {
+   "UNKNOWN": 160
+  },
+  "unknown_share_pct": 41.666666666666664,
+  "unsound": [],
+  "best": "sat_cadical",
+  "best_unsolved_pct": 0.0,
+  "vbs_unsolved": 3,
+  "vbs_runs": 384,
+  "vbs_unsolved_pct": 0.78125,
+  "vbs_unsolved_by_label": {
+   "VIOLATES": 2,
+   "UNKNOWN": 1
+  },
+  "vbs_all_unsolved": 0,
+  "vbs_all_unsolved_pct": 0.0,
+  "neg_v1": 112,
+  "neg_v1_corroborated": 111,
+  "neg_r1": 112,
+  "neg_r1_corroborated": 111,
+  "eg_tasks": 0,
+  "eg_tasks_resolved": 0,
+  "corroborated_tasks": 191,
+  "corroborated_summary": {
+   "lad_state": {
+    "assessed": 382,
+    "correct": 199,
+    "answered": 199,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1130.4261421105755,
+    "par2_ms": 2497.6166402552212,
+    "par10w_ms": 2497.6166402552212,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      8,
+      36
+     ],
+     "VIOLATES": [
+      107,
+      186
+     ],
+     "UNKNOWN": [
+      84,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow": {
+    "assessed": 382,
+    "correct": 1,
+    "answered": 1,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1947.5897489992349,
+    "par2_ms": 3994.655181638019,
+    "par10w_ms": 3994.655181638019,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      0,
+      36
+     ],
+     "VIOLATES": [
+      1,
+      186
+     ],
+     "UNKNOWN": [
+      0,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "glasgow_staged": {
+    "assessed": 382,
+    "correct": 265,
+    "answered": 265,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 715.7755129811466,
+    "par2_ms": 1733.5429972395934,
+    "par10w_ms": 1733.5429972395934,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      14,
+      36
+     ],
+     "VIOLATES": [
+      136,
+      186
+     ],
+     "UNKNOWN": [
+      115,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "whole_cp": {
+    "assessed": 382,
+    "correct": 358,
+    "answered": 358,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 617.1959360838642,
+    "par2_ms": 828.5071927656868,
+    "par10w_ms": 828.5071927656868,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      36,
+      36
+     ],
+     "VIOLATES": [
+      177,
+      186
+     ],
+     "UNKNOWN": [
+      145,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "traditional_cp": {
+    "assessed": 382,
+    "correct": 191,
+    "answered": 191,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1192.0758263298378,
+    "par2_ms": 2603.350215700518,
+    "par10w_ms": 2603.350215700518,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      19,
+      36
+     ],
+     "VIOLATES": [
+      90,
+      186
+     ],
+     "UNKNOWN": [
+      82,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_glasgow": {
+    "assessed": 382,
+    "correct": 65,
+    "answered": 65,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1447.003545584574,
+    "par2_ms": 3567.8521626640554,
+    "par10w_ms": 3567.8521626640554,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      1,
+      36
+     ],
+     "VIOLATES": [
+      28,
+      186
+     ],
+     "UNKNOWN": [
+      36,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "enum_nx": {
+    "assessed": 382,
+    "correct": 74,
+    "answered": 74,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 650.3531250405964,
+    "par2_ms": 3354.495133471365,
+    "par10w_ms": 3354.495133471365,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      5,
+      36
+     ],
+     "VIOLATES": [
+      15,
+      186
+     ],
+     "UNKNOWN": [
+      54,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "asp_cautious": {
+    "assessed": 382,
+    "correct": 363,
+    "answered": 363,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 1083.5485813498356,
+    "par2_ms": 1227.2925834557047,
+    "par10w_ms": 1227.2925834557047,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      36,
+      36
+     ],
+     "VIOLATES": [
+      176,
+      186
+     ],
+     "UNKNOWN": [
+      151,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "sat_cadical": {
+    "assessed": 382,
+    "correct": 382,
+    "answered": 382,
+    "wrong": 0,
+    "certified_wrong": 0,
+    "success_ms": 378.53767910211224,
+    "par2_ms": 379.54916588543597,
+    "par10w_ms": 379.54916588543597,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      36,
+      36
+     ],
+     "VIOLATES": [
+      186,
+      186
+     ],
+     "UNKNOWN": [
+      160,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   },
+   "first_match": {
+    "assessed": 382,
+    "correct": 222,
+    "answered": 382,
+    "wrong": 160,
+    "certified_wrong": 0,
+    "success_ms": 986.9590966171074,
+    "par2_ms": 2240.6870116275995,
+    "par10w_ms": 8907.353678294267,
+    "ancestors": 96,
+    "by_label": {
+     "SATISFIES": [
+      36,
+      36
+     ],
+     "VIOLATES": [
+      186,
+      186
+     ],
+     "UNKNOWN": [
+      0,
+      160
+     ],
+     "EMPTY": [
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "rank": [
+   "sat_cadical",
+   "whole_cp",
+   "asp_cautious",
+   "glasgow_staged",
+   "lad_state",
+   "traditional_cp",
+   "enum_nx",
+   "enum_glasgow",
+   "glasgow"
+  ],
+  "corroborated_rank": [
+   "sat_cadical",
+   "whole_cp",
+   "asp_cautious",
+   "glasgow_staged",
+   "lad_state",
+   "traditional_cp",
+   "enum_nx",
+   "enum_glasgow",
+   "glasgow"
+  ],
+  "prior_scenario": [
+   170,
+   192
+  ],
+  "prior_meta": [
+   164,
+   192
+  ],
+  "prior_learned": [
+   166,
+   192
+  ],
+  "symmetry": {
+   "not_explained_by_sampled_symmetry": 79,
+   "has_nontrivial_automorphism": 10,
+   "symmetry_explained": 1,
+   "unknown_references": 80
+  },
+  "strata": {
+   "8d": {
+    "summary": {
+     "lad_state": {
+      "par2": 2094.6754086250507,
+      "correct": 32,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 3957.241453104151,
+      "correct": 1,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 643.5515715000028,
+      "correct": 46,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 477.23667422932675,
+      "correct": 48,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 2857.7950948958346,
+      "correct": 17,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 2582.0065145000135,
+      "correct": 26,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 2266.6678050417395,
+      "correct": 23,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1121.6382085832872,
+      "correct": 46,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 354.43468466676603,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2362.973318145786,
+      "correct": 26,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.003,
+      "whole_cp": 0.0108,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.9862
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -122.80198956256072,
+     "ci95": [
+      -249.97632264592085,
+      -10.011312562539842
+     ]
+    }
+   },
+   "8s": {
+    "summary": {
+     "lad_state": {
+      "par2": 2164.774680687515,
+      "correct": 30,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 655.1332095416077,
+      "correct": 46,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 1257.248447083498,
+      "correct": 38,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 2738.320666270814,
+      "correct": 21,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 2816.460334833247,
+      "correct": 21,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3038.3321565415904,
+      "correct": 14,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1111.5832637292442,
+      "correct": 47,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 358.71195168749637,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2450.9301776666916,
+      "correct": 24,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.001,
+      "whole_cp": 0.001,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.998
+     },
+     "best": "sat_cadical",
+     "second": "glasgow_staged",
+     "ancestors": 12,
+     "diff": -296.4212578541113,
+     "ci95": [
+      -630.3087642708457,
+      -72.73092456239283
+     ]
+    }
+   },
+   "16d": {
+    "summary": {
+     "lad_state": {
+      "par2": 2716.873090708399,
+      "correct": 21,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 1812.1601311876059,
+      "correct": 32,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 599.6631126250046,
+      "correct": 48,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 3200.0626494166795,
+      "correct": 14,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 3680.775702937524,
+      "correct": 7,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3303.8776592083727,
+      "correct": 10,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1391.5390984582434,
+      "correct": 45,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 460.5084557291737,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2205.4117919791074,
+      "correct": 28,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.0,
+      "whole_cp": 0.0005,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 0.9995
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -139.15465689583093,
+     "ci95": [
+      -221.25361525005854,
+      -58.42913512492487
+     ]
+    }
+   },
+   "16s": {
+    "summary": {
+     "lad_state": {
+      "par2": 2309.8042650208677,
+      "correct": 28,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 1833.890764312495,
+      "correct": 32,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 637.9557501876812,
+      "correct": 46,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 1956.8544897708762,
+      "correct": 34,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 3556.4150138125115,
+      "correct": 9,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3284.4183232708324,
+      "correct": 10,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 986.0672776041118,
+      "correct": 48,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 298.7178559166826,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2353.640050270845,
+      "correct": 26,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.0,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 1.0
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -339.23789427099865,
+     "ci95": [
+      -695.6218758958054,
+      -110.12178129194206
+     ]
+    }
+   },
+   "24d": {
+    "summary": {
+     "lad_state": {
+      "par2": 2369.300763291714,
+      "correct": 27,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 1844.70162379165,
+      "correct": 32,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 598.0039771250555,
+      "correct": 48,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 2265.1499529167345,
+      "correct": 29,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 3907.1597352291483,
+      "correct": 2,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3451.241191145906,
+      "correct": 9,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1134.9311306460284,
+      "correct": 47,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 373.7507673333956,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2274.8389167916607,
+      "correct": 28,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.0,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 1.0
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -224.25320979165994,
+     "ci95": [
+      -305.7929591041671,
+      -133.80048766648162
+     ]
+    }
+   },
+   "24s": {
+    "summary": {
+     "lad_state": {
+      "par2": 2694.840979874982,
+      "correct": 22,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 2119.62776904168,
+      "correct": 28,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 1025.0313158958495,
+      "correct": 43,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 2519.15372795825,
+      "correct": 26,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3796.0066062916553,
+      "correct": 3,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1531.1212365207136,
+      "correct": 41,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 422.92140827085706,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2263.6048294791826,
+      "correct": 28,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.0,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 1.0
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -602.1099076249925,
+     "ci95": [
+      -1179.321018437444,
+      -218.42774735411774
+     ]
+    }
+   },
+   "32d": {
+    "summary": {
+     "lad_state": {
+      "par2": 2804.845564458352,
+      "correct": 21,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 2714.2294269584304,
+      "correct": 20,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 1067.4925129792048,
+      "correct": 44,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 2645.0614203124965,
+      "correct": 24,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3902.8451936041506,
+      "correct": 2,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1086.7234472707803,
+      "correct": 48,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 351.0767639166943,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 1772.7649629583577,
+      "correct": 36,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.0,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 1.0
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -716.4157490625106,
+     "ci95": [
+      -1267.8529238542637,
+      -387.9992357916725
+     ]
+    }
+   },
+   "32s": {
+    "summary": {
+     "lad_state": {
+      "par2": 2948.1102948332136,
+      "correct": 18,
+      "assessed": 48
+     },
+     "glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "glasgow_staged": {
+      "par2": 2245.049481583275,
+      "correct": 29,
+      "assessed": 48
+     },
+     "whole_cp": {
+      "par2": 977.6625015415448,
+      "correct": 45,
+      "assessed": 48
+     },
+     "traditional_cp": {
+      "par2": 2644.4037240624616,
+      "correct": 26,
+      "assessed": 48
+     },
+     "enum_glasgow": {
+      "par2": 4000.0,
+      "correct": 0,
+      "assessed": 48
+     },
+     "enum_nx": {
+      "par2": 3792.5721326666726,
+      "correct": 3,
+      "assessed": 48
+     },
+     "asp_cautious": {
+      "par2": 1476.186080229051,
+      "correct": 43,
+      "assessed": 48
+     },
+     "sat_cadical": {
+      "par2": 419.898737958268,
+      "correct": 48,
+      "assessed": 48
+     },
+     "first_match": {
+      "par2": 2255.6831590833135,
+      "correct": 28,
+      "assessed": 48
+     }
+    },
+    "rank": {
+     "prob": {
+      "lad_state": 0.0,
+      "glasgow": 0.0,
+      "glasgow_staged": 0.0,
+      "whole_cp": 0.0,
+      "traditional_cp": 0.0,
+      "enum_glasgow": 0.0,
+      "enum_nx": 0.0,
+      "asp_cautious": 0.0,
+      "sat_cadical": 1.0
+     },
+     "best": "sat_cadical",
+     "second": "whole_cp",
+     "ancestors": 12,
+     "diff": -557.7637635832767,
+     "ci95": [
+      -1043.9354994792513,
+      -257.5866338957553
+     ]
+    }
+   }
+  },
+  "budget": {
+   "lad_state": {
+    "0.5": 0,
+    "1.0": 44,
+    "2.0": 199
+   },
+   "glasgow": {
+    "0.5": 0,
+    "1.0": 0,
+    "2.0": 1
+   },
+   "glasgow_staged": {
+    "0.5": 105,
+    "1.0": 204,
+    "2.0": 265
+   },
+   "whole_cp": {
+    "0.5": 162,
+    "1.0": 323,
+    "2.0": 360
+   },
+   "traditional_cp": {
+    "0.5": 9,
+    "1.0": 77,
+    "2.0": 191
+   },
+   "enum_glasgow": {
+    "0.5": 0,
+    "1.0": 4,
+    "2.0": 65
+   },
+   "enum_nx": {
+    "0.5": 37,
+    "1.0": 57,
+    "2.0": 74
+   },
+   "asp_cautious": {
+    "0.5": 15,
+    "1.0": 189,
+    "2.0": 365
+   },
+   "sat_cadical": {
+    "0.5": 295,
+    "1.0": 383,
+    "2.0": 384
+   },
+   "first_match": {
+    "0.5": 1,
+    "1.0": 111,
+    "2.0": 224
+   }
+  },
+  "repeat_agree": [
+   1756,
+   1920
+  ]
+ },
+ "witnesses": {
+  "total": 12621,
+  "failures": 0
+ }
+}

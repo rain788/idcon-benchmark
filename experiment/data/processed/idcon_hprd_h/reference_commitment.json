@@ -1,0 +1,8 @@
+{
+ "suite": "idcon_hprd_h",
+ "tasks": 200,
+ "assessed": 200,
+ "canonical_format": "one JSON object per task, sorted by task_id, keys sorted: {\"complete\", \"label\", \"task_id\"}, newline-terminated",
+ "sha256": "ed0b988ca2aa02504f749b7a86f7e337bcc74bb700f2c0f3612d888e35ad1cad",
+ "note": "The canonical file and the full references (with engine logs) are kept by the maintainers; publishing this hash commits to the labels."
+}

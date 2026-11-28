@@ -1,0 +1,87 @@
+{
+ "idcon_hard": {
+  "witnesses": 8063,
+  "failures": 0,
+  "by_method": {
+   "glasgow_staged|True": 1288,
+   "first_match|True": 862,
+   "whole_cp|True": 390,
+   "lad_state|True": 1378,
+   "lad_sv_early|True": 980,
+   "glasgow|True": 898,
+   "eg_icaf|True": 1045,
+   "traditional_cp|True": 242,
+   "asp_cautious|True": 15,
+   "sat_cadical|True": 303,
+   "enum_glasgow|True": 586,
+   "enum_nx|True": 76
+  },
+  "failure_examples": []
+ },
+ "idcon_hprd": {
+  "witnesses": 5364,
+  "failures": 0,
+  "by_method": {
+   "glasgow|True": 517,
+   "glasgow_staged|True": 540,
+   "enum_nx|True": 340,
+   "asp_cautious|True": 400,
+   "enum_glasgow|True": 501,
+   "sat_cadical|True": 570,
+   "lad_sv_early|True": 570,
+   "lad_state|True": 575,
+   "whole_cp|True": 552,
+   "traditional_cp|True": 399,
+   "first_match|True": 400
+  },
+  "failure_examples": []
+ },
+ "idcon_hprd_x": {
+  "witnesses": 3446,
+  "failures": 0,
+  "by_method": {
+   "sat_cadical|True": 544,
+   "first_match|True": 384,
+   "asp_cautious|True": 366,
+   "whole_cp|True": 506,
+   "lad_state|True": 468,
+   "glasgow_staged|True": 428,
+   "enum_nx|True": 275,
+   "traditional_cp|True": 273,
+   "glasgow|True": 81,
+   "enum_glasgow|True": 121
+  },
+  "failure_examples": []
+ },
+ "idcon_hard_x": {
+  "witnesses": 428,
+  "failures": 0,
+  "by_method": {
+   "glasgow_staged|True": 113,
+   "first_match|True": 53,
+   "enum_glasgow|True": 23,
+   "glasgow|True": 50,
+   "lad_state|True": 118,
+   "sat_cadical|True": 62,
+   "whole_cp|True": 9
+  },
+  "failure_examples": []
+ },
+ "idcon_cite": {
+  "witnesses": 3041,
+  "failures": 0,
+  "by_method": {
+   "asp_cautious|True": 306,
+   "lad_state|True": 458,
+   "glasgow|True": 206,
+   "first_match|True": 194,
+   "traditional_cp|True": 268,
+   "enum_glasgow|True": 208,
+   "whole_cp|True": 204,
+   "sat_cadical|True": 568,
+   "glasgow_staged|True": 350,
+   "enum_nx|True": 279
+  },
+  "failure_examples": []
+ }
+}

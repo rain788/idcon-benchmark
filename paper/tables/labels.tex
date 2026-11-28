@@ -1,0 +1,25 @@
+\begin{table}[t]
+\caption{Correct runs by reference label, S/V/U/E for \Sat/\Vio/\Unk/\Emp{} (assessed runs per label in brackets). \Unk{} needs witnesses only; \Sat{}, \Vio{} and \Emp{} need an exhausted counterexample or existence search.}
+\label{tab:labels}
+\centering\footnotesize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{lrrrr rrr}
+\toprule
+ & \multicolumn{4}{c}{IdCon-Hard} & \multicolumn{3}{c}{IdCon-HPRD-X}\\
+\cmidrule(lr){2-5}\cmidrule(lr){6-8}
+Method & S (342) & V (256) & U (322) & E (88) & S (38) & V (186) & U (160)\\
+\midrule
+LAD & 165 & 221 & 261 & 78 & 8 & 107 & 84\\
+Glasgow & 104 & 169 & 237 & 52 & 0 & 1 & 0\\
+Glasgow-staged$^\dagger$ & 125 & 197 & 262 & 67 & 14 & 136 & 115\\
+CP-SAT & 145 & 80 & 37 & 59 & 38 & 177 & 145\\
+Trad-CP & 59 & 49 & 68 & 38 & 19 & 90 & 82\\
+Enum-Glasgow$^\ast$ & 24 & 12 & 26 & 26 & 1 & 28 & 36\\
+Enum-VF2$^\ast$ & 0 & 0 & 6 & 8 & 5 & 15 & 54\\
+ASP-cautious$^\ast$ & 6 & 3 & 6 & 0 & 38 & 176 & 151\\
+SAT$^\ddagger$ & 99 & 62 & 45 & 34 & 38 & 186 & 160\\
+\midrule
+First-match & 306 & 235 & 6 & 79 & 38 & 186 & 0\\
+\bottomrule
+\end{tabular}
+\end{table}

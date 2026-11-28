@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\caption{Main results under the 2\,s end-to-end budget (two repeats per task). Correct: outcome equals the reference. Wrong: answered but different from the reference; for a certified answer this is a soundness failure (none occurred). PAR-2: ancestor-equal mean, 4\,s for an unanswered or wrong run; best certified method per suite in bold. PAR-10w charges a wrong answer 20\,s instead (it differs from PAR-2 only for uncertified methods). $^\ast$added in stage~2; $^\ddagger$SAT encoding solved by CaDiCaL, added in stage~3; $^\dagger$post hoc arm on Hard and HPRD. Priors predict labels without search, leave one ancestor out, counted per run.}
+\label{tab:main}
+\centering\small\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{l rrr rrr rrr}
+\toprule
+ & \multicolumn{3}{c}{IdCon-Hard (1,008 runs)} & \multicolumn{3}{c}{IdCon-HPRD (400 runs)} & \multicolumn{3}{c}{IdCon-HPRD-X (384 runs)}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+Method & Correct & Wrong & PAR-2 & Correct & Wrong & PAR-2 & Correct & Wrong & PAR-2\\
+\midrule
+LAD & 725 & 0 & \textbf{1,635} & 389 & 0 & 1,036 & 199 & 0 & 2,513\\
+Glasgow & 562 & 0 & 2,113 & 0 & 0 & 4,000 & 1 & 0 & 3,995\\
+Glasgow-staged$^\dagger$ & 651 & 0 & 1,740 & 304 & 0 & 1,361 & 265 & 0 & 1,734\\
+CP-SAT & 321 & 0 & 2,998 & 384 & 0 & 455 & 360 & 0 & 830\\
+Trad-CP & 214 & 0 & 3,347 & 279 & 0 & 1,858 & 191 & 0 & 2,603\\
+Enum-Glasgow$^\ast$ & 88 & 0 & 3,688 & 235 & 0 & 2,638 & 65 & 0 & 3,568\\
+Enum-VF2$^\ast$ & 14 & 0 & 3,951 & 127 & 0 & 2,937 & 74 & 0 & 3,354\\
+ASP-cautious$^\ast$ & 15 & 0 & 3,968 & 400 & 0 & 748 & 365 & 0 & 1,230\\
+SAT$^\ddagger$ & 240 & 0 & 3,378 & 400 & 0 & \textbf{374} & 384 & 0 & \textbf{380}\\
+\midrule
+First-match (PAR-2 / PAR-10w) & 626 & 315 & 1,901 / 6,901 & 230 & 170 & 2,027 / 8,827 & 224 & 160 & 2,242 / 8,909\\
+Metadata prior & 736 & 272 & -- & 366 & 34 & -- & 328 & 56 & --\\
+Learned prior & 838 & 170 & -- & 362 & 38 & -- & 332 & 52 & --\\
+\bottomrule
+\end{tabular}
+\end{table*}

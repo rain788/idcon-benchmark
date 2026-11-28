@@ -1,0 +1,112 @@
+2026-11-27T08:02:56Z ORCHESTRATE begin timed,pairs,extended,untimed,last
+2026-11-27T08:02:56Z START cpu0 calib hard
+2026-11-27T08:02:56Z START cpu1 calib hard_focal
+2026-11-27T08:03:11Z END   cpu1 calib hard_focal rc=0 16s
+2026-11-27T08:03:11Z START cpu1 hardx 2s s0
+2026-11-27T08:04:18Z END   cpu0 calib hard rc=0 82s
+2026-11-27T08:05:02Z DEVIATION orchestrator restarted: an executor blocked on the heavy-job lock while holding a popped job (idle CPU); scheduler changed to skip heavy jobs while one runs; 'hardx 2s s0' killed mid-run and resumed from its records (the in-flight run was not recorded)
+2026-11-27T08:05:02Z ORCHESTRATE begin timed,pairs,extended,untimed,last
+2026-11-27T08:05:02Z RESUME skipping finished jobs: calib hard, calib hard_focal
+2026-11-27T08:05:02Z START cpu0 hardx 2s s0
+2026-11-27T08:05:02Z START cpu1 cite s0
+2026-11-27T09:17:46Z DEVIATION the cloud VM restarted at about 09:12 UTC (all processes lost; in-flight runs not recorded); orchestrator resumed from records
+2026-11-27T09:17:46Z ORCHESTRATE begin timed,pairs,extended,untimed,last
+2026-11-27T09:17:46Z RESUME skipping finished jobs: calib hard, calib hard_focal
+2026-11-27T09:17:46Z START cpu0 hardx 2s s0
+2026-11-27T09:17:46Z START cpu1 cite s0
+2026-11-27T09:23:31Z END   cpu0 hardx 2s s0 rc=0 346s
+2026-11-27T09:23:31Z START cpu0 hardx 2s s1
+2026-11-27T09:37:49Z END   cpu0 hardx 2s s1 rc=0 858s
+2026-11-27T09:37:49Z START cpu0 cite s1
+2026-11-27T09:52:40Z END   cpu1 cite s0 rc=0 2094s
+2026-11-27T09:52:40Z START cpu1 hardx 10s s0
+2026-11-27T10:26:43Z END   cpu0 cite s1 rc=0 2933s
+2026-11-27T10:26:43Z START cpu0 sat hard s0
+2026-11-27T10:33:41Z END   cpu1 hardx 10s s0 rc=0 2461s
+2026-11-27T10:33:41Z START cpu1 hardx 10s s1
+2026-11-27T10:41:29Z END   cpu0 sat hard s0 rc=0 887s
+2026-11-27T10:41:29Z START cpu0 sat hard_focal s0
+2026-11-27T10:44:03Z END   cpu0 sat hard_focal s0 rc=0 154s
+2026-11-27T10:44:03Z START cpu0 sat hprd s0
+2026-11-27T10:45:25Z END   cpu0 sat hprd s0 rc=0 82s
+2026-11-27T10:45:25Z START cpu0 sat hprd_x s0
+2026-11-27T10:46:45Z END   cpu0 sat hprd_x s0 rc=0 80s
+2026-11-27T10:46:45Z START cpu0 sat hard s1
+2026-11-27T11:01:11Z END   cpu0 sat hard s1 rc=0 866s
+2026-11-27T11:01:11Z START cpu0 sat hard_focal s1
+2026-11-27T11:03:37Z END   cpu0 sat hard_focal s1 rc=0 146s
+2026-11-27T11:03:37Z START cpu0 sat hprd s1
+2026-11-27T11:04:55Z END   cpu0 sat hprd s1 rc=0 77s
+2026-11-27T11:04:55Z START cpu0 sat hprd_x s1
+2026-11-27T11:06:09Z END   cpu0 sat hprd_x s1 rc=0 74s
+2026-11-27T11:15:24Z END   cpu1 hardx 10s s1 rc=0 2503s
+2026-11-27T11:15:24Z START pairs
+2026-11-27T11:15:24Z END pairs
+2026-11-27T11:15:24Z START cpu0 B60 hard s0
+2026-11-27T11:15:24Z START cpu1 B60 hard_focal s0
+2026-11-27T11:18:41Z END   cpu1 B60 hard_focal s0 rc=0 197s
+2026-11-27T11:18:41Z START cpu1 B60 hard s1
+2026-11-27T11:57:11Z END   cpu0 B60 hard s0 rc=0 2507s
+2026-11-27T11:57:11Z START cpu0 B60 hard_focal s1
+2026-11-27T11:59:41Z END   cpu1 B60 hard s1 rc=0 2459s
+2026-11-27T11:59:41Z START cpu1 B60 hardx s0
+2026-11-27T12:00:22Z END   cpu0 B60 hard_focal s1 rc=0 191s
+2026-11-27T12:00:22Z START cpu0 B10 cite s0
+2026-11-27T12:11:19Z END   cpu1 B60 hardx s0 rc=-9 698s
+2026-11-27T12:11:19Z START cpu1 B60 hardx s1
+2026-11-27T12:12:17Z END   cpu1 B60 hardx s1 rc=-9 58s
+2026-11-27T12:12:17Z START cpu1 B10 cite s1
+2026-11-27T12:14:37Z DEVIATION 'B60 hardx s0' and 'B60 hardx s1' ended rc=-9: the kernel OOM killer (8 GB machine) killed the Python driver while Glasgow on a 16,384-entity host used up to 7 GB; the in-flight runs were not recorded. From now on results/revision_r2/oom_guard.sh sets oom_score_adj=1000 on every external solver process so that the OOM killer ends the solver (recorded as runtime_error, unanswered) instead of the driver. The two jobs are rerun from their records after the untimed phase; runs recorded before the kill are kept.
+2026-11-27T12:29:47Z END   cpu0 B10 cite s0 rc=0 1765s
+2026-11-27T12:41:18Z END   cpu1 B10 cite s1 rc=0 1741s
+2026-11-27T12:41:18Z START cpu0 reference idcon_hard_x s0
+2026-11-27T12:41:18Z START cpu1 reference idcon_cite s0
+2026-11-27T12:48:07Z END   cpu1 reference idcon_cite s0 rc=0 409s
+2026-11-27T12:48:07Z START cpu1 reference idcon_cite s1
+2026-11-27T12:56:16Z END   cpu1 reference idcon_cite s1 rc=0 489s
+2026-11-27T12:56:16Z START cpu1 idcheck s0
+2026-11-27T13:00:18Z END   cpu0 reference idcon_hard_x s0 rc=0 1140s
+2026-11-27T13:00:18Z START cpu0 reference idcon_hard_x s1
+2026-11-27T13:28:56Z END   cpu0 reference idcon_hard_x s1 rc=0 1717s
+2026-11-27T13:28:56Z START cpu0 reference idcon_hard_h s0
+2026-11-27T13:31:25Z END   cpu1 idcheck s0 rc=-15 2109s
+2026-11-27T13:31:25Z START cpu1 idcheck s1
+2026-11-27T13:31:30Z DEVIATION Amendment 6 (results/revision_r2/amendment_6.json, commit 5680c3d) pushed; 'idcheck s0' stopped mid-item (its 4 finished items kept); the idcheck jobs now run under Amendment 6 and 'idcheck s0' is rerun at the end of the untimed phase
+2026-11-27T13:43:25Z END   cpu1 idcheck s1 rc=1 720s
+2026-11-27T13:52:47Z DEVIATION 'idcheck s1' died at 13:43 (rc=1): the OOM killer ended its Python process (5 GB on a 16,384-entity IdCon-Hard-X item) while the IdCon-Hard-H reference process used another 5 GB; it also ended Glasgow corroboration runs of the reference builder (13:25-13:52), which the builder logs as UNKNOWN (no evidence). The independent check now runs outside the orchestrator: first both workers' IdCon-Cite, IdCon-Hard and IdCon-HPRD-X items on cpu1, one worker after the other; then the IdCon-Hard-X items alone (no other job on 16,384-entity hosts). Items and limits as in Amendment 6.
+2026-11-27T13:52:47Z START cpu1 idcheck-A s0
+2026-11-27T13:54:29Z END   cpu0 reference idcon_hard_h s0 rc=0 1534s
+2026-11-27T13:54:29Z START cpu0 reference idcon_hard_h s1
+2026-11-27T14:15:41Z END   cpu0 reference idcon_hard_h s1 rc=-9 1272s
+2026-11-27T14:15:41Z START cpu0 overhead
+2026-11-27T14:19:37Z END   cpu0 overhead rc=0 236s
+2026-11-27T14:19:37Z ORCHESTRATE done timed,pairs,extended,untimed,last
+2026-11-27T14:19:55Z FINISH begin reference idcon_hard_h s1, idcheck-HardX s0, idcheck-HardX s1, B60 hardx s0, B60 hardx s1
+2026-11-27T14:19:55Z START cpu0 reference idcon_hard_h s1
+2026-11-27T14:22:06Z END   cpu0 reference idcon_hard_h s1 rc=-9 130s
+2026-11-27T14:22:06Z START cpu0 idcheck-HardX s0
+2026-11-27T14:23:29Z END   cpu1 idcheck-A s0 rc=0
+2026-11-27T14:23:29Z START cpu1 idcheck-A s1
+2026-11-27T14:27:29Z END   cpu0 idcheck-HardX s0 rc=1 323s
+2026-11-27T14:27:29Z START cpu0 idcheck-HardX s1
+2026-11-27T14:28:58Z DEVIATION 'reference idcon_hard_h s1' (14:22) and 'idcheck-HardX s0' (14:27) were again ended by the OOM killer (the Python processes reach 6.5 GB on 16,384-entity hosts; DRAT proofs and Glasgow inputs live in /dev/shm, which also counts as memory; 0.4 GB of /dev/shm was left behind by killed runs). Orphaned /dev/shm folders were removed and a 12 GB swap file was added at 14:33; both jobs are rerun after the B60 Hard-X reruns. Swap can slow a timed run that exceeds physical memory; the B60 Hard-X runs (14:33 onward) ran with swap available.
+2026-11-27T14:39:30Z END   cpu0 idcheck-HardX s1 rc=0 721s
+2026-11-27T14:39:30Z START cpu0 B60 hardx s0
+2026-11-27T15:17:11Z END   cpu1 idcheck-A s1 rc=0
+2026-11-27T15:24:53Z END   cpu0 B60 hardx s0 rc=0 2722s
+2026-11-27T15:24:53Z START cpu0 B60 hardx s1
+2026-11-27T16:17:16Z END   cpu0 B60 hardx s1 rc=0 3143s
+2026-11-27T16:17:16Z FINISH done
+2026-11-27T16:17:20Z FINISH2 begin reference idcon_hard_h s1, idcheck-HardX s0
+2026-11-27T16:17:20Z START cpu0 reference idcon_hard_h s1
+2026-11-27T16:28:35Z NOTE Amendment 7 (commit ad99dac, fix 482865f) pushed; its items run in 'idcheck-HardX s0' (queued) and 'idcheck-HardX-A7 s1' (after it)
+2026-11-27T16:34:26Z END   cpu0 reference idcon_hard_h s1 rc=0 1026s
+2026-11-27T16:34:26Z START cpu0 idcheck-HardX s0
+2026-11-27T17:03:17Z END   cpu0 idcheck-HardX s0 rc=0 1731s
+2026-11-27T17:03:17Z FINISH2 done
+2026-11-27T17:03:35Z FINISH3 begin idcheck-HardX-A7 s1
+2026-11-27T17:03:35Z START cpu0 idcheck-HardX-A7 s1
+2026-11-27T17:19:38Z END   cpu0 idcheck-HardX-A7 s1 rc=0 962s
+2026-11-27T17:19:38Z FINISH3 done
+2026-11-27T17:21:25Z R2 RUNS COMPLETE (OOM guard stopped)
+2026-11-27T17:26:06Z CORRECTION the NOTE of 16:28:35 names the de-duplication fix as 482865f; that local commit was rewritten before pushing, and the pushed fix is 670a7fa

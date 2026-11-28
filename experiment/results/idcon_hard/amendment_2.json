@@ -1,0 +1,7 @@
+{
+ "amendment": 2,
+ "time": "2026-11-26T11:57:48.478012Z",
+ "reason": "LAD (30 s) and Glasgow (30-60 s) left some constrained 8,192-entity IdCon-Hard tasks unresolved. Before any scoring, EG-ICAF consensus diagnosis (60 s) was added as a further reference engine for state queries that LAD could not settle, and tasks still lacking a complete reference were retried once. Positive witnesses from EG-ICAF are replayed; references resting on its negative conclusion are flagged consensus_engine=eg_icaf and excluded from the corroborated subset.",
+ "affected_reference_tasks": 3,
+ "registered_before": "scoring. It was made while timed inference was still running, after an interim look at partial predictions for monitoring; the reference process never reads predictions, and the amendment changes only which engines may settle a reference state, not any method or scoring rule."
+}
